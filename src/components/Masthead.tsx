@@ -62,9 +62,9 @@ export default function Masthead() {
 
       <div className="masthead__deck">
         <p className="masthead__lede">
-          近三年、国内外 <b>{hackathons.length} 场</b>黑客松一次归档：谁在办、它要谁、
-          <b>什么样的项目真的拿奖</b>。每一条都附官网原链，从参赛规则到获奖公示，
-          点开就能自己核对。
+          独立开发者没团队、没名气，黑客松还值得冲吗？这份档案翻完{' '}
+          <b>{allWinners.length} 条真实获奖记录</b>：能。从学生赛到政府揭榜，
+          近三年 <b>{hackathons.length} 场</b>赛事要什么人、给什么，官网原链随你核。
         </p>
         <div className="masthead__stats">
           {STATS.map((s, i) => (
