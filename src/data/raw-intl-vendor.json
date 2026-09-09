@@ -1,0 +1,1240 @@
+[
+  {
+    "id": "google-gemini-api-dev-competition",
+    "name": "Gemini API Developer Competition",
+    "nameCn": "Gemini API 开发者大赛",
+    "org": "Google (Google for Developers × Kaggle)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 Gemini API 构建应用（Android / Flutter / Web / Firebase / ARCore / 游戏 / 影响力）",
+    "description": "Google 在 I/O 2024 联合 Kaggle 办的全球应用赛，推广 Gemini API 生态",
+    "requirements": "须使用 Gemini API 构建应用；个人或团队均可；线上提交（Kaggle + Google 表单）；需作品公开可访问",
+    "format": "online",
+    "location": "Online",
+    "prize": "总奖金逾 1,000,000 美元；最具影响力应用单项 300,000 美元；全场最佳获定制电动 1981 DeLorean",
+    "frequency": "oneoff",
+    "typicalMonths": [5],
+    "url": "https://ai.google.dev/competition",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-05", "url": "https://ai.google.dev/competition", "note": "2024-05-15 至 2024-08-12，Google I/O 2024 上启动" }
+    ],
+    "winners": [
+      {
+        "year": 2024,
+        "project": "Jayu",
+        "team": "solo/团队未公开",
+        "what": "把 Gemini API 与用户设备深度整合的个人助理应用",
+        "why": "拿下全场最佳应用（Best overall app）",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "VITE VERE",
+        "team": "solo/团队未公开",
+        "what": "为认知障碍者提供个性化支持，提升其日常生活自主能力",
+        "why": "同时获得最具影响力应用与最受观众欢迎应用两个奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "Prospera",
+        "team": "solo/团队未公开",
+        "what": "销售对话中提供实时个性化指导与建议的数字副驾驶",
+        "why": "获最有用应用奖与 Flutter 最佳应用奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "Outdraw AI",
+        "team": "solo/团队未公开",
+        "what": "人机对抗派对游戏，要求画出人类能懂但 AI 读不懂的图",
+        "why": "获最具创意应用奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "Gaze Link",
+        "team": "solo/团队未公开",
+        "what": "帮助 ALS（渐冻症）患者用眼神进行交流沟通",
+        "why": "获最佳 Android 应用奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "Everies",
+        "team": "Team Everies",
+        "what": "扫描周围物体，把它们变成独特可互动的角色",
+        "why": "获 ARCore 最佳应用奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "Trippy",
+        "team": "solo/团队未公开",
+        "what": "用一句语音或文字提示即可规划下一次度假行程",
+        "why": "获 Firebase 最佳应用奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "ViddyScribe",
+        "team": "solo/团队未公开",
+        "what": "即时为视频添加口述影像，让视障者也能“看”视频",
+        "why": "获最佳网页应用奖",
+        "url": "https://ai.google.dev/competition"
+      },
+      {
+        "year": 2024,
+        "project": "PenApple",
+        "team": "solo/团队未公开",
+        "what": "Roguelike 卡牌构筑游戏，玩家互动会生成混乱有趣的故事",
+        "why": "获最佳游戏应用奖",
+        "url": "https://ai.google.dev/competition"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "google-nano-banana-hackathon",
+    "name": "Nano Banana Hackathon (Google DeepMind)",
+    "nameCn": "Nano Banana 48 小时黑客松",
+    "org": "Google DeepMind",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 Gemini 2.5 Flash Image（Nano Banana）做图像生成/编辑应用",
+    "description": "Google DeepMind 主办的 48 小时线上赛，为 Nano Banana 图像模型造势",
+    "requirements": "须用 Gemini 2.5 Flash Image 构建；项目须托管在 Kaggle 并公开；提交不超过 2 分钟演示视频；可个人或团队",
+    "format": "online",
+    "location": "Online",
+    "prize": "非现金奖品总计约 400,000 美元；50 名获奖者各得 5,000 美元 Gemini API 额度 + 1,000 美元 Fal 额度 + 约 2,000 美元 ElevenLabs 额度",
+    "frequency": "oneoff",
+    "typicalMonths": [9],
+    "url": "https://neowin.net/news/google-announces-nano-banana-hackathon-winners-awards-400000-in-prizes/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-09", "url": "https://neowin.net/news/google-announces-nano-banana-hackathon-winners-awards-400000-in-prizes/", "note": "2025-09-06 至 09-08，48 小时；832 个项目提交，50 名获奖" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "LifeTrace Timeline",
+        "team": "Chris Tang (solo)",
+        "what": "把原始位置数据转成手绘风格视觉日记，帮用户回顾每日生活",
+        "why": "入选 50 名优胜者，被 Google AI Developers 官方推特点名展示",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "ArtLens",
+        "team": "Mark Greenfield (solo)",
+        "what": "把名画重建成真实世界场景，连接艺术史与现代 AI",
+        "why": "入选 50 名优胜者，官方社交媒体展示项目",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "ForgeOne",
+        "team": "solo/团队未公开",
+        "what": "用专业评分卡让 AI 自我批评与迭代，实现自动化创意工作流",
+        "why": "入选 50 名优胜者，官方社交媒体展示项目",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "google-for-startups-ai-agents-challenge",
+    "name": "Google for Startups AI Agents Challenge",
+    "nameCn": "Google for Startups AI 智能体挑战赛",
+    "org": "Google for Startups",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "生产级 AI Agent：Build / Optimize / Refactor 三赛道 + 区域奖",
+    "description": "Google for Startups 面向全球初创公司的 Agent 挑战赛，为 Google Cloud Agent 栈导流",
+    "requirements": "面向初创公司团队；须使用 Google 的 Agent 技术栈构建；按 Build/Optimize/Refactor 三个赛道提交；线上评审",
+    "format": "online",
+    "location": "Online",
+    "prize": "官方未公开具体金额；设全球总冠军 + 三个赛道冠军 + APAC/EMEA 区域奖",
+    "frequency": "annual",
+    "typicalMonths": [],
+    "url": "https://www.linkedin.com/posts/google-for-startups_the-google-for-startups-ai-agents-challenge-activity-7480667342713122816-sv-3",
+    "soloAllowed": false,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026", "url": "https://www.linkedin.com/posts/google-for-startups_the-google-for-startups-ai-agents-challenge-activity-7480667342713122816-sv-3", "note": "数百个项目提交；具体起止月份未能从公开来源核实" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "Vita Care (Graviti)",
+        "team": "Tahsin Bayraktar",
+        "what": "用 Agent-to-Agent 网络让家庭成员的 AI 健康助理直接互通，打通碎片化的医疗协同",
+        "why": "全球总冠军（Global Grand Prize Winner）",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "SilverGrove",
+        "team": "Sunera Samuditha Godakanda",
+        "what": "无摄像头的毫米波雷达 + 多智能体系统，帮老年人在家安全养老",
+        "why": "Build 赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Ruhu Atlas",
+        "team": "Ijidai L.",
+        "what": "让企业团队安全开发、测试、部署确定性生产级客服系统的工作流 Agent",
+        "why": "Optimize 赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "ACRA Agent Mesh (ASIR Technologies)",
+        "team": "ASIR Technologies",
+        "what": "企业级 AI Agent 网络，作为“数字同事”简化员工使用企业软件的方式",
+        "why": "Refactor 赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Kiosk as a Service (Ysquare Technology)",
+        "team": "Mohamed Yaseen",
+        "what": "语音优先的多租户平台，用手机交互替代昂贵的触控一体机",
+        "why": "APAC 区域冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Synapse",
+        "team": "Joseph Thomas, Marisha Boyd",
+        "what": "个人知识图谱与共享记忆层，解决无状态 Agent 的“AI 失忆”问题",
+        "why": "EMEA 区域冠军",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "google-cloud-agentic-cinema",
+    "name": "Agentic Cinema: The Blockbuster Hackathon",
+    "nameCn": "Agentic Cinema 影视工业智能体黑客松",
+    "org": "Google Cloud",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "影视与娱乐工作流 Agent（剧本处理 / 转写 / 字幕 / 语音生成 / 情绪分析）",
+    "description": "Google Cloud 办的线上赛，推 Gemini + Agent Builder 进入好莱坞制片流程",
+    "requirements": "须用 Gemini 与 Google Cloud Agent Builder，并集成 IBM/Grafana/Parallel/ClickHouse/Replit 之一；禁止 AWS、Azure、OpenAI、Anthropic API；提交托管 URL + 3 分钟视频 + 开源仓库；个人或最多 4 人",
+    "format": "online",
+    "location": "Online",
+    "prize": "总奖金 75,000 美元；五个合作方赛道各设冠军 7,500 美元、亚军 4,500 美元、季军 3,000 美元",
+    "frequency": "oneoff",
+    "typicalMonths": [7, 8, 9],
+    "url": null,
+    "soloAllowed": true,
+    "cnFriendly": "no",
+    "editions": [
+      { "year": 2026, "dates": "2026-07", "url": null, "note": "2026-07-27 开放，2026-09-07/09 截止；评审 2026-09-23 至 10-07，获奖尚未公布" }
+    ],
+    "winners": [],
+    "_confidence": "medium"
+  },
+  {
+    "id": "xprize-build-with-gemini",
+    "name": "Build with Gemini XPRIZE",
+    "nameCn": "Build with Gemini XPRIZE 全球创业赛",
+    "org": "XPRIZE (Google 冠名赞助)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "90 天用 AI 做一门真实生意：教育 / 创业就业 / 小企业服务 / 金融普惠 / 专业服务",
+    "description": "XPRIZE 与 Google 合办的 200 万美元创业赛，验证 Gemini 智能体能否造出真实营收",
+    "requirements": "须用 Google AI 全家桶（Gemini、AI Studio、Antigravity、Cloud Run、Stitch、Flow）；须上线真实业务、真实用户与真实营收；至少用一个 Google Cloud 产品；个人或团队；90 天",
+    "format": "hybrid",
+    "location": "Online + 洛杉矶线下决赛",
+    "prize": "总奖金 2,000,000 美元：冠军 500,000、亚军 200,000、3-5 名各 100,000、15 名优胜各 50,000、5 个赛道奖各 50,000 美元",
+    "frequency": "oneoff",
+    "typicalMonths": [5, 6, 7, 8],
+    "url": "https://xprize.org/buildwithgemini",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-05", "url": "https://xprize.org/buildwithgemini", "note": "2026-05-19 Google I/O 发布，构建期至 2026-08-17；2026-09-25 洛杉矶直播决赛" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "openai-build-week",
+    "name": "OpenAI Build Week",
+    "nameCn": "OpenAI 构建周",
+    "org": "OpenAI",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 Codex 构建真实产品：生活应用 / 工作效率 / 开发者工具 / 教育",
+    "description": "OpenAI 官方线上构建周，用 Codex 拉新并展示普通人的造物能力",
+    "requirements": "须用 Codex 构建；线上提交作品；可个人或团队；全球开放（2026 年覆盖 186 个国家）",
+    "format": "online",
+    "location": "Online",
+    "prize": "8 名获奖者共享 100,000 美元现金；第一名另获 DevDay 门票、Codex 团队交流机会与一年 ChatGPT Pro",
+    "frequency": "annual",
+    "typicalMonths": [7, 8],
+    "url": "https://openai.com/build-week/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-07", "url": "https://developers.openai.com/blog/build-week-winners", "note": "2026-07-13 开放，07-21 截止提交，08-12 前后公布；近 47,000 人、186 国、8,000+ 项目，OpenAI 史上规模最大的黑客松" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "Second Voice",
+        "team": "Ravitez Dondeti (solo)",
+        "what": "把含糊语音转成通顺句子的沟通辅助工具，说话者可逐句审核后再播出",
+        "why": "Apps for Your Life 赛道第一名",
+        "url": "https://developers.openai.com/blog/build-week-winners"
+      },
+      {
+        "year": 2026,
+        "project": "veTriage",
+        "team": "Erin Downes, VMD",
+        "what": "兽医诊所电话分诊应用，按兽医撰写的指南给来电宠物排优先级",
+        "why": "Work & Productivity 赛道第一名",
+        "url": "https://developers.openai.com/blog/build-week-winners"
+      },
+      {
+        "year": 2026,
+        "project": "Echo Canvas",
+        "team": "Kevin Yang",
+        "what": "浏览器内空间音频工作台，可直接听出房间几何与材质对声场的影响",
+        "why": "Developer Tools 赛道第一名",
+        "url": "https://developers.openai.com/blog/build-week-winners"
+      },
+      {
+        "year": 2026,
+        "project": "Mechanica",
+        "team": "Weiying Zhu, Yukun Li, Shan Wei",
+        "what": "互动数字博物馆，用物理 3D 重建与动画复原中国古代机械",
+        "why": "Education 赛道第一名",
+        "url": "https://developers.openai.com/blog/build-week-winners"
+      },
+      {
+        "year": 2026,
+        "project": "Sentinel",
+        "team": "Malik Bashaar Javaid",
+        "what": "MCP 服务器安全扫描器，结合静态分析、GPT 审查与沙箱测试",
+        "why": "Developer Tools 赛道第二名",
+        "url": "https://developers.openai.com/blog/build-week-winners"
+      },
+      {
+        "year": 2026,
+        "project": "Pulse",
+        "team": "Mohamed Mostafa Mohamed Labib Abu Taleb",
+        "what": "实时心肺复苏辅助助手，监听抢救过程并提示下一步，医生保持掌控",
+        "why": "Work & Productivity 赛道第二名",
+        "url": "https://developers.openai.com/blog/build-week-winners"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "openai-open-model-hackathon",
+    "name": "OpenAI Open Model Hackathon",
+    "nameCn": "OpenAI 开放模型黑客松（gpt-oss）",
+    "org": "OpenAI (联合 Hugging Face / NVIDIA / Ollama / vLLM)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 gpt-oss 构建：最佳整体 / 机器人 / 最怪硬件 / 本地 Agent / 微调 / 通配符 / 为人类",
+    "description": "OpenAI 为 gpt-oss 开源权重模型办的六周线上赛，联合推理生态厂商共建",
+    "requirements": "须基于 gpt-oss 构建；线上提交（Devpost）；为期六周；可个人或团队；获奖者得现金或 NVIDIA GPU",
+    "format": "online",
+    "location": "Online",
+    "prize": "现金或 NVIDIA GPU（总额未公开）；同期 Kaggle 上的 gpt-oss 红队挑战赛奖金池 500,000 美元、600+ 提交",
+    "frequency": "oneoff",
+    "typicalMonths": [8, 9],
+    "url": "https://openai.devpost.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-08", "url": "https://openai.devpost.com/", "note": "2025-08-05 启动，为期六周；共 7 个类别" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "bota",
+        "team": "Amandine Flachs, Alexandre Borghi",
+        "what": "用 GPT-OSS-20B + vLLM 驱动的 Dota 2 自主智能体，1v1 中路对战并在聊天里实时讲解决策",
+        "why": "Wildcard 类别获奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "RoboChef",
+        "team": "solo/团队未公开",
+        "what": "把自然语言请求翻译成机器人可执行步骤的厨房助手",
+        "why": "Best Overall 类别获奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Memory Palace",
+        "team": "solo/团队未公开",
+        "what": "本地运行的个人记忆 Agent，帮用户维持决策与上下文连续性",
+        "why": "同时获 Best Local Agent 与 Best of Humanity 两个类别奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Dental Assessment GPT",
+        "team": "solo/团队未公开",
+        "what": "面向牙科诊断场景的领域微调模型",
+        "why": "获 Most Useful Fine-tune 类别奖",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "anthropic-built-with-opus",
+    "name": "Built with Opus Claude Code Hackathon",
+    "nameCn": "Built with Opus / Claude Code 黑客松",
+    "org": "Anthropic (联合 Cerebral Valley)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 Claude Code 在一周内做出真实可用的产品，无领域限制",
+    "description": "Anthropic 官方虚拟黑客松，每代 Opus 办一次，主打非程序员也能造软件",
+    "requirements": "须用 Claude Code 构建；全球开放、线上；须报名并被选中（每期 500 人）；每人获 500 美元 API 额度；一周构建期；可个人或组队",
+    "format": "online",
+    "location": "Online",
+    "prize": "每期 100,000 美元 Claude API 额度奖金池（Opus 4.7 期为 6 名获奖者；Opus 4.6 期第二名 30,000 美元额度）",
+    "frequency": "quarterly",
+    "typicalMonths": [3, 5, 6],
+    "url": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-03", "url": "https://claude.com/blog/meet-the-winners-of-our-built-with-opus-4-6-claude-code-hackathon", "note": "Opus 4.6 期（系列首期），2026-04-20 公布获奖；500 名入选者，5 名获奖者中 4 人非专业开发者" },
+      { "year": 2026, "dates": "2026-05", "url": "https://claude.com/blog/meet-the-winners-of-built-with-opus-4-7-claude-code-hackathon", "note": "Opus 4.7 期，2026-06-15 公布获奖；20,000+ 报名、500 人入选、约 250 个项目提交" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "CrossBeam",
+        "team": "Mike Brown (solo, 人身伤害律师)",
+        "what": "审批图纸与整改函，用并行子智能体定位加州住房许可卡点并给出整改方案",
+        "why": "Opus 4.6 期第一名；本人全程未手写一行代码",
+        "url": "https://github.com/mikeOnBreeze/cc-crossbeam"
+      },
+      {
+        "year": 2026,
+        "project": "Elisa",
+        "team": "Jon McBee (solo)",
+        "what": "积木式可视化 IDE，用户拼装目标与智能体，AI 在背后写真实代码",
+        "why": "Opus 4.6 期第二名，获 30,000 美元 Claude API 额度；30 小时完成 3.9 万行代码",
+        "url": "https://github.com/zoidbergclawd/elisa"
+      },
+      {
+        "year": 2026,
+        "project": "PostVisit.ai",
+        "team": "Michał Nedoszytko (solo, 心脏科医生)",
+        "what": "诊后助手：用通俗语言解释诊断、分析病历并检索临床证据",
+        "why": "Opus 4.6 期第三名",
+        "url": "http://postvisit.ai"
+      },
+      {
+        "year": 2026,
+        "project": "TARA",
+        "team": "Kyeyune Kazibwe (solo)",
+        "what": "把行车记录仪画面转成完整道路投资评估报告，含经济与公平性评分",
+        "why": "Opus 4.6 期 Keep Thinking 奖",
+        "url": "https://github.com/Kye256/tara-transport-assessment"
+      },
+      {
+        "year": 2026,
+        "project": "Conductr",
+        "team": "Asep Bagja Priandana (solo, 电子音乐人)",
+        "what": "浏览器 MIDI 乐器，Claude 实时听和弦并生成鼓、贝斯、旋律、和声四轨",
+        "why": "Opus 4.6 期创意探索特别奖",
+        "url": "https://github.com/nanassound/conductr"
+      },
+      {
+        "year": 2026,
+        "project": "Medkit",
+        "team": "Bedirhan Keskin (solo, 医生转工程师)",
+        "what": "游戏化临床训练模拟器，学生练问诊与开医嘱，由智能体按临床指南打分",
+        "why": "Opus 4.7 期第一名；已有三家医学院与一家药企准备试点",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Wrench Board",
+        "team": "Alexis Chapellier (solo)",
+        "what": "读入电路图与板视图，构建统一电气图并指引维修工探测具体焊盘",
+        "why": "Opus 4.7 期第二名",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Maieutic",
+        "team": "Paula Vásquez-Henríquez (solo, 计算机教师)",
+        "what": "苏格拉底式教学 IDE：学生不写清意图就解锁不了编辑器，也不能用自动补全",
+        "why": "Opus 4.7 期第三名",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "MaestrIA",
+        "team": "Benjamin Torralbo (solo, 无编程基础)",
+        "what": "拍照即可获得房屋维修诊断、严重度分级、预算与附近师傅地图",
+        "why": "Opus 4.7 期 Keep Thinking 奖",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "ARIA (Adaptive Runtime Intelligence)",
+        "team": "Idriss Benguezzou, Adam Hnaien",
+        "what": "上传设备 PDF 后 15 分钟建档，五个智能体持续盯工厂机器信号并自动生成工单",
+        "why": "Opus 4.7 期 Claude Managed Agents 最佳应用奖",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "hf-mcp-1st-birthday-hackathon",
+    "name": "MCP's 1st Birthday Hackathon (Anthropic × Gradio × Hugging Face)",
+    "nameCn": "MCP 一周年黑客松",
+    "org": "Anthropic / Gradio / Hugging Face",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "Track 1 构建 MCP 服务器；Track 2 用 MCP 做完整智能体应用",
+    "description": "Anthropic 联合 Gradio 与 HF 办的 MCP 生态大练兵，17 天、跨三个周末",
+    "requirements": "须加入 HF 组织并把应用提交为 Space；README 打对应赛道标签；附社交媒体链接；Solo 或 2-5 人；全球线上",
+    "format": "online",
+    "location": "Online",
+    "prize": "现金 21,000 美元（HF 15K / Modal 2.5K / Blaxel 2.5K / LlamaIndex 1K）+ 赞助总价值约 4,200,000 美元额度；Track2 每赛道冠军 2,500、亚军 1,000、季军 500 美元",
+    "frequency": "annual",
+    "typicalMonths": [11],
+    "url": "https://huggingface.co/MCP-1st-Birthday",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-11", "url": "https://huggingface.co/MCP-1st-Birthday", "note": "2025-11-14 至 11-30（17 天）；7,100+ 报名，3,653 名组织成员" },
+      { "year": 2025, "dates": "2025-06", "url": "https://huggingface.co/Agents-MCP-Hackathon", "note": "前身：2025-06-02 至 06-10 的 Gradio Agents & MCP Hackathon，4,100+ 报名，16,500 美元现金" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Cite Before Act MCP",
+        "team": "solo/团队未公开",
+        "what": "强制智能体在行动前先给出引用来源的 MCP 服务器",
+        "why": "Anthropic 奖（Building MCP 赛道）最佳整体第一名",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "MCEPTION",
+        "team": "solo/团队未公开",
+        "what": "企业级 MCP 服务器实现",
+        "why": "Anthropic 奖企业级 MCP 服务器奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Game Context Protocol",
+        "team": "ArturoNereu",
+        "what": "面向游戏场景的创意类 MCP 服务器",
+        "why": "Anthropic 奖创意类 MCP 服务器奖",
+        "url": "https://huggingface.co/spaces/MCP-1st-Birthday/GameContextProtocol"
+      },
+      {
+        "year": 2025,
+        "project": "Legacy Code Modernizer",
+        "team": "solo/团队未公开",
+        "what": "用 MCP 自动化改造遗留代码库",
+        "why": "Modal 创新奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Vehicle Diagnostic Assistant",
+        "team": "David Robert, Ghislaine Robert",
+        "what": "车载诊断 AI 智能体，MCP 服务器跑在嵌入式设备上直读车辆 OBD 端口",
+        "why": "Track 2（MCP in Action）企业组第一名",
+        "url": "https://huggingface.co/spaces/MCP-1st-Birthday/Vehicle-Diagnostic-Assistant"
+      },
+      {
+        "year": 2025,
+        "project": "DungeonMaster AI",
+        "team": "solo/团队未公开",
+        "what": "AI 跑团主持人，用 MCP 工具驱动剧情与规则",
+        "why": "LlamaIndex 类别奖",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "hf-gradio-agents-mcp-hackathon",
+    "name": "Gradio Agents & MCP Hackathon",
+    "nameCn": "Gradio 智能体与 MCP 黑客松",
+    "org": "Hugging Face / Gradio",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "MCP 服务器/工具、智能体自定义组件、智能体演示应用",
+    "description": "Gradio 办的九天线上赛，为 MCP 与 Gradio 5 组件生态拉新",
+    "requirements": "须用 Gradio 构建并提交为 HF Space；README 打赛道标签并附演示视频；Solo 或 2-5 人；全球线上",
+    "format": "online",
+    "location": "Online",
+    "prize": "现金奖池 16,500 美元以上（每赛道冠军 2,500、亚军 500 美元）；另有 Modal 5,000 美元、LlamaIndex 1,000 美元等特别奖与 100 万美元以上赞助额度",
+    "frequency": "annual",
+    "typicalMonths": [6],
+    "url": "https://huggingface.co/Agents-MCP-Hackathon",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-06", "url": "https://huggingface.co/Agents-MCP-Hackathon", "note": "2025-06-02 至 06-10 提交，06-17 公布获奖；4,100+ 报名" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Travel Planning Agent (loulou)",
+        "team": "Charles Azam",
+        "what": "多智能体旅行规划系统，自动生成含机票、住宿、活动的三档预算方案",
+        "why": "HuggingFace × Anthropic 智能体黑客松第三名",
+        "url": "https://github.com/charles-azam/hackathon-huggingface"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "aws-ai-agent-global-hackathon",
+    "name": "AWS AI Agent Global Hackathon",
+    "nameCn": "AWS 全球 AI 智能体黑客松",
+    "org": "Amazon Web Services",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 AWS AI 服务构建智能体（Bedrock AgentCore / Bedrock / Q / SageMaker / Kiro 等）",
+    "description": "AWS 面向全球开发者的智能体大赛，为 Bedrock AgentCore 等新产品拉 adoption",
+    "requirements": "须用 AWS AI 服务构建并部署可运行智能体（Bedrock、AgentCore、Amazon Q、SageMaker、Kiro 等）；可个人或团队；线上提交",
+    "format": "online",
+    "location": "Online",
+    "prize": "总奖金 45,000 美元以上：冠军 16,000、亚军 9,000、季军 5,000 美元；五个分类奖各 3,000 美元",
+    "frequency": "annual",
+    "typicalMonths": [9, 10],
+    "url": "https://aws-agent-hackathon.devpost.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-09", "url": "https://aws-agent-hackathon.devpost.com/", "note": "2025-09-08 至 10-20，获奖在 AWS re:Invent 2025 公布；9,500+ 名构建者、127 个国家" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Ajito (EcoLafaek)",
+        "team": "Nelson Lucio da Costa",
+        "what": "用 Amazon Bedrock Nova-Pro + AgentCore 做的基层废弃物管理智能体，改善所在城市的垃圾处理",
+        "why": "第一名，由 Swami Sivasubramanian 在 re:Invent 主题演讲中宣布",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "AegisAgent",
+        "team": "Greg Kleine",
+        "what": "用 Kiro 构建的可扩展多智能体保险理赔审核系统",
+        "why": "第二名",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Province",
+        "team": "Anh Lam",
+        "what": "AI 原生的报税智能体系统",
+        "why": "第三名",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "aws-agents-for-humans",
+    "name": "Agents for Humans Hackathon",
+    "nameCn": "AWS Agents for Humans 黑客松",
+    "org": "Amazon Web Services",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 Strands Agents SDK 做日常 / 职业 / 社区三类后台自治智能体",
+    "description": "AWS 六周线上赛，推 Strands Agents SDK 做“替人把杂事做完”的自治智能体",
+    "requirements": "须用 Strands Agents SDK 构建新智能体；开源仓库（MIT/Apache）+ 架构图 + 5 分钟内演示视频；可个人或团队；全球开放；参与者获 50 美元 AWS 额度",
+    "format": "online",
+    "location": "Online",
+    "prize": "三个赛道共 40,000 美元现金：每条赛道金奖 5,000、银奖 3,000、铜奖 2,000 美元，另设 10,000 美元总冠军",
+    "frequency": "oneoff",
+    "typicalMonths": [8, 9, 10],
+    "url": "https://agentsforhumans.devpost.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-08", "url": "https://agentsforhumans.devpost.com/", "note": "六周线上赛，2026 年下半年开赛；具体起止月份未能从公开来源完全核实，获奖尚未公布" }
+    ],
+    "winners": [],
+    "_confidence": "medium"
+  },
+  {
+    "id": "aws-global-vibe-coding-hackathon",
+    "name": "AWS Global Vibe: AI Coding Hackathon",
+    "nameCn": "AWS 全球 Vibe Coding 黑客松",
+    "org": "Amazon Web Services",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "十大创新赛道（智能体、开发者工具、Web3、金融、网络安全、可持续等）",
+    "description": "AWS 联合 DoraHacks 办的全球 AI 编程赛，推 Amazon Q Developer 与 Kiro",
+    "requirements": "须使用并展示 Amazon Q Developer 或 Amazon Kiro；无地理限制、无技能门槛；可 Solo 或团队；免费 AWS Builder ID 即可参赛",
+    "format": "online",
+    "location": "Online",
+    "prize": "总价值逾 700,000 美元：含 250,000 美元现金、750,000 美元以上 AWS 额度，以及孵化与导师资源",
+    "frequency": "oneoff",
+    "typicalMonths": [10, 11, 12],
+    "url": "https://dorahacks.io/hackathon/awsvibecoding",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-10", "url": "https://dorahacks.io/hackathon/awsvibecoding", "note": "2025-10-01 报名、10-15 开放提交、12-01 截止，12-19 公布；920 名开发者注册、106 个项目入选" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "AURA — Autonomous SRE Platform",
+        "team": "solo/团队未公开",
+        "what": "自主 SRE 平台，实时发现、诊断并修复 AWS 云上故障，先用 Shadow Mode 沙箱验证修复",
+        "why": "获 Arcanum.ai 产业化辅导奖（价值 10,000 美元）",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "ForestGuard Agent",
+        "team": "solo/团队未公开",
+        "what": "聚合卫星影像、无人机数据与社区照片的多智能体森林砍伐监测上报系统",
+        "why": "获 SuperAI 2026 门票奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Janus Clew",
+        "team": "solo/团队未公开",
+        "what": "分析代码仓库评估开发者成长轨迹并给出个性化职业建议，基于 AWS AgentCore",
+        "why": "获 Draper University 2026 奖学金（价值 18,000 美元）",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "OmniTrack AI",
+        "team": "solo/团队未公开",
+        "what": "用 Amazon Kiro 工作流驱动的多智能体供应链中断预警与处置系统",
+        "why": "获 GitLab Ultimate 一年期许可奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Mental Apex Racing",
+        "team": "solo/团队未公开",
+        "what": "赛车模拟器 AI 教练，抓取 iRacing 实时数据给出个性化复盘",
+        "why": "获 AWS Startup Activate 额度奖（10,000 美元）",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "microsoft-ai-agents-hackathon",
+    "name": "Microsoft AI Agents Hackathon",
+    "nameCn": "微软 AI 智能体黑客松",
+    "org": "Microsoft",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "Semantic Kernel / AutoGen / Azure AI Agents SDK / M365 Agents SDK 构建智能体",
+    "description": "微软免费三周虚拟黑客松，为 Azure AI Foundry 与 Copilot Studio 做开发者教育",
+    "requirements": "须用微软智能体技术栈（Semantic Kernel、AutoGen、Azure AI Agent Service、M365 Agents SDK、Copilot Studio 等）构建；线上提交；可个人或团队；免费",
+    "format": "online",
+    "location": "Online",
+    "prize": "总奖金 50,000 美元：全场最佳 20,000 美元，Python / C# / Java / JS-TS / Copilot / Azure AI Agent Service 六个分类奖各 5,000 美元",
+    "frequency": "annual",
+    "typicalMonths": [4],
+    "url": "https://microsoft.github.io/AI_Agents_Hackathon/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-04", "url": "https://microsoft.github.io/AI_Agents_Hackathon/", "note": "2025-04-08 至 04-30，20+ 场专家直播课程" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "RiskWise: Supply Chain Risk Analysis System",
+        "team": "团队未公开",
+        "what": "供应链风险分析智能体系统，识别并评估供应链中断风险",
+        "why": "全场最佳智能体，获 20,000 美元",
+        "url": "https://microsoft.github.io/AI_Agents_Hackathon/"
+      },
+      {
+        "year": 2025,
+        "project": "Apollo Deep Research Meta Agent",
+        "team": "团队未公开",
+        "what": "编排多个子智能体做深度研究的元智能体",
+        "why": "C# 最佳智能体，获 5,000 美元",
+        "url": "https://microsoft.github.io/AI_Agents_Hackathon/"
+      },
+      {
+        "year": 2025,
+        "project": "WorkWizee",
+        "team": "团队未公开",
+        "what": "基于 Copilot Studio / M365 Agents SDK 的职场助手",
+        "why": "最佳 Copilot 智能体，获 5,000 美元",
+        "url": "https://microsoft.github.io/AI_Agents_Hackathon/"
+      },
+      {
+        "year": 2025,
+        "project": "Konveyor AI Powered Knowledge Transfer Agent",
+        "team": "团队未公开",
+        "what": "用 AI 做知识传承的智能体，承接离职/转岗员工带走的隐性知识",
+        "why": "Python 最佳智能体，获 5,000 美元",
+        "url": "https://microsoft.github.io/AI_Agents_Hackathon/"
+      },
+      {
+        "year": 2025,
+        "project": "Tariffed — Tariff Management Solution",
+        "team": "团队未公开",
+        "what": "关税管理智能体，帮企业应对关税政策变化",
+        "why": "Azure AI Agent Service 最佳应用，获 5,000 美元",
+        "url": "https://microsoft.github.io/AI_Agents_Hackathon/"
+      },
+      {
+        "year": 2025,
+        "project": "ModelProof: Sentinel AI Chat",
+        "team": "团队未公开",
+        "what": "模型侧的哨兵式对话审查智能体",
+        "why": "JavaScript/TypeScript 最佳智能体，获 5,000 美元",
+        "url": "https://microsoft.github.io/AI_Agents_Hackathon/"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "microsoft-agent-academy-hackathon",
+    "name": "Agent Academy Hackathon",
+    "nameCn": "微软 Agent Academy 黑客松",
+    "org": "Microsoft (Copilot Studio / Power Platform)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 Copilot Studio 造真实可用的 Agent：Recruit / Operative / Special Ops / Cowork 四赛道",
+    "description": "微软 Agent Academy 课程的结业实战赛，为 Copilot Studio 培养 Maker 生态",
+    "requirements": "须至少用一个微软产品（Copilot Studio、M365 Copilot、Copilot Cowork）构建可运行 Agent；提交不超过 5 分钟演示视频 + 架构图；可个人或团队",
+    "format": "online",
+    "location": "Online",
+    "prize": "官方未公开具体金额；四个赛道各设冠亚季军（Recruit / Operative / Special Ops / Cowork Collective）",
+    "frequency": "annual",
+    "typicalMonths": [5, 6],
+    "url": "https://devblogs.microsoft.com/powerplatform/agent-academy-hackathon-winners/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-05", "url": "https://devblogs.microsoft.com/powerplatform/agent-academy-hackathon-winners/", "note": "2026-05-12 至 06-02 构建，06-18 公布获奖；评审两周" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "VendorGuard — Autonomous Vendor Contract Compliance System",
+        "team": "experienceswithanishh",
+        "what": "合同 PDF 进邮箱后自动触发，编排器调度四个专家智能体按 15 条合规规则打分并生成报告",
+        "why": "Operative 赛道第一名，且是全场最高分作品",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Performance Development Assistant",
+        "team": "Ateina",
+        "what": "把绩效反馈转成发展路线图，推荐 Microsoft Learn 课程、内部导师与资料",
+        "why": "Recruit 赛道第一名，拿下该赛道最高技术执行分 9/10",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "SprintForge",
+        "team": "Shrusti13",
+        "what": "AI Scrum 助手：读会议记录生成 Sprint 计划，调 Microsoft Learn MCP 补验收标准，再写入 Jira",
+        "why": "Special Ops 赛道第一名，号称减少约 70% 的 Sprint 准备时间",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Copilot Cowork Autonomous ITSM Platform",
+        "team": "ninihen1",
+        "what": "跑在 Microsoft 365 上的中小企业自主 IT 服务台，变更动作需经理一键审批并留审计",
+        "why": "Cowork Collective 赛道第一名；整套 SharePoint/Flow/SPFx 均由 AI 智能体构建",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "mistral-worldwide-hackathon",
+    "name": "Mistral AI Worldwide Hackathon",
+    "nameCn": "Mistral 全球黑客松",
+    "org": "Mistral AI (联合 W&B / NVIDIA / AWS, 由 Iterate 运营)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "Anything Goes 与 W&B 微调两大挑战，附语音 / 游戏 / Agent 特别奖",
+    "description": "Mistral 史上最大规模黑客松，七城同开 + 线上，48 小时通宵编码",
+    "requirements": "须用 Mistral API 或开源模型（Ministral / Mistral Small / Medium / Codestral）；团队 1-4 人；须提交 GitHub 资料并通过滚动审核；线下场次需筛选入选",
+    "format": "hybrid",
+    "location": "巴黎 / 伦敦 / 纽约 / 旧金山 / 东京 / 新加坡 / 悉尼 + 线上",
+    "prize": "总价值逾 200,000 美元：全球冠军 10,000 美元现金 + 15,000 美元 Mistral 额度 + Mistral 面试机会；各城市冠军 1,500、亚军 1,000、季军 500 美元",
+    "frequency": "annual",
+    "typicalMonths": [2, 3],
+    "url": "https://worldwide-hackathon.mistral.ai/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-02", "url": "https://worldwide-hackathon.mistral.ai/", "note": "2026-02-28 至 03-01；7,000+ 份申请、700 人入选、1,000+ 参赛者" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "Canard Security",
+        "team": "Anthony Lamas, Ivan Severinov, Daniel Perlov (UC Santa Cruz)",
+        "what": "语音钓鱼（vishing）模拟平台，用 AI 打真实感电话测员工防诈意识",
+        "why": "旧金山站第三名，获 500 美元现金 + 1,000 美元 Mistral 额度",
+        "url": "https://news.ucsc.edu/2026/03/ucsc-trio-takes-third-at-2026-mistral-ai-hackathon-with-cybersecurity-platform/"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "vibe-jam-pieter-levels",
+    "name": "Vibe Jam (Cursor Vibe Jam)",
+    "nameCn": "Vibe Jam 氛围编程游戏 Jam",
+    "org": "Pieter Levels (2026 年由 Cursor 冠名赞助)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "AI 写代码的浏览器小游戏，免登录、秒开、最好带多人",
+    "description": "levelsio 发起的 AI 游戏 Jam，用来年度对比 AI 编程与美术生成能力的进步",
+    "requirements": "代码至少 80%（2026 年提高到 90%）须由 AI 生成；须是 Jam 期间新做的游戏；网页可玩、免登录注册、几乎无加载等待；一人一个作品；须嵌入官方统计脚本",
+    "format": "online",
+    "location": "Online",
+    "prize": "2025 年 17,500 美元；2026 年 40,000 美元（金奖 25,000、银奖 10,000、铜奖 5,000 美元）",
+    "frequency": "annual",
+    "typicalMonths": [3, 4, 5],
+    "url": "https://jam.pieter.com/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-03", "url": "https://jam.pieter.com/", "note": "2025-03-18 宣布，为期约一个月；1,170+ 个游戏提交；Bolt 与 CodeRabbit 赞助" },
+      { "year": 2026, "dates": "2026-04", "url": "https://jam.pieter.com/", "note": "2026-04-01 至 05-01 13:37 UTC；945 个游戏提交、24.2 万+ 玩家；Cursor、Bolt.new、Glif、Tripo AI 赞助" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "The Great Taxi Assignment",
+        "team": "Tomas Bencko (solo)",
+        "what": "GTA 风味的出租车游戏：在城市里接送古怪乘客、应对堵车，用收入升级车辆",
+        "why": "2025 年冠军，获 10,000 美元",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Vibeware",
+        "team": "Matt Gordon (solo)",
+        "what": "玩家扮演一个被派发各种任务的机器人，完成任务推进游戏",
+        "why": "2025 年第二名，获 5,000 美元",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "A Game About Capybaras Delivering Food",
+        "team": "leocooout (solo)",
+        "what": "骑滑板车的水豚送外卖，需平衡堆叠的餐盒，含多人模式与关卡编辑器",
+        "why": "2026 年金奖，获 25,000 美元；2.7 万行代码、188 次提交全部由 Claude Code 生成",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Fanto's Mega-Mart",
+        "team": "e_c_t_o",
+        "what": "超市经营类游戏",
+        "why": "2026 年银奖，获 10,000 美元",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "WenWare",
+        "team": "underpaid_mom",
+        "what": "网页端应用软件玩法的创意游戏",
+        "why": "2026 年铜奖，获 5,000 美元",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "bolt-worlds-largest-hackathon",
+    "name": "World's Largest Hackathon presented by Bolt",
+    "nameCn": "Bolt 全球最大黑客松",
+    "org": "StackBlitz / Bolt.new (Devpost)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "用 AI + Bolt 构建任意产品（含 Reddit、Algorand、Anthropic 等合作赛道）",
+    "description": "Bolt 办的百万美元线上赛，用奖金换 Bolt.new 用户增长与生态作品",
+    "requirements": "主要构建过程须在 Bolt.new 中完成（其余工具不限）；线上提交；可个人或团队；面向全球",
+    "format": "online",
+    "location": "Online",
+    "prize": "总奖金逾 1,000,000 美元；全场大奖 100,000 美元；Algorand 区块链挑战冠军 25,000 美元；共 60 多个奖项",
+    "frequency": "oneoff",
+    "typicalMonths": [5, 6, 7],
+    "url": "https://worldslargesthackathon.devpost.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2025, "dates": "2025-05", "url": "https://worldslargesthackathon.devpost.com/", "note": "2025-05-30 至 06-30/07-01，为期四周；13 万+ 人报名，按人数计为史上最大黑客松" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Tailored Labs",
+        "team": "Adrian Humphrey",
+        "what": "AI 视频时间轴编辑器，用自然语言指令完成剪辑，并支持端到端一键成片",
+        "why": "全场大奖（Grand Prize），获 100,000 美元",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Weight Coach",
+        "team": "solo/团队未公开",
+        "what": "AI 厨房助手：摄像头识别食材、语音指导烹饪、按偏好推荐菜谱",
+        "why": "第二名",
+        "url": "https://weight.coach/"
+      },
+      {
+        "year": 2025,
+        "project": "KeyHaven",
+        "team": "solo/团队未公开",
+        "what": "API 密钥安全管理平台，提供加密存储、自动轮换与统一监控",
+        "why": "第三名",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Startsnap.fun",
+        "team": "solo/团队未公开",
+        "what": "让开发者公开分享进行中项目并获取反馈的平台",
+        "why": "Algorand 区块链挑战冠军，获 25,000 美元",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "gitlab-ai-hackathon",
+    "name": "GitLab AI Hackathon",
+    "nameCn": "GitLab AI 黑客松",
+    "org": "GitLab (联合 Google Cloud、Anthropic)",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "在 GitLab Duo Agent Platform 上构建 DevOps 智能体与流程",
+    "description": "GitLab 全球线上赛，为 Duo Agent Platform 拉开发者并收集智能体用例",
+    "requirements": "须在 GitLab Duo Agent Platform 上构建 AI 智能体或流程；Devpost 提交；可个人或团队；19 位评委评审 18 天",
+    "format": "online",
+    "location": "Online",
+    "prize": "总奖金 65,000 美元（由 GitLab、Google Cloud 与 Anthropic 提供），含全场大奖、分类奖与绿色智能体奖",
+    "frequency": "annual",
+    "typicalMonths": [2, 3],
+    "url": "https://about.gitlab.com/blog/gitlab-ai-hackathon-2026-meet-the-winners",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-02", "url": "https://about.gitlab.com/blog/gitlab-ai-hackathon-2026-meet-the-winners", "note": "2026-02-09 至 03-25；近 7,000 名开发者、600+ 个智能体与流程" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "LORE (Living Organizational Record Engine)",
+        "team": "团队未公开",
+        "what": "八智能体 + 路由的组织记忆引擎，防止资深工程师离职带走团队知识，附可视化看板与碳排追踪",
+        "why": "全场大奖；含 43 个测试，评委称“像产品不像黑客松项目”",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Gitdefender",
+        "team": "团队未公开",
+        "what": "嵌入代码评审流程的安全智能体：发现问题、写好修复、直接开 MR",
+        "why": "Google Cloud 大奖",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "GraphDev",
+        "team": "团队未公开",
+        "what": "映射代码关联关系，展示系统随时间的演进与改动影响面",
+        "why": "Anthropic 大奖",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Time-Traveler",
+        "team": "团队未公开",
+        "what": "复制一份生产环境副本，在其上试跑数据库迁移并回报真实结果",
+        "why": "最具技术难度奖",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "RedAgent",
+        "team": "团队未公开",
+        "what": "复核 AI 生成的安全报告，弥合 AI 发现与开发者行动之间的信任鸿沟",
+        "why": "最具影响力奖",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "GreenPipe",
+        "team": "团队未公开",
+        "what": "扫描 CI/CD 流水线的环境影响并生成碳足迹报告",
+        "why": "绿色智能体奖",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "soloio-mcp-ai-agents-hackathon",
+    "name": "Hackathon for MCP & AI Agents (Solo.io)",
+    "nameCn": "Solo.io MCP 与 AI 智能体黑客松",
+    "org": "Solo.io",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "基于 kagent / agentgateway / agentregistry / kmcp 构建云原生智能体与 MCP 服务器",
+    "description": "Solo.io 办的云原生 Agent 开源赛，为 kagent 与 agentgateway 攒社区项目",
+    "requirements": "须用 Solo.io 开源项目（kagent、agentgateway、agentregistry、kgateway、kmcp 等）之一构建；提交项目视频与公开代码仓库；面向各类背景开发者；全球线上",
+    "format": "online",
+    "location": "Online",
+    "prize": "官方未公开具体金额；五个赛道各设冠军与若干亚军，获奖者来自 8 个国家",
+    "frequency": "annual",
+    "typicalMonths": [2, 3, 4],
+    "url": "https://www.solo.io/blog/celebrating-the-winners-of-the-2026-hackathon-for-mcp-ai-agents",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2026, "dates": "2026-02", "url": "https://www.solo.io/blog/celebrating-the-winners-of-the-2026-hackathon-for-mcp-ai-agents", "note": "2026 年 2 月初至 4 月初，为期两个月" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "Frugalia / FrugalIA MCP",
+        "team": "Salvador Arreola (solo, 墨西哥)",
+        "what": "Agentic FinOps 平台，用 kagent、kgateway、kmcp 自动发现、分析并修复 K8s 集群的资源浪费",
+        "why": "Building Cool Agents 赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "Kubernetes-native multi-cluster inventory controller",
+        "team": "Denys Vasyliev (英国)",
+        "what": "面向企业 AI 基础设施的 Kubernetes 原生多集群清单控制器，灵感来自 agentregistry",
+        "why": "Explore agentregistry 赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "MCP & AI Agents Starter 视觉智能体",
+        "team": "John Capobianco (加拿大)",
+        "what": "跑在 kagent 上的带视觉智能体，可调用摄像头并用 Nano Banana 与 Veo3 改造画面，支持美国手语模式",
+        "why": "新人 Starter 赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "agentgateway 身份感知控制平面 PR 合集",
+        "team": "Kevin Cao, Yitaek Hwang, Jaden Lee",
+        "what": "提交 9 个重要 PR，把 agentgateway 从模型代理改造成面向智能体的身份感知控制平面",
+        "why": "开源贡献赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2026,
+        "project": "MCP 基础设施 AI 治理平台",
+        "team": "Huzefa Hamdard (印度)",
+        "what": "监控 agentgateway 与 kagent 资源、用 MCP 服务器中心评分模型评估安全姿态并出风险分析",
+        "why": "Secure & Govern MCP 赛道冠军",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "revenuecat-shipaton",
+    "name": "Shipaton (RevenueCat)",
+    "nameCn": "RevenueCat Shipaton 上架马拉松",
+    "org": "RevenueCat",
+    "region": "intl",
+    "category": "vendor",
+    "theme": "两个月内真的上架一款新 App：总冠军 / 学生 / 设计 / 游戏 / 变现 / 公益 等十余个奖项",
+    "description": "RevenueCat 办的全球移动开发者赛，规则只有一条：把 App 真的发到应用商店",
+    "requirements": "须在 8/1–9/30 期间首次发布全新 iOS / Android / macOS App（2026 年起含三星 Galaxy Store）；须用 RevenueCat SDK 做内购、订阅或广告变现；已上架过的更新不算；Devpost 报名",
+    "format": "online",
+    "location": "Online",
+    "prize": "2025 年总价值逾 1,000,000 美元；2026 年现金逾 700,000 美元、总价值逾 1,000,000 美元；获奖者可上纽约时代广场大屏并参加颁奖礼",
+    "frequency": "annual",
+    "typicalMonths": [8, 9],
+    "url": "https://www.revenuecat.com/blog/company/shipaton-2025-winners/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-08", "url": "https://www.revenuecat.com/blog/company/shipaton-2025-winners/", "note": "2025-08-01 至 09-30；812 个项目提交，近千款新 App 上架" },
+      { "year": 2026, "dates": "2026-08", "url": "https://www.revenuecat.com/blog/company/announcing-shipaton-2026", "note": "2026-08-01 至 09-30，获奖于 10-22 公布；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Payout",
+        "team": "solo/团队未公开",
+        "what": "帮用户发现自己可能符合资格的集体诉讼赔偿，估算金额并在新案件开放时推送提醒",
+        "why": "总冠军 Build & Grow 奖；1.7 万+ 用户、30,017 美元营收；设计、代码、素材全部由 Claude Code 与 Cursor 生成",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Gurwi – Learn Anything",
+        "team": "Camilo Peñalver",
+        "what": "面向哥伦比亚教育资源薄弱地区的学习应用",
+        "why": "#BuildInPublic 奖第一名",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Dayloop: Everyday Timelapse",
+        "team": "solo/团队未公开",
+        "what": "每天拍一段素材自动生成人生延时视频的日记应用",
+        "why": "RevenueCat 设计奖第一名",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "ReadHim",
+        "team": "solo/团队未公开",
+        "what": "面向男性情感沟通的阅读与理解辅助应用",
+        "why": "Buzziest Launch 最热发布奖第一名",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Vector Guard",
+        "team": "solo/团队未公开",
+        "what": "面向 AI 应用向量数据的安全与防护工具",
+        "why": "HAMM（帮 App 赚钱）奖第一名",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  }
+]

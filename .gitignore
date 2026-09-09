@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# build output is committed on purpose (double-click dist/index.html to use)
+# dist/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+.vite/
+*.local
+.idea/
+.vscode/*.log
+
+# workflow 待 token 获得 workflow 权限后经 GitHub 网页补传，勿随本地提交重复推送
+/.github/

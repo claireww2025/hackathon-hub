@@ -1,0 +1,874 @@
+[
+  {
+    "id": "ethdenver",
+    "name": "ETHDenver #BUIDLathon",
+    "nameCn": "ETHDenver",
+    "org": "ETHDenver / SporkDAO",
+    "region": "intl",
+    "category": "web3",
+    "theme": "以太坊全生态：基础设施与扩容、身份隐私安全、DeFi/NFT/游戏、DAO 与社区、影响力与公共物品",
+    "description": "全球最大以太坊线下黑客松，SporkDAO 办，为主办方与 VC 挖掘早期项目。",
+    "requirements": "免费申请但需审核；须本人到丹佛现场；个人或团队均可；项目需在 BUIDLWeek 或现场新建。",
+    "format": "onsite",
+    "location": "Denver, CO, USA",
+    "prize": "2025 总奖金池约 $1,029,833 USD（含赞助商赏金）；单赛道冠军 $6,000–$22,000 USD；另有 $SPORK 二次方投票配捐",
+    "frequency": "annual",
+    "typicalMonths": [2, 3],
+    "url": "https://www.ethdenver.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-02", "url": "https://www.ethdenver.com/", "note": "第 6 届，2 月底至 3 月初，具体起止日未核实" },
+      { "year": 2025, "dates": "2025-02-23 ~ 2025-03-02", "url": "http://devfolio.co/blog/ethdenver-2025-recap/", "note": "含前一周 #BUIDLWEEK" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "FaceBuddy",
+        "team": "William and Xavier",
+        "what": "扫脸即可完成支付与社交连接的加密钱包应用",
+        "why": "Impact+Public Goods 赛道冠军 $22,000，社区二次方投票第一",
+        "url": "http://devfolio.co/blog/ethdenver-2025-recap/"
+      },
+      {
+        "year": 2025,
+        "project": "Baseline",
+        "team": "Roan, Jochen, and Scott",
+        "what": "用手机号直接创建链上钱包，消除加密技术门槛",
+        "why": "Infrastructure+Scalability 赛道冠军 $7,000",
+        "url": "http://devfolio.co/blog/ethdenver-2025-recap/"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "ethglobal-nyc",
+    "name": "ETHGlobal New York",
+    "nameCn": "ETHGlobal 纽约站",
+    "org": "ETHGlobal",
+    "region": "intl",
+    "category": "web3",
+    "theme": "以太坊与多链应用：支付、DeFi、游戏、AI Agent、开发工具",
+    "description": "ETHGlobal 旗舰周末线下黑客松，36 小时极限开发，靠赞助赏金驱动。",
+    "requirements": "购票/申请入场；个人或最多 4 人团队；须现场开发；获奖需通过 KYC 才能领取赏金。",
+    "format": "onsite",
+    "location": "New York City, NY, USA",
+    "prize": "以赞助商赏金为主，单个 bounty 常见 $2,000–$20,000 USD；无统一总奖金池",
+    "frequency": "annual",
+    "typicalMonths": [8, 9],
+    "url": "https://ethglobal.com/events/newyork2025",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-09", "url": "https://ethglobal.com/events", "note": "2024 年 9 月举办，具体日期未核实" },
+      { "year": 2025, "dates": "2025-08-15 ~ 2025-08-17", "url": "https://ethglobal.com/events/newyork2025", "note": "275 个项目提交，10 个获奖项目" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Rivals",
+        "team": "solo/团队未公示",
+        "what": "AR 多人射击游戏，击杀 AI 僵尸赚取代币，支持地理陷阱",
+        "why": "入选 ETHGlobal New York 2025 十大获奖项目",
+        "url": "https://www.mexc.com/fi-FI/news/66143"
+      },
+      {
+        "year": 2025,
+        "project": "Primer",
+        "team": "solo/团队未公示",
+        "what": "Chrome 插件，用 USDC 经礼品卡中间层在亚马逊完成支付",
+        "why": "入选 ETHGlobal New York 2025 十大获奖项目",
+        "url": "https://www.mexc.com/fi-FI/news/66143"
+      },
+      {
+        "year": 2025,
+        "project": "Noah",
+        "team": "solo/团队未公示",
+        "what": "死锁开关式加密资产继承方案，自动清算给受益人",
+        "why": "入选 ETHGlobal New York 2025 十大获奖项目",
+        "url": "https://dapp.expert/news/en_success-stories-from-ethglobal-new-york-2025-hackathon-winners-1755681193-958845"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "ethonline",
+    "name": "ETHOnline (ETHGlobal)",
+    "nameCn": "ETHOnline 线上黑客松",
+    "org": "ETHGlobal",
+    "region": "intl",
+    "category": "web3",
+    "theme": "以太坊与多链开放命题：跨链、ZK、AI、数据索引、DeFi、社交",
+    "description": "ETHGlobal 年度异步线上黑客松，3 周远程开发，奖金来自赞助商 bounty。",
+    "requirements": "免费注册；个人或团队均可；全程线上；获奖需 KYC 并通过钱包验证才能领奖。",
+    "format": "online",
+    "location": "Online (全球)",
+    "prize": "2024 年 $200,000 USD 可用奖金（LayerZero、Mina、Sign Protocol 各 $20,000 领衔）",
+    "frequency": "annual",
+    "typicalMonths": [8, 9, 10],
+    "url": "https://ethglobal.com/events/ethonline2024",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-08-23 ~ 2024-09-13", "url": "https://ethglobal.com/events/ethonline2024", "note": "异步 3 周线上赛" },
+      { "year": 2025, "dates": "2025-10-10 ~ 2025-10-31", "url": "https://ethglobal.com/events", "note": "线上异步赛；获奖名单未检索到官方公示" }
+    ],
+    "winners": [
+      {
+        "year": 2024,
+        "project": "zkDNS",
+        "team": "团队未公示",
+        "what": "基于 ZK 证明的隐私多链域名解析器，桥接 DNS 与 ENS",
+        "why": "获 Envio 赏金「最佳整体项目」（$5,000 赏金池内）",
+        "url": "https://docs.envio.dev/blog/ethonline-envio-hackathon-winners"
+      },
+      {
+        "year": 2024,
+        "project": "PACKD",
+        "team": "团队未公示",
+        "what": "创建并分享链上数字资产组合（bundle）的工具",
+        "why": "入围 ETHOnline 2024 全球 11 强决赛，获 Finalist 权益包",
+        "url": "http://www.rootdata.com/news/193241"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "ethindia",
+    "name": "ETHIndia",
+    "nameCn": "ETHIndia",
+    "org": "ETHIndia / Devfolio",
+    "region": "intl",
+    "category": "web3",
+    "theme": "以太坊生态：DeFi、隐私与扩容（ZK/MPC）、消费者应用、DeSci、AI",
+    "description": "印度最大 Web3 开发者盛会，Devfolio 主办三天线下黑客松，生态项目抢人。",
+    "requirements": "需报名并到班加罗尔现场；个人或团队均可；须为全新项目，已融资项目取消资格。",
+    "format": "onsite",
+    "location": "Bangalore, India",
+    "prize": "2024 总奖池 $175,000 USD（主办方 $26,000 + CDP $20,000 等赞助赛道）；二次方投票配捐 4.337 ETH",
+    "frequency": "annual",
+    "typicalMonths": [12],
+    "url": "https://ethindia2024.devfolio.co/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-12-06 ~ 2024-12-08", "url": "https://ethindia2024.devfolio.co/", "note": "275 个项目提交；Vitalik 出席闭幕式" },
+      { "year": 2025, "dates": "2025", "url": null, "note": "未检索到 2025 年官方公示，暂缺具体日期与获奖名单" }
+    ],
+    "winners": [
+      {
+        "year": 2024,
+        "project": "zkRail",
+        "team": "团队未公示",
+        "what": "面向真实世界支付的免信任跨链结算通道",
+        "why": "入选 ETHIndia 2024 全站 Top 10",
+        "url": "https://web3.bio/ethindia.farcaster"
+      },
+      {
+        "year": 2024,
+        "project": "Walrus-SDK",
+        "team": "Team Cyrus",
+        "what": "TypeScript SDK，简化 Walrus 去中心化存储上传与加密取回",
+        "why": "Walrus 赛道第一名",
+        "url": "https://ethindia2024.devfolio.co/projects"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "solana-radar-colosseum",
+    "name": "Solana Hackathon (Radar / Hyperdrive)",
+    "nameCn": "Solana 全球黑客松（Radar / Hyperdrive）",
+    "org": "Solana Foundation / Colosseum",
+    "region": "intl",
+    "category": "web3",
+    "theme": "DeFi、支付、游戏、DePIN、消费者应用、基础设施、DAO 与网络国家、AI",
+    "description": "Solana 基金会旗舰线上黑客松，Colosseum 运营，为生态批量制造可投项目。",
+    "requirements": "免费线上报名；个人或团队均可；须在 Solana 上构建；获奖必须完成 KYC 方可领取 USDC 奖金。",
+    "format": "online",
+    "location": "Online (全球)",
+    "prize": "Radar 2025 全球奖池 $600,000 USD 起；总冠军 $50,000 USDC + Breakpoint 门票；单赛道冠军 $30,000 USDC；获奖团队可入选 Colosseum 加速器获 $250,000 pre-seed",
+    "frequency": "annual",
+    "typicalMonths": [1, 2, 3, 4, 10],
+    "url": "https://colosseum.org/radar",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://colosseum.org/", "note": "第 8 届 Hyperdrive（Colosseum 首届），10/15 提交截止、11/04 公布获奖；具体起止月未核实" },
+      { "year": 2025, "dates": "2025", "url": "https://colosseum.org/radar", "note": "第 10 届 Radar，2025 年 4 月公布获奖名单；1 万余参赛者、1,359 个项目" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Reflect",
+        "team": "Reflect Protocol",
+        "what": "基于对冲担保稳定币的去中心化货币兑换平台",
+        "why": "Radar 2025 全球总冠军，$50,000 USDC + Breakpoint 2025 门票",
+        "url": "https://blog.colosseum.org/radar-hackathon-winners"
+      },
+      {
+        "year": 2025,
+        "project": "Txtx",
+        "team": "团队未公示",
+        "what": "为工程团队提供 runbook 的开发者平台",
+        "why": "Radar 2025 基础设施赛道冠军 $30,000 USDC",
+        "url": "https://www.bitget.org/news/detail/12560604363708"
+      },
+      {
+        "year": 2024,
+        "project": "FluxBot",
+        "team": "团队未公示",
+        "what": "把链上数据翻译成对话式回答的 Solana AI 聊天机器人",
+        "why": "Hyperdrive 第 8 届总冠军，$50,000 USDC + Breakpoint 2024 门票",
+        "url": "https://en.theblockbeats.news/flash/191651"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "base-onchain-buildathon",
+    "name": "Base Buildathon / Onchain Summer Awards",
+    "nameCn": "Base 生态 Buildathon 与 Onchain Summer Awards",
+    "org": "Base (Coinbase)",
+    "region": "intl",
+    "category": "web3",
+    "theme": "onchain 消费者应用：支付、稳定币、社交、创作者经济、AI Agent",
+    "description": "Base（Coinbase）办的全球 buildathon 系列，按地区巡回，为 L2 拉应用与开发者。",
+    "requirements": "线上提交或受邀线下；项目须部署在 Base；按真实用户活跃度评审；获奖需 KYC。",
+    "format": "hybrid",
+    "location": "Global (Nairobi / Bangalore / Bangkok / Singapore / Manila / SF 等)",
+    "prize": "Onchain Summer Awards 2025 总奖金 $200,000 USD；Onchain SF buildathon $25,000 USD；Base Around the World 2024 选出 50+ 个 buildathon 获奖项目",
+    "frequency": "annual",
+    "typicalMonths": [7, 8, 9, 10, 11],
+    "url": "https://base.org/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-10 ~ 2024-11", "url": "https://base.mirror.xyz/IbZFySAH2vbXOE-jYb3fYtVneL8czBoOuSS90FlOUYc", "note": "Base Around the World 世界巡演，肯尼亚/印度/东南亚共 11 场，50+ 获奖项目" },
+      { "year": 2025, "dates": "2025-09 ~ 2025-10", "url": "https://base.org/", "note": "Onchain Summer Awards 结果 10 月 7 日公布，500+ 团队参赛；部分获奖项目被社区质疑为内部关联空壳项目" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "（获奖名单官方未完整公示）",
+        "team": "owatch / Opi Trade 等",
+        "what": "按真实用户活跃度评出的 onchain 应用，含支付、交易、社交类",
+        "why": "分享 $200,000 奖金池；结果公布后被社区质疑含员工关联空壳项目",
+        "url": "https://www.cryptopolitan.com/coinbase-hackathon-accused-of-fake-apps/"
+      },
+      {
+        "year": 2024,
+        "project": "Base Sessions / Basepay / Flexclub 等 23 个项目",
+        "team": "Based Africa 社区",
+        "what": "面向跨境支付、P2P 电商、小额借贷的 onchain 应用",
+        "why": "Base Around the World 非洲站 buildathon 获奖，提交项目数全球最高",
+        "url": "https://base.mirror.xyz/IbZFySAH2vbXOE-jYb3fYtVneL8czBoOuSS90FlOUYc"
+      }
+    ],
+    "_confidence": "low"
+  },
+  {
+    "id": "dorahacks-bnb-chain-hack",
+    "name": "DoraHacks / BNB Chain Hack",
+    "nameCn": "DoraHacks 与 BNB Chain Hack",
+    "org": "DoraHacks / BNB Chain",
+    "region": "intl",
+    "category": "web3",
+    "theme": "AI Agent、DeSoc、DeSci、DePIN、DeFi、支付；BNB Chain 生态项目",
+    "description": "DoraHacks 平台承载的 BNB Chain 黑客松，滚动征集，为 BNB 生态筛可孵化项目。",
+    "requirements": "在 DoraHacks 提交 BUIDL；代码仓库+可运行原型+5 分钟英文演示视频；须部署在 BNB Chain；须无已发代币。",
+    "format": "hybrid",
+    "location": "Online + 线下站（阿布扎比、布宜诺斯艾利斯、新加坡等）",
+    "prize": "线上版 2025 总奖池 $700,000 USD：冠军 $10,000 USDT + $50,000 Kickstart 包 + MVB 面试；线下单站（阿布扎比/布宜诺斯艾利斯 2025）$160,000 USD",
+    "frequency": "quarterly",
+    "typicalMonths": [2, 3, 4, 5, 6, 7, 9, 10, 11, 12],
+    "url": "https://dorahacks.io/hackathon",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-11", "url": "https://www.bnbchain.org/en/blog", "note": "BNB Hack 线下站（Devconnect/曼谷期间）；具体日期未核实" },
+      { "year": 2025, "dates": "2025-02-12 ~ 2025-12-31", "url": "https://www.bnbchain.org/en/hackathons/bnb-ai-hack", "note": "线上版滚动征集；11/15-16 布宜诺斯艾利斯站、12/05-06 阿布扎比站各 $160,000" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "DeFi Pro",
+        "team": "团队未公示",
+        "what": "AI 驱动的 DeFi 助手",
+        "why": "BNB Hack 阿布扎比站（12/05-06）第一名，分享 $160,000 奖池",
+        "url": "https://www.mexc.com/he-IL/news/271050"
+      },
+      {
+        "year": 2025,
+        "project": "NiR Finance",
+        "team": "团队未公示",
+        "what": "BNB Chain 上的 DeFi 应用",
+        "why": "BNB Hack 布宜诺斯艾利斯站（11/15-16）第一名，分享 $160,000 奖池",
+        "url": "https://phemex.com/news/article/bnb-chain-concludes-buenos-aires-hackathon-with-160k-in-prizes-39455"
+      },
+      {
+        "year": 2025,
+        "project": "MCPForge",
+        "team": "团队未公示",
+        "what": "把 GitHub 上的 MCP 仓库变成可部署、可调用、可变现的 AI 服务市场",
+        "why": "BNB Hack Tier 3 获奖：$3,000 USDT + $50,000 Kickstart 包",
+        "url": "https://www.bnbchain.org/en/blog/congratulations-to-the-latest-bnb-hack-winners-june-12-batch"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "sui-overflow",
+    "name": "Sui Overflow Hackathon",
+    "nameCn": "Sui Overflow 黑客松",
+    "org": "Sui Foundation",
+    "region": "intl",
+    "category": "web3",
+    "theme": "AI、密码学、DeFi、Degen、娱乐与文化、基础设施与工具、支付钱包、可编程存储",
+    "description": "Sui 基金会年度旗舰黑客松，九赛道并行，为 Move 生态拉项目与开发者。",
+    "requirements": "免费报名；个人或团队；须在 Sui 上构建；分国家/地区可参赛（含中国开发者）；获奖需 KYC。",
+    "format": "online",
+    "location": "Online (全球)",
+    "prize": "2025 年九赛道各取 4 名：冠军 $30,000、亚军 $15,000、季军 $10,000、第四 $7,500（USD）；大学组 10 名各 $2,500",
+    "frequency": "annual",
+    "typicalMonths": [4, 5, 6, 7],
+    "url": "https://blog.sui.io/2025-sui-overflow-hackathon-winners",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://blog.sui.io/", "note": "Sui Overflow 2024 已举办；具体起止日期与获奖名单未核实" },
+      { "year": 2025, "dates": "2025-04-01 ~ 2025-05-25", "url": "https://blog.sui.io/2025-sui-overflow-hackathon-winners", "note": "85 国开发者、599 个项目提交，36 个赛道获奖 + 10 个大学组；7/1 公布" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Magma Finance",
+        "team": "团队未公示",
+        "what": "可编程收益抽象层，AI 再平衡的金库策略",
+        "why": "DeFi 赛道冠军 $30,000 USD",
+        "url": "https://blog.sui.io/2025-sui-overflow-hackathon-winners"
+      },
+      {
+        "year": 2025,
+        "project": "Suithetic",
+        "team": "团队未公示",
+        "what": "用 LLM 生成结构化可验证合成数据并上架交易的数据市场",
+        "why": "AI 赛道冠军 $30,000 USD",
+        "url": "https://blog.sui.io/2025-sui-overflow-hackathon-winners"
+      },
+      {
+        "year": 2025,
+        "project": "SuiSQL",
+        "team": "团队未公示",
+        "what": "面向 Sui 链上数据的 SQL 查询基础设施工具",
+        "why": "基础设施与工具赛道冠军 $30,000 USD",
+        "url": "https://www.panewslab.com/en/articles/e0asknxa"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "aptos-hackathon",
+    "name": "Aptos Hackathon (CTRL+Move / Evermove HackerHouse)",
+    "nameCn": "Aptos 黑客松（CTRL+Move / Evermove HackerHouse）",
+    "org": "Aptos Foundation / Aptos Labs",
+    "region": "intl",
+    "category": "web3",
+    "theme": "Move 智能合约：DeFi、AI、支付、游戏、身份；线下 Hacker House 偏早期项目",
+    "description": "Aptos 基金会年度黑客松 + 巡回 Hacker House，用 Move 语言拉开发者建生态。",
+    "requirements": "报名并筛选；线下站需到场（如香港数码港）；须用 Move 在 Aptos 上构建；获奖需 KYC。",
+    "format": "hybrid",
+    "location": "Online + 线下（香港、河内、旧金山、布宜诺斯艾利斯等）",
+    "prize": "CTRL+Move 2025：主赛道 $100,000+ USD 奖金与生态支持；Evermove HackerHouse 香港 2025 总奖池 HK$4,040,000，冠军 100,000 USDT + 30,000 USDT 审计服务",
+    "frequency": "annual",
+    "typicalMonths": [4, 8, 9, 10],
+    "url": "https://aptosnetwork.com/currents/now-open-ctrl-move",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://aptosnetwork.com/", "note": "Aptos 2024 年黑客松已举办；具体届次与获奖名单未核实" },
+      { "year": 2025, "dates": "2025-08-04 ~ 2025-10-03", "url": "https://aptosnetwork.com/currents/now-open-ctrl-move", "note": "CTRL+Move 主赛；另有 4/01-05 香港 Evermove HackerHouse、7 月起越南站" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "DareDemoDaiSuki（AITOS）",
+        "team": "DareDemoDaiSuki",
+        "what": "Aptos 上的自动化 AI 助手，零门槛做分析、投资与 DeFi 管理",
+        "why": "Evermove HackerHouse 香港 2025 一等奖 100,000 USDT + 审计服务 + 数码港孵化直通",
+        "url": "https://en.theblockbeats.news/news/57717"
+      },
+      {
+        "year": 2025,
+        "project": "Nexo / Stratafi / Spout Finance / Saffron / Infi Markets",
+        "team": "各团队未公示",
+        "what": "Aptos 上的 DeFi 协议，覆盖结算、流动性、收益与协调",
+        "why": "CTRL+Move 2025 主赛道获奖，分享 $100,000+ 奖金",
+        "url": "https://aptosnetwork.com/currents/now-open-ctrl-move"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "polkadot-builder-party",
+    "name": "Polkadot Builder Party (Road to Sub0)",
+    "nameCn": "Polkadot Builder Party 全球黑客松",
+    "org": "Web3 Foundation / Parity",
+    "region": "intl",
+    "category": "web3",
+    "theme": "Polkadot 2.0 与 Polkadot Cloud：用户向应用、用 Polkadot SDK 建链、ZK 与 XCM 前沿实验",
+    "description": "Web3 Foundation 办的 6 周线上黑客松，用「Polkadot Cloud」话术拉 Web2 开发者入圈。",
+    "requirements": "在 Devpost 提交；个人或团队；须用 Polkadot SDK / 平行链服务构建；须承诺项目开源可复现。",
+    "format": "online",
+    "location": "Online (全球) + 全球线下 Roots Meetup",
+    "prize": "总奖金 $30,000 USD（Devpost 页面列 $40,000）：每赛道前四名 $3,000 / $2,000 / $1,000 / $1,000；15 个 Tinkerer 各 $500；3 个观众奖各 $500",
+    "frequency": "oneoff",
+    "typicalMonths": [10, 11, 12],
+    "url": "https://polkadot.devpost.com",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://forum.polkadot.network/", "note": "2024 年 Polkadot 生态黑客松未检索到统一品牌届次与官方公示" },
+      { "year": 2025, "dates": "2025-10-06 ~ 2025-11-17", "url": "https://polkadot.devpost.com", "note": "6 周线上赛，11/27 评审公布，12/08 公布获奖" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "（获奖名单官方未完整公示）",
+        "team": null,
+        "what": "Track1 应用 / Track2 建链 / Track3 前沿实验 / Track4 社区教程内容",
+        "why": "每赛道前四名分 $3,000/$2,000/$1,000/$1,000（USD）",
+        "url": "https://forum.polkadot.network/t/polkadot-build-party-global-hackathon-starts-6th-october-2025/14595"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "encode-club-hack",
+    "name": "Encode Club Hackathon Series",
+    "nameCn": "Encode Club 黑客松系列",
+    "org": "Encode Club",
+    "region": "intl",
+    "category": "web3",
+    "theme": "DeFi、AI Agent、ZK、比特币二层、身份与合规；按合作公链设 bounty 赛道",
+    "description": "Encode Club 全球巡回黑客松，与主流公链合办，主打 bounty 赛道与新手友好。",
+    "requirements": "免费或低价报名；可个人报名现场组队；多数站点为线下通宵开发；获奖需 KYC。",
+    "format": "hybrid",
+    "location": "London / Oxford / Denver / Singapore 等（Encode 全球 112 个城市）",
+    "prize": "以合作方 bounty 为主，单 bounty 常见 $1,000–$5,000 USD；Encode 官方称累计 11,346 个项目、231,536 名参与者、208 场黑客松",
+    "frequency": "quarterly",
+    "typicalMonths": [2, 3, 5, 6, 9, 10, 11],
+    "url": "https://www.encodeclub.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.encodeclub.com/", "note": "Encode 2024 年多站黑客松已举办；具体站点与获奖名单未核实" },
+      { "year": 2025, "dates": "2025-10-24 ~ 2025-10-26", "url": "https://www.blog.encode.club/encode-london-hack-conference-2025-25d0f9241d96", "note": "Encode London Hack & Conference 2025，100+ 项目提交；同年 2 月有 Encode Modular DeFi Denver" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Forma AI",
+        "team": "团队未公示",
+        "what": "AI 方向应用（伦敦站总冠军项目）",
+        "why": "Encode London 2025 全场总冠军（Overall Winner 🥇）",
+        "url": "https://www.blog.encode.club/encode-london-hack-conference-2025-25d0f9241d96"
+      },
+      {
+        "year": 2025,
+        "project": "TipCloud",
+        "team": "团队未公示",
+        "what": "链上小费/打赏类应用",
+        "why": "Encode Modular DeFi Denver 2025 全场总冠军，并获 Stacks 赛道第三",
+        "url": "http://www.blog.encode.club/encode-modular-defi-denver-hackathon-research-day-2025-759a6048e154"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "nasa-space-apps",
+    "name": "NASA International Space Apps Challenge",
+    "nameCn": "NASA 国际太空应用挑战赛",
+    "org": "NASA (Earth Science Division)",
+    "region": "intl",
+    "category": "vertical",
+    "theme": "地球科学、太空探索、低轨商业化、系外行星、农业、空间天气、空气质量等 NASA 开放数据命题",
+    "description": "NASA 办的全球最大线下+线上 hackathon，把 NASA 开放数据交给公众做应用。",
+    "requirements": "免费报名，无年龄/职业限制；须在当地分赛场注册并组队；48 小时内完成并提交项目。",
+    "format": "hybrid",
+    "location": "Global（2025 年 167 个国家/地区、551 个线下分赛场）",
+    "prize": "无现金大奖，全球优胜者获 NASA 官方表彰、项目展示与全球社区曝光（部分分赛场自设奖品）",
+    "frequency": "annual",
+    "typicalMonths": [10],
+    "url": "https://www.spaceappschallenge.org/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024-10", "url": "https://www.spaceappschallenge.org/", "note": "2024 年 10 月全球同步举办；本届获奖名单未逐一核实" },
+      { "year": 2025, "dates": "2025-10", "url": "https://www.spaceappschallenge.org/2025/meet-the-2025-global-winners/", "note": "11.4 万+参与者、11,500+ 项目提交，评选出 10 个全球优胜项目" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "SpaceGenes+",
+        "team": "Saloni T.（德国柏林）",
+        "what": "交互式仪表盘，揭示辐射与微重力对宇航员健康的分子级影响",
+        "why": "获 Best Use of Science 全球优胜奖",
+        "url": "https://www.spaceappschallenge.org/2025/awards/global-winners"
+      },
+      {
+        "year": 2025,
+        "project": "Astro Sweepers",
+        "team": "Harshiv T. 等（Universal Event 线上队）",
+        "what": "轨道碎片合规与风险情报平台，自动生成碎片评估报告与风险指数",
+        "why": "获 Galactic Impact 全球优胜奖",
+        "url": "https://www.spaceappschallenge.org/2025/awards/global-winners"
+      },
+      {
+        "year": 2025,
+        "project": "Photonics Odyssey",
+        "team": "Manish D. 等（印度金奈）",
+        "what": "把卫星互联网做成国家级基础设施，相控阵天线覆盖印度偏远地区",
+        "why": "获 Most Inspirational 全球优胜奖",
+        "url": "https://www.spaceappschallenge.org/2025/awards/global-winners"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "mit-hacking-medicine",
+    "name": "MIT Hacking Medicine (GrandHack & 全球分站)",
+    "nameCn": "MIT Hacking Medicine 医疗黑客松",
+    "org": "MIT Hacking Medicine",
+    "region": "intl",
+    "category": "vertical",
+    "theme": "数字医疗：辅助科技、心脏健康、AI 变革医疗、慢病、精神健康",
+    "description": "MIT 办的医疗创新黑客松，把医生、工程师、创业者凑一队做可落地的创业项目。",
+    "requirements": "报名并筛选，鼓励跨专业组队（临床+工程+商科）；可个人报名现场组队；须现场开发并做最终路演。",
+    "format": "onsite",
+    "location": "Cambridge/Boston, USA + 全球分站（曼谷、圣保罗、坦帕、德班、巴黎等）",
+    "prize": "波士顿 GrandHack 以资源与孵化为主，优胜者获 Golden Ticket；Siriraj×MIT 2025 站提供 $15,000 USD 现金奖",
+    "frequency": "quarterly",
+    "typicalMonths": [1, 2, 4, 5, 8, 9, 10, 11],
+    "url": "https://hackingmedicine.mit.edu/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-10-31 ~ 2024-11-02", "url": "https://www.hackingmedicine.mit.edu/events/past-hacks", "note": "Siriraj × MIT Hacking Medicine 2024，泰国曼谷 Siriraj 医院" },
+      { "year": 2025, "dates": "2025-10-31 ~ 2025-11-02", "url": "https://hackingmedicine.mit.edu/post/siriraj-x-mit-hacking-medicine-2025", "note": "Siriraj × MIT 2025 曼谷站，1000+ 申请/200 人入选；同年波士顿 GrandHack 赛道为辅助科技、心脏健康、变革性智能" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Unreliable LLM",
+        "team": "Arut Leelataweewud 等 6 人",
+        "what": "中风患者院外康复平台，把康复训练搬到家庭场景",
+        "why": "Siriraj × MIT 2025 慢病赛道冠军",
+        "url": "https://www.thaipr.net/en/health_en/3664560"
+      },
+      {
+        "year": 2025,
+        "project": "KoQo",
+        "team": "Wanthita Peaugpoolpol 等 6 人",
+        "what": "服务自闭症患者照护者与家属的 AI 应用",
+        "why": "Siriraj × MIT 2025 精神健康赛道冠军",
+        "url": "https://www.thaipr.net/en/health_en/3664560"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "digieduhack",
+    "name": "DigiEduHack (Digital Education Hackathon)",
+    "nameCn": "DigiEduHack 数字教育黑客松",
+    "org": "European Commission (Digital Education Action Plan)",
+    "region": "intl",
+    "category": "vertical",
+    "theme": "数字教育：AI 教学、基础数字技能、数据驱动教育、教育可及性与包容、可持续教育",
+    "description": "欧盟委员会发起的全球数字教育黑客松，由各地机构承办 24 小时分站赛，再评全球优胜。",
+    "requirements": "在任一分站报名；24 小时本地赛；不需要编程背景，学生/教师/创业者均可组队参加。",
+    "format": "hybrid",
+    "location": "Global（2025 年 31 个国家、74 个分站）",
+    "prize": "无统一现金大奖，全球优胜者获欧盟委员会官方表彰、全球曝光与社区资源（各分站可自设奖品）",
+    "frequency": "annual",
+    "typicalMonths": [11],
+    "url": "https://www.digieduhack.com/",
+    "soloAllowed": false,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-11", "url": "https://education.ec.europa.eu/node/3189", "note": "第 5 届，25 国 51 个分站；12 强进公投，最终 4 个全球优胜项目" },
+      { "year": 2025, "dates": "2025-11-07 ~ 2025-11-16", "url": "https://education.ec.europa.eu/news/meet-the-global-winners-of-digieduhack-2025", "note": "第 6 届，31 国 74 个分站，主题「数字技能时代重塑教育」" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "GreenBites",
+        "team": "The Seven Bites（意大利）",
+        "what": "用 AI 生成个性化健康食谱，同时教用户减少食物浪费",
+        "why": "获 DigiEduHack 2025 Beginner Award 全球优胜",
+        "url": "https://education.ec.europa.eu/news/meet-the-global-winners-of-digieduhack-2025"
+      },
+      {
+        "year": 2025,
+        "project": "EduVhled Engine",
+        "team": "AOS（捷克布拉格 42Prague）",
+        "what": "把学校数据转化为情绪气候、幸福感与沟通状况的可执行洞察",
+        "why": "获 DigiEduHack 2025 Experienced Award 全球优胜",
+        "url": "https://education.ec.europa.eu/news/meet-the-global-winners-of-digieduhack-2025"
+      },
+      {
+        "year": 2024,
+        "project": "SIGNEDGE",
+        "team": "Los Resolvers（秘鲁 UPC）",
+        "what": "AI 手语识别工具，提升听障学生的教育可及性",
+        "why": "获 DigiEduHack 2024 Beginner Award 全球优胜",
+        "url": "https://education.ec.europa.eu/node/3189"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "climathon",
+    "name": "Climathon",
+    "nameCn": "Climathon 气候黑客松",
+    "org": "Climate-KIC (EIT Climate-KIC)",
+    "region": "intl",
+    "category": "vertical",
+    "theme": "城市气候适应与减排：循环经济、水资源、能源、城市韧性、可持续农业、绿色出行",
+    "description": "Climate-KIC 发起的全球城市气候黑客松，各城市自定命题，为地方政府找可落地方案。",
+    "requirements": "在本地分站报名；学生、创业者、专业人士均可组队；须针对所在城市的真实气候挑战做方案。",
+    "format": "hybrid",
+    "location": "Global（140+ 城市、56 个国家；含布拉迪斯拉发、威尼斯、基多、墨西哥七城等）",
+    "prize": "各站自设：2025 布拉迪斯拉发站冠军 €3,000；墨西哥各分站冠军 MXN$10,000（约 US$530）、亚军 MXN$5,000；多地冠军获孵化营名额",
+    "frequency": "annual",
+    "typicalMonths": [9, 10, 11],
+    "url": "https://climathon.climate-kic.org/",
+    "soloAllowed": false,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-09 ~ 2024-11", "url": "https://mexicobusiness.news/sustainability/news/impact-hub-cdmx-launches-climathon-2025-across-mexico", "note": "2024 年分站获奖项目含 Sicomac（Progresso，cenote 水质监测）、Chuúch Há（Campeche，节柴灶）" },
+      { "year": 2025, "dates": "2025-09 ~ 2025-11", "url": "https://impaqto.net?p=5162", "note": "法国-厄瓜多尔跨国总决赛 10/08 举行；布拉迪斯拉发第 6 届 25 队参赛" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "KAVO.WAR",
+        "team": "高中生团队（布拉迪斯拉发）",
+        "what": "城市分析工具：地图上框选区域即可叠加数据层、测算开发费影响",
+        "why": "Climathon Bratislava 2025 冠军，奖金 €3,000",
+        "url": "https://www.iblsoft.com/exhibitions/climathon-bratislava-2025/page/15/"
+      },
+      {
+        "year": 2025,
+        "project": "Suelux",
+        "team": "Francisco Javier Paredes Proaño 等 4 人（厄瓜多尔）",
+        "what": "基于微生物的土壤肥力修复方案，面向小农户、易复制",
+        "why": "法国-厄瓜多尔 Climathon 2025 总决赛厄瓜多尔第一名",
+        "url": "https://impaqto.net?p=5162"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "boc-fintech-hackathon",
+    "name": "BoC Fintech Hackathon",
+    "nameCn": "塞浦路斯银行金融科技黑客松",
+    "org": "Bank of Cyprus (IDEA Innovation Centre)",
+    "region": "intl",
+    "category": "vertical",
+    "theme": "开放银行与普惠金融：AI 商业智能、智慧城市支付、绿色金融、P2P 微贷、API 创新",
+    "description": "塞浦路斯银行办的年度开放创新黑客松，用自家与合作伙伴 API 做可落地金融科技原型。",
+    "requirements": "48 小时现场开发；1–5 人团队（也接受个人到场组队）；须使用 BoC / Jinius / JCC 等提供的 API；中学生亦可参加。",
+    "format": "onsite",
+    "location": "Nicosia, Cyprus (IDEA Innovation Centre)",
+    "prize": "第 6 届（2025）：冠军 €7,000、亚军 €4,000、季军两名各 €1,000，另设 Jinius API 特别奖 €2,000 及多项合作方奖",
+    "frequency": "annual",
+    "typicalMonths": [10],
+    "url": "https://www.bochackathon.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-10", "url": "https://www.bochackathon.com/", "note": "第 5 届（按届次推断为 2024 年 10 月），具体日期与获奖名单未核实" },
+      { "year": 2025, "dates": "2025-10-10 ~ 2025-10-12", "url": "https://www.stockwatch.com.cy/en/news/boc-fintech-hackathon-60-empowering-innovation-in-the-new-era-of-fintech", "note": "第 6 届，100+ 人、31 支队伍、37 位导师" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Labs(dot)cy",
+        "team": "Labs(dot)cy",
+        "what": "AI 驱动商业智能平台，用 Jinius 数据给中小企业做市场洞察",
+        "why": "第 6 届冠军，奖金 €7,000，并获 Kyndryl 与尼科西亚大学合作方奖",
+        "url": "https://www.stockwatch.com.cy/en/news/boc-fintech-hackathon-60-empowering-innovation-in-the-new-era-of-fintech"
+      },
+      {
+        "year": 2025,
+        "project": "TBD (Jinius Insight)",
+        "team": "TBD",
+        "what": "基于 Jinius API 的预测分析工具，为商家做客户洞察与趋势预测",
+        "why": "获最佳 Jinius API 应用奖，奖金 €2,000",
+        "url": "https://www.stockwatch.com.cy/en/news/boc-fintech-hackathon-60-empowering-innovation-in-the-new-era-of-fintech"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "xprize-carbon-removal",
+    "name": "XPRIZE Carbon Removal",
+    "nameCn": "XPRIZE 碳移除大奖赛",
+    "org": "XPRIZE Foundation (冠名赞助：Musk Foundation)",
+    "region": "intl",
+    "category": "startup",
+    "theme": "二氧化碳移除（CDR）：增强岩石风化、生物炭、地质封存、海洋碱化、直接空气捕集",
+    "description": "XPRIZE 史上最大激励竞赛，4 年周期，用 $100M 砸出可规模化到十亿吨级的碳移除产业。",
+    "requirements": "注册并签竞赛协议、缴报名费（学生队曾低至 $25）；须实测一年内净移除 1,000 吨以上 CO₂ 并通过第三方核证；对全球团队开放。",
+    "format": "hybrid",
+    "location": "Global（团队分布在 11 个决赛国家）",
+    "prize": "总奖金 $100,000,000 USD：冠军 Mati Carbon $50M，亚军 NetZero $15M、Vaulted Deep $8M、UNDO Carbon $5M，XFACTOR 奖 Planetary 与 Project Hajar 各 $1M",
+    "frequency": "oneoff",
+    "typicalMonths": [4],
+    "url": "https://www.xprize.org/prizes/carbonremoval",
+    "soloAllowed": false,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.xprize.org/prizes/carbonremoval", "note": "决赛年实测阶段，20 支决赛队伍（11 国）完成 1,000 吨级移除验证" },
+      { "year": 2025, "dates": "2025-04-23", "url": "https://www.xprize.org/news/xprize-makes-history-awards-100m-prize-for-groundbreaking-carbon-removal-solutions", "note": "4 月 23 日纽约公布最终获奖名单，史上最大单笔激励竞赛奖金" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Mati Carbon",
+        "team": "Mati Carbon（Shantanu Agarwal 创办）",
+        "what": "在印度农田铺撒细碎玄武岩加速风化，永久固碳并改良土壤",
+        "why": "总冠军 $50,000,000 USD，评估指标（运营/可持续/成本）全项领先",
+        "url": "https://www.xprize.org/news/xprize-makes-history-awards-100m-prize-for-groundbreaking-carbon-removal-solutions"
+      },
+      {
+        "year": 2025,
+        "project": "NetZero",
+        "team": "NetZero（法国/巴西）",
+        "what": "生物炭公司，把热带作物残渣炭化后返还本地农户提升产量",
+        "why": "第一名亚军 $15,000,000 USD，循环模型获评委认可",
+        "url": "https://www.xprize.org/news/xprize-makes-history-awards-100m-prize-for-groundbreaking-carbon-removal-solutions"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "xprize-healthspan",
+    "name": "XPRIZE Healthspan",
+    "nameCn": "XPRIZE 健康寿命大奖赛",
+    "org": "XPRIZE Foundation",
+    "region": "intl",
+    "category": "startup",
+    "theme": "健康衰老：在 1 年内恢复 50–80 岁人群肌肉、认知与免疫功能 10 年（目标 20 年）",
+    "description": "XPRIZE 最大规模健康类竞赛，7 年周期 $101M，用里程碑付款扶持疗法团队做临床试验。",
+    "requirements": "注册并签竞赛协议、缴报名费；须提交有科学依据的治疗方案与临床中心计划；需通过各里程碑评审。",
+    "format": "hybrid",
+    "location": "Global（600+ 注册团队来自 58 个国家）",
+    "prize": "总奖金 $101,000,000 USD：Milestone 1 每个获奖队 $250,000；最终大奖按疗效分档 $61M（10 年）/$71M（15 年）/$81M（20 年）；FSHD 专项奖金 $8M",
+    "frequency": "oneoff",
+    "typicalMonths": [5, 11],
+    "url": "https://www.xprize.org/prizes/healthspan",
+    "soloAllowed": false,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.xprize.org/prizes/healthspan", "note": "2023-11 启动，2024 年持续开放注册与首轮方案评审" },
+      { "year": 2025, "dates": "2025-05-12", "url": "https://www.xprize.org/news/101m-xprize-healthspan-awards-first-milestone-winners-driving-toward-revolutionary-healthy-aging-advances", "note": "纽约颁奖礼公布 Top 100 半决赛队、Top 40 里程碑获奖队与 8 支 FSHD 专项队" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Top 40 Healthspan 里程碑获奖队",
+        "team": "40 支团队（58 国 600+ 注册队中选出）",
+        "what": "覆盖生物制剂、小分子药物、生活方式干预、医疗器械、功能食品等疗法",
+        "why": "Milestone 1 各获 $250,000 USD，用于推进下一阶段临床试验",
+        "url": "https://www.xprize.org/news/101m-xprize-healthspan-awards-first-milestone-winners-driving-toward-revolutionary-healthy-aging-advances"
+      },
+      {
+        "year": 2025,
+        "project": "FSHD 专项奖 8 强",
+        "team": "8 支团队",
+        "what": "针对面肩肱型肌肉萎缩症（FSHD）的治疗方案",
+        "why": "入围 $8M FSHD 专项奖金的决赛名单",
+        "url": "https://www.xprize.org/news/101m-xprize-healthspan-awards-first-milestone-winners-driving-toward-revolutionary-healthy-aging-advances"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "peak-xv-surge",
+    "name": "Surge (Peak XV Partners)",
+    "nameCn": "Surge 早期创业加速计划（原红杉印度/东南亚）",
+    "org": "Peak XV Partners（原 Sequoia Capital India & SEA）",
+    "region": "intl",
+    "category": "startup",
+    "theme": "AI 优先：企业服务/垂直 AI、消费品牌、金融科技、基础设施与开发者工具",
+    "description": "Peak XV 的种子期加速计划，投钱+陪跑，赌印度与东南亚能出全球第一的创业公司。",
+    "requirements": "早期（种子轮）创业公司，需有产品与初步验证；面向印度、东南亚及更广 APAC 市场；通过 Peak XV 遴选。",
+    "format": "hybrid",
+    "location": "India / Southeast Asia（含美国、中东团队）；结业有美国沉浸式参访",
+    "prize": "每家入选公司最高 $3,000,000 USD 种子投资，另加约 $2M 等值云服务/软件/营销权益与全程陪跑辅导",
+    "frequency": "annual",
+    "typicalMonths": [1, 2, 9, 10],
+    "url": "https://www.peakxv.com/surge",
+    "soloAllowed": false,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024-10 ~ 2025-02", "url": "https://www.forbesindia.com/printcontent/94446", "note": "Surge 第 10 届，14 家入选，10/16-18 班加罗尔开营，2025 年 2 月美国沉浸式收尾" },
+      { "year": 2025, "dates": "2025-09-25 起", "url": "https://yourstory.com/2025/09/peak-xv-surge-11-cohort-23-startups", "note": "Surge 第 11 届，23 家入选（12 家 AI 优先），从美国站开营" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "AIR Trading",
+        "team": "Grant Brits、Tim Blundy",
+        "what": "AI 原生的智能交易系统，打造自我优化的交易基础设施",
+        "why": "入选 Surge 11（23 家），获最高 $3M 种子投资与陪跑资源",
+        "url": "https://www.ceovine.com/meet-the-23-startups-backed-by-peak-xvs-surge-11"
+      },
+      {
+        "year": 2025,
+        "project": "Ten x You",
+        "team": "Sachin Tendulkar、Karthik Gurumurthy、Karan Arora",
+        "what": "面向运动表现的功能性运动服饰品牌",
+        "why": "入选 Surge 11，创始人含板球传奇 Tendulkar，为本届焦点项目",
+        "url": "http://news18.com/agency-feeds/tendulkar-helmed-startup-among-23-in-peak-xvs-surge-11-early-stage-programme-9595894.html"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "angelhack-hackglobal",
+    "name": "AngelHack Global Hackathon Series (hackglobal)",
+    "nameCn": "AngelHack 全球黑客松系列",
+    "org": "AngelHack",
+    "region": "intl",
+    "category": "startup",
+    "theme": "AI 现实应用与可投项目：电商、物流、金融科技、信任与安全、创意 AI",
+    "description": "AngelHack 的全球城市巡回黑客松，7 城分站+新加坡总决赛，为企业客户找可投团队。",
+    "requirements": "报名筛选；1–4 人团队（可个人报名现场组队）；24–48 小时开发；须提交可演示原型并做路演。",
+    "format": "onsite",
+    "location": "Global 7 城（含首尔、新加坡等）+ 新加坡 Grand Finals",
+    "prize": "2025 hackseoul 站总奖金 ₩10,000,000 KRW；分站冠军晋级新加坡总决赛，并获企业合作/投资对接机会",
+    "frequency": "annual",
+    "typicalMonths": [1, 2, 3, 4, 9, 10, 11],
+    "url": "https://angelhack.com/",
+    "soloAllowed": true,
+    "cnFriendly": "unknown",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://angelhack.com/?p=17249", "note": "2024 年 7 城系列，5,000 名开发者，引入线上 bounty，新加坡总决赛" },
+      { "year": 2025, "dates": "2025-11-08 ~ 2025-11-09", "url": "https://angelhack.com/?p=18252", "note": "hackseoul 2025（与 Coupang 合办，第二年在首尔），120 人、30+ 项目、10 强 3 冠" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "Yorigo（요리고）",
+        "team": "Yorigo",
+        "what": "把任意烹饪视频转成可一键加购的食谱，接入 Coupang 生鲜",
+        "why": "hackseoul 2025 冠军，晋级新加坡总决赛并获 Coupang 投资对接",
+        "url": "https://angelhack.com/?p=18252"
+      }
+    ],
+    "_confidence": "medium"
+  }
+]

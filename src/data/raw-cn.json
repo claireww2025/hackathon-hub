@@ -1,0 +1,651 @@
+[
+  {
+    "id": "tianchi",
+    "name": "Alibaba Cloud Tianchi Competition",
+    "nameCn": "阿里云天池",
+    "org": "阿里云",
+    "region": "cn",
+    "category": "platform",
+    "theme": "算法赛 / 大模型评测 / 数据集打榜 / 学习赛（全年滚动开赛）",
+    "description": "阿里云办的众智竞赛平台，全年滚动开赛，为出题方征集算法与大模型解法。",
+    "requirements": "面向全社会开放，个人/高校/企业均可；可单人参赛也可组队（每队≤5人）；必须支付宝实名认证；全程线上，无需到场。",
+    "format": "online",
+    "location": "线上（杭州）",
+    "prize": "按赛题而定，单赛题奖池常见 10 万–30 万元人民币（税前）；国际学术联合赛道以美元计（如 AICAS 2025 赛道 5550 美元现金 + 7500 美元差旅补助）。",
+    "frequency": "quarterly",
+    "typicalMonths": [3, 4, 5, 6, 9, 10, 11, 12],
+    "url": "https://tianchi.aliyun.com",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://tianchi.aliyun.com", "note": "全年多场算法赛与学习赛，具体赛题较多未逐一核实" },
+      { "year": 2025, "dates": "2025", "url": "https://tianchi.aliyun.com/competition/entrance/532327/introduction", "note": "CCL25-Eval 大模型评测赛道，4 月开放报名，6 月 5 日公布成绩" },
+      { "year": 2026, "dates": "2026", "url": "https://tianchi.aliyun.com", "note": "平台持续滚动开赛；同济大学工程智能研究院赛道 2025-11 开放、2026-06 决赛、2026-07 颁奖" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "huawei-ascend-aaic",
+    "name": "Ascend AI Innovation Contest (AAIC)",
+    "nameCn": "昇腾AI创新大赛",
+    "org": "华为 + 全国各昇腾生态创新中心（AITISA、AIIA 指导）",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "企业赛道 / 高校赛道 / 初创赛道（基于昇腾软硬件的行业 AI 方案）",
+    "description": "华为联合各地昇腾生态创新中心办的年度赛事，征集基于昇腾硬件的 AI 方案，区域赛晋级全国总决赛。",
+    "requirements": "企业赛道需公司主体并提供企业授权函；高校赛道限全日制在校生（队长须在校）；初创赛道限创立 5 年内企业；团队建议 3–15 人，须注册昇腾社区账号。无公司、非学生的个人开发者基本无法参赛。",
+    "format": "hybrid",
+    "location": "全国各区域赛 + 全国总决赛（落地城市年度不定）",
+    "prize": "全国总决赛（税前）：企业/初创赛道金奖 15 万元、银奖 5 万元、铜奖 2 万元、优秀奖 1 万元；高校赛道金奖 10 万元、银奖 5 万元、铜奖 2 万元、优秀奖 5 千元。各区域赛另设奖金（如 2025 江苏企业赛道金奖 5 万元）。",
+    "frequency": "annual",
+    "typicalMonths": [5, 6, 7, 8, 9, 10, 11, 12],
+    "url": "https://www.hiascend.com/zh/developer/AAIC2025",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.hiascend.com/zh/developer/AAIC2025", "note": "2024 届区域赛与全国总决赛已举办，细节未逐一核实" },
+      { "year": 2025, "dates": "2025-05至2025-12", "url": "https://www.hiascend.com/zh/developer/AAIC2025", "note": "5 月 23 日启动报名，10–11 月区域决赛，12 月总决赛暨颁奖" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "tencent-cloud-hackathon",
+    "name": "Tencent Cloud Hackathon",
+    "nameCn": "腾讯云黑客松",
+    "org": "腾讯云",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "AI Agent 智能体应用 / AI Coding 全栈开发（Web 应用、小程序）",
+    "description": "腾讯云发起的黑客松，48 小时极限开发加全球路演日，聚焦智能体与 AI 编程落地。",
+    "requirements": "面向企业开发者、高校团队及个人开发者开放；需使用腾讯云智能体开发平台/CodeBuddy/CloudBase；线上提交作品，入围者需到深圳参加线下路演。个人可参赛，无公司主体要求。",
+    "format": "hybrid",
+    "location": "线上 + 深圳（腾讯全球数字生态大会现场）",
+    "prize": "首届全栈黑客松现金 10 万元人民币（创新应用榜冠军 2 万元、人气榜冠军 1 万元等）；Agent 应用创新挑战赛奖励资源池超 100 万元（含云资源与流量扶持）。",
+    "frequency": "annual",
+    "typicalMonths": [7, 8, 9],
+    "url": "https://cloud.tencent.com/developer/article/2550341",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-07至2025-09", "url": "https://cloud.tencent.com/developer/article/2550341", "note": "首届；7 月 27 日 WAIC 启动，9 月 18 日深圳总决赛暨全球路演日" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "智护心言 AuraCalm",
+        "team": "清华大学智护心言队",
+        "what": "面向手术患者的全流程心理辅导智能体，含医学问答、心理陪伴与报告生成",
+        "why": "2025 腾讯云黑客松 AI Agent 赛道一等奖",
+        "url": "https://news.qq.com/rain/a/20250919A06U2C00"
+      },
+      {
+        "year": 2025,
+        "project": "BioSphere（野生星球）",
+        "team": "华南理工大学 F1 队",
+        "what": "用户共创、AI 驱动的数字绿色经济体，聚焦生物多样性公益场景",
+        "why": "2025 腾讯云黑客松 AI Coding 赛道一等奖",
+        "url": "https://news.qq.com/rain/a/20250919A06U2C00"
+      },
+      {
+        "year": 2025,
+        "project": "PokePlanet",
+        "team": "EchoQuest（香港城市大学、上海交通大学、东南大学）",
+        "what": "将合成游戏复活机制转化为公益标注与知识科普",
+        "why": "2025 腾讯云黑客松国际赛道一等奖",
+        "url": "https://news.qq.com/rain/a/20250919A06U2C00"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "volcengine-coze-vibe",
+    "name": "Vibe Coze - Coze AI Challenge",
+    "nameCn": "Vibe Coze 扣子 AI 挑战赛",
+    "org": "火山引擎开发者社区 × 扣子 Coze（字节跳动）",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "企业 AI 应用赛道（数据分析、办公助手、知识管理、营销推广）及机器人等联合赛道",
+    "description": "火山引擎办的 AI 应用赛，要求用扣子平台做可复现成品，四城路演后晋级决赛。",
+    "requirements": "个人或团队（每队≤3人，每人最多提交 5 个作品）；必须基于扣子(coze.cn)/扣子空间开发；推荐用豆包 Doubao-Seed-Code 与 veCLI（评分加分）；初赛路演在北京/上海/成都/深圳，需到场。个人可参赛，无公司主体要求。",
+    "format": "hybrid",
+    "location": "线上提交 + 北京/上海/成都/深圳路演",
+    "prize": "企业 AI 应用赛道：一等奖 5000 元 1 名、二等奖 4000 元 2 名、三等奖 3000 元 3 名、最佳 AI 实践奖 1000 元 6 名（人民币）；另设公益特别奖 3000 元 5 名、传播特别奖 20 名。",
+    "frequency": "annual",
+    "typicalMonths": [7, 8, 11, 12],
+    "url": "https://developer.volcengine.com/activities/7569894904566906907",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://developer.volcengine.com/", "note": "扣子与火山引擎社区 2024 年已办 Bot Hackathon（含线上赛道），品牌与赛制与 2025 年不同，细节未核实" },
+      { "year": 2025, "dates": "2025-11至2025-12", "url": "https://developer.volcengine.com/activities/7569894904566906907", "note": "11 月 12 日–11 月 30 日报名与提交，12 月 6 日四城初赛路演，12 月 13 日决赛路演" }
+    ],
+    "winners": [],
+    "_confidence": "medium"
+  },
+  {
+    "id": "baidu-ernie-hackathon",
+    "name": "Baidu ERNIE Hackathon",
+    "nameCn": "文心开源创新大赛",
+    "org": "百度（文心大模型 × 飞桨，开放原子大赛赛项）",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "多模态应用开发赛道 / AI+硬件开发赛道（ERNIE 4.5 开源模型）",
+    "description": "百度承办的开放原子大赛赛项，基于文心 4.5 开源模型做多模态应用与 AI 硬件。",
+    "requirements": "面向全社会开放，个人、高校、企业、创客、海外选手均可；可单人也可组队（每队≤3人）；作品须基于文心 4.5 系列模型；决赛需提交演示视频、技术报告并开源。个人可参赛，无公司主体要求。",
+    "format": "online",
+    "location": "线上（决赛评审含答辩环节）",
+    "prize": "奖金池 20 万元人民币；初赛入围者另获约 20 万元算力支持（GPU 云资源时长 + API Token），AI+硬件赛道提供硬件设备。",
+    "frequency": "annual",
+    "typicalMonths": [8, 9, 10, 11, 12],
+    "url": "https://aistudio.baidu.com/competition",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://aistudio.baidu.com/competition", "note": "作为开放原子大赛赛项在 2024 年已设，具体赛程未逐一核实" },
+      { "year": 2025, "dates": "2025-08至2025-12", "url": "https://aistudio.baidu.com/competition", "note": "报名 2025-08-19 至 2025-10-19，12 月 12 日硬件与多模态两赛道落幕" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "paddlepaddle-hackathon",
+    "name": "PaddlePaddle Hackathon",
+    "nameCn": "飞桨黑客马拉松",
+    "org": "深度学习技术及应用国家工程研究中心主办，百度飞桨承办",
+    "region": "cn",
+    "category": "platform",
+    "theme": "开源贡献个人挑战赛 / 飞桨护航计划集训营 / Fundable Projects / 文心大模型案例征集",
+    "description": "面向全球开发者的开源编程活动，认领飞桨开源任务拿奖金，非产品型黑客松。",
+    "requirements": "面向全社会，不限年龄、身份、国籍；以 GitHub ID 报名，个人独立完成或组队；需提交 RFC/PR 并通过社区 maintainer 评审；全程线上。百度员工可参赛但不领奖金。个人开发者最友好。",
+    "format": "online",
+    "location": "线上（GitHub / 飞桨社区）",
+    "prize": "按任务难度以“星”计价，1 星 = 2000 元人民币（税前）；文心教程每篇 0.5 星即 1000 元；护航计划集训营按结营评级 3–6 星发放。",
+    "frequency": "biannual",
+    "typicalMonths": [3, 4, 8, 9, 12],
+    "url": "https://www.paddlepaddle.org.cn/contributionguide?docPath=hackathon_cn",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.paddlepaddle.org.cn/contributionguide?docPath=hackathon_cn", "note": "第八期及之前期次已举办，具体日程未逐一核实" },
+      { "year": 2025, "dates": "2025-07至2025-12", "url": "https://www.paddlepaddle.org.cn/contributionguide?docPath=hackathon_cn", "note": "第九期：8 月 20 日上线，12 月 5 日 PR 截止，12 月 15 日结果公示" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "iflytek-ai-developer",
+    "name": "iFLYTEK AI Developer Competition",
+    "nameCn": "科大讯飞 AI 开发者大赛",
+    "org": "科大讯飞（联合中国信息协会、国家智能语音创新中心）",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "AI 算法赛 / AI 应用赛（智能体，覆盖办公、学习、健康、制造、生活）",
+    "description": "讯飞自 2018 年起办的年度 AI 赛事，企业出题开发者答题，年度总决赛在合肥 1024 开发者节颁奖。",
+    "requirements": "面向全球开发者，个人、团队、企业均可报名；算法赛与应用赛分设，应用赛强调可落地的智能体；年度总决赛需到合肥现场答辩。个人可参赛，但部分行业赛道偏企业级方案。",
+    "format": "hybrid",
+    "location": "线上 + 合肥（1024 开发者节）",
+    "prize": "单赛题常见 1 万–3 万元人民币（如智能办公协同助理 Skill 开发挑战赛 1.23 万元、恶劣场景车道线检测 1 万元）；另评“十佳团队”及投融资、产业落地对接权益。",
+    "frequency": "annual",
+    "typicalMonths": [3, 4, 5, 6, 7, 8, 9, 10],
+    "url": "https://challenge.xfyun.cn/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://challenge.xfyun.cn/", "note": "第七届；10 月 24 日合肥总决赛，设 108 个赛道、3.5 万支团队参赛" },
+      { "year": 2025, "dates": "2025", "url": "https://challenge.xfyun.cn/", "note": "第八届；11 月 5–6 日合肥年度总决赛，主题为“大模型深化应用”" },
+      { "year": 2026, "dates": "2026", "url": "https://challenge.xfyun.cn/", "note": "2026 赛季赛题滚动开放，部分赛题报名截止至 2026-08/09" }
+    ],
+    "winners": [
+      {
+        "year": 2024,
+        "project": "AI 核保员",
+        "team": "深圳市司普科技有限公司",
+        "what": "面向金融保险行业的 AI Agent，辅助核保与业务场景升级",
+        "why": "2024 科大讯飞 AI 开发者大赛“AI Agent 助力行业场景应用升级”赛道冠军",
+        "url": "https://c.m.163.com/news/a/JFO9LDB7055669A5.html"
+      },
+      {
+        "year": 2024,
+        "project": "衍因智研云",
+        "team": "衍因科技",
+        "what": "生物医药数字化科研协作平台，覆盖基因编辑研究与实验室流程自动化",
+        "why": "2024“大模型助力医疗场景应用”赛道冠军并获评十佳团队",
+        "url": "https://www.yanyin.tech/news/champion"
+      },
+      {
+        "year": 2025,
+        "project": "红熊多模态大模型开发中台",
+        "team": "上海算模算样科技",
+        "what": "面向垂直行业场景的 Agent 创新应用，覆盖引流、营销获客到客户转化",
+        "why": "2025“面向垂直行业场景的 Agent 创新应用”赛道冠军",
+        "url": "https://www.pingwest.com/a/308961"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "iflytek-xinghuobei",
+    "name": "iFLYTEK Spark Cup LLM Application Innovation Contest",
+    "nameCn": "“星火杯”大模型应用创新赛",
+    "org": "共青团安徽省委、安徽省教育厅/科技厅、科大讯飞等",
+    "region": "cn",
+    "category": "student",
+    "theme": "大学生基于星火大模型的垂类应用：阅读写作、学术科研、求职就业",
+    "description": "面向全球高校学生的大模型应用创新赛，隶属讯飞 AI 开发者大赛体系，团中央支持。",
+    "requirements": "限在校大学生组队参赛；需基于讯飞星火大模型开发；需参加线下总决赛答辩。硬性身份门槛：非在校生不能报名，个人开发者无学历身份无法参赛。",
+    "format": "hybrid",
+    "location": "线上初赛 + 合肥（1024 开发者节）",
+    "prize": "设一、二、三等奖及“十佳团队”称号，并提供创业孵化与投资对接；具体现金奖金额未公开披露。",
+    "frequency": "annual",
+    "typicalMonths": [5, 6, 7, 8, 9, 10, 11],
+    "url": "https://challenge.xfyun.cn/",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://challenge.xfyun.cn/", "note": "2024-10-24 合肥总决赛；14 国 533 所高校 1656 支团队参赛" },
+      { "year": 2025, "dates": "2025-11", "url": "https://challenge.xfyun.cn/", "note": "11 月 5–6 日合肥年度总决赛；17 国 540 所高校 2054 支团队参赛" }
+    ],
+    "winners": [
+      {
+        "year": 2024,
+        "project": "智家领航",
+        "team": "北京大学智家领航科技团队",
+        "what": "家庭服务机器人系统，含多模态交互导航规划与多机器人协作导航",
+        "why": "2024“星火杯”总冠军，当年十佳团队中唯一高校队伍",
+        "url": "https://www.toutiao.com/article/7437404797470294568/"
+      },
+      {
+        "year": 2025,
+        "project": "DigPaper",
+        "team": "中国科大“爱吃肥肥”（胡星灿、董方）",
+        "what": "基于 RAG、多模态检索与 ReAct Agent 的论文精读 Agent，一键生成精读报告",
+        "why": "2025“星火杯”大模型应用创新赛一等奖并获评十佳团队",
+        "url": "https://news.ustc.edu.cn/info/1055/93162.htm"
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "zhipu-agent-master",
+    "name": "Zhipu Qingyan AI Agent Developer Masters",
+    "nameCn": "智谱清言 AI 智能体开发大师赛",
+    "org": "智谱清言（智谱 AI），珠海高新区管委会指导",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "K12 教育赛道 / 高校创新赛道 / 全民创意赛道（GLM 智能体）",
+    "description": "智谱清言办的全国智能体开发赛，采用培训加实战加孵化模式，2025 年 9 月珠海总决赛。",
+    "requirements": "面向全民开放，个人可报名；作品须基于智谱清言/GLM 开发；总决赛需到珠海现场路演。全民创意赛道对无公司主体、非在校生的个人开发者最友好（K12 与高校赛道有身份限制）。",
+    "format": "hybrid",
+    "location": "线上 + 珠海（全国总决赛，2025）",
+    "prize": "现金奖金额未公开披露；优胜项目获珠海高新区产业与资本对接、孵化支持及城市级 GLM 大模型空间资源。",
+    "frequency": "annual",
+    "typicalMonths": [7, 8, 9],
+    "url": "https://www.zhuhai-hitech.gov.cn/zhgxztzcjzx/gkmlpt/content/3/3836/post_3836780.html",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-07至2025-09", "url": "https://www.zhuhai-hitech.gov.cn/zhgxztzcjzx/gkmlpt/content/3/3836/post_3836780.html", "note": "7 月启动，9 月 20 日珠海全国总决赛；12450 人报名、15087 个智能体作品" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "像婴儿一样学语言（多语言学习）",
+        "team": null,
+        "what": "模拟母语习得路径的多语言学习智能体",
+        "why": "2025 K12 教育赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "Java 技术面试官",
+        "team": null,
+        "what": "面向 Java 求职场景的模拟技术面试智能体",
+        "why": "2025 高校创新赛道冠军",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "探案笔记（私家侦探模拟器暗黑版）",
+        "team": null,
+        "what": "基于 GLM 的沉浸式推理探案互动智能体",
+        "why": "2025 全民创意赛道冠军",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "nvidia-dgx-spark-hackathon",
+    "name": "NVIDIA DGX Spark Hackathon (China)",
+    "nameCn": "NVIDIA DGX Spark 黑客松（中国）",
+    "org": "NVIDIA 开发者社区（联合阶跃星辰 StepFun、赞奇科技 XSUPERZONE、华硕 ASUS）",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "Agent Skills 驱动的 Agent 应用（依托 DGX Spark 本地 AI 算力）",
+    "description": "NVIDIA 中国办的系列黑客松，用 DGX Spark 本地算力做可运行的 Agent 应用，需资格审核。",
+    "requirements": "每队 2–5 人并设 1 名队长，每人限加入一支队伍；须提交完整可运行的 Agent 应用并用 Agent Skills 封装能力；参赛需经主办方审核（团队完整度、技术背景）；名额有限（约 80–100 席）。个人不能单独参赛。",
+    "format": "online",
+    "location": "线上（主办方提供有限远程算力节点）",
+    "prize": "现金奖金额未公开披露；优胜团队获 NVIDIA 生态曝光、算力与硬件资源支持。",
+    "frequency": "quarterly",
+    "typicalMonths": [3, 6, 9],
+    "url": "https://www.toutiao.com/article/7681559874408464939/",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2026, "dates": "2026-03", "url": "https://c.m.163.com/news/a/KNU10V950552BFKV.html", "note": "首届：全栈 AI 开发主题，3 月 13–28 日报名，限量约 80 席" },
+      { "year": 2026, "dates": "2026-09", "url": "https://www.toutiao.com/article/7681559874408464939/", "note": "第三届：Agent Skills 主题，报名截止 9 月 19 日，限量 100 席" }
+    ],
+    "winners": [],
+    "_confidence": "medium"
+  },
+  {
+    "id": "xiaohongshu-hackathon",
+    "name": "REDnote Hackathon Summit",
+    "nameCn": "小红书黑客松巅峰赛",
+    "org": "小红书",
+    "region": "cn",
+    "category": "platform",
+    "theme": "48 小时封闭开发：软件赛道 / 硬件赛道，面向 00 后创造者",
+    "description": "小红书 2026 年首次办的线下 48 小时黑客松，定向邀请加站内招募，约 200 人入围决赛。",
+    "requirements": "面向 00 后创造群体为主；采用定向邀请加站内招募，非完全开放报名；入围者须到上海张江参加 48 小时封闭开发与 Demo Day；采用 Build in Public 机制需公开发布进展。无公司主体要求，但需通过筛选。",
+    "format": "onsite",
+    "location": "上海张江科学会堂",
+    "prize": "总奖金池 50 万元人民币：全场大奖 1 名 20 万元；软件/硬件赛道各设金奖 5 万元、银奖 3 万元、铜奖 2 万元；另设五大特别单元奖共约 10 万元。",
+    "frequency": "oneoff",
+    "typicalMonths": [3, 4],
+    "url": "https://cn.chinadaily.com.cn/a/202603/20/WS69bceffea310942cc49a4211.html",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2026, "dates": "2026-03至2026-04", "url": "https://cn.chinadaily.com.cn/a/202603/20/WS69bceffea310942cc49a4211.html", "note": "首届；3 月 19–30 日报名，3 月 31 日公示，4 月 7–10 日上海张江决赛，00 后占比超 60%" }
+    ],
+    "winners": [
+      {
+        "year": 2026,
+        "project": "口袋吉他智能硬件（Pocket Guitar）",
+        "team": null,
+        "what": "48 小时内从 0 到 1 完成的便携式智能硬件吉他",
+        "why": "2026 首届全场大奖，奖金 20 万元人民币",
+        "url": "https://baike.baidu.com/item/%E9%BB%91%E5%AE%A2%E6%9D%BE%E5%B7%85%E5%B3%B0%E8%B5%9B/67527316"
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "ant-tbox-mcp",
+    "name": "Ant TBox × Tongyi Lingma MCP Plugin Challenge",
+    "nameCn": "蚂蚁百宝箱 × 通义灵码 MCP 插件开发大赛",
+    "org": "蚂蚁百宝箱 × 阿里云通义灵码（联合 NVIDIA），天池平台承办",
+    "region": "cn",
+    "category": "vendor",
+    "theme": "智能体 MCP 插件开发（工程开发赛）",
+    "description": "蚂蚁百宝箱与通义灵码合办的首届插件开发赛，在天池报名，强制个人参赛不组队。",
+    "requirements": "面向企业、高校、科研院所、个人开发者；不支持组队，必须个人参赛；需在蚂蚁百宝箱发布 MCP 插件并提交作品包；须完成支付宝实名认证；全程线上。个人开发者友好，无公司主体要求。",
+    "format": "online",
+    "location": "线上",
+    "prize": "总奖金 16 万元人民币（税前）：第 1 名 3 万元；第 2–3 名各 2 万元；第 4–6 名各 1 万元；第 7–10 名各 5 千元；第 11–30 名各 2 千元。",
+    "frequency": "oneoff",
+    "typicalMonths": [10, 11, 12],
+    "url": "https://tianchi.aliyun.com/competition/entrance/532442/introduction",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-10至2025-12", "url": "https://tianchi.aliyun.com/competition/entrance/532442/introduction", "note": "首届；10 月 27 日开放报名，提交截止延至 12 月 7 日，12 月 15–18 日公示" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "ccf-bdci",
+    "name": "CCF Big Data & Computing Intelligence Contest",
+    "nameCn": "CCF 大数据与计算智能大赛（CCF BDCI）",
+    "org": "中国计算机学会（CCF），CCF 大数据专家委员会承办",
+    "region": "cn",
+    "category": "gov",
+    "theme": "多赛题制：大数据与 AI 的算法、应用与系统（企业真实场景出题）",
+    "description": "CCF 2013 年创办的老牌算法挑战赛，企业出题全球开发者揭榜，12 月线下总决赛颁奖。",
+    "requirements": "面向全球，不限年龄与国籍，高校、科研院所、企业从业者均可报名；以团队为单位（各赛题人数要求不同）；初赛线上、总决赛评审答辩。个人可组队参赛，无需公司主体，是较少身份门槛的国家级学会赛事。",
+    "format": "hybrid",
+    "location": "线上初赛 + 北京（总决赛与颁奖典礼）",
+    "prize": "单赛题：一等奖 1 队 2 万元、二等奖 2 队各 1 万元、三等奖 2 队各 5 千元人民币（税前），由 CCF 颁发证书与奖杯；另评综合奖、优秀指导老师及落地孵化机会。",
+    "frequency": "annual",
+    "typicalMonths": [9, 10, 11, 12],
+    "url": "https://ccf.org.cn/bdci2025/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://ccf.org.cn/", "note": "第十二届，具体赛程未逐一核实" },
+      { "year": 2025, "dates": "2025-09至2025-12", "url": "https://ccf.org.cn/bdci2025/", "note": "第十三届；9 月 13 日天津启动，9 月 29 日发布首批赛题，11 月中旬初赛截止，12 月下旬总决赛" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "data-element-x",
+    "name": "Data Element X Competition",
+    "nameCn": "“数据要素×”大赛",
+    "org": "国家数据局联合中央网信办等 20 多个部委",
+    "region": "cn",
+    "category": "gov",
+    "theme": "工业制造、现代农业、金融科技等 13 个行业赛道 + 开放性创新赛道 + 国际赛道",
+    "description": "国家数据局牵头的国家级数据要素应用赛，地方分赛晋级全国总决赛，重政策与产业对接。",
+    "requirements": "参赛单位须为独立法人（企业、事业单位、科研院所、高校）；每团队代表≤5 人，每人限一队；项目须已实际应用；需提交资质、财务审计、信用等证明材料。硬性门槛：无公司/单位主体的个人开发者不能报名。",
+    "format": "hybrid",
+    "location": "各省分赛 + 全国总决赛（2025 年颁奖在上海）",
+    "prize": "全国总决赛设一、二、三等奖及特色单项奖，以奖杯证书为主（无公开现金奖金）；权益含典型案例入选、产融对接、供需对接、人才招引。",
+    "frequency": "annual",
+    "typicalMonths": [4, 5, 6, 7, 8, 9, 10, 11],
+    "url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0403/20250403183838064686506_pc.html",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.nda.gov.cn/", "note": "首届，为我国首个聚焦数据要素开发与应用的国家级赛事" },
+      { "year": 2025, "dates": "2025-04至2025-11", "url": "https://www.nda.gov.cn/sjj/zwgk/tzgg/0403/20250403183838064686506_pc.html", "note": "4 月 10 日雄安启动；超 2.2 万支队伍、约 11 万人参赛；10 月 29 日获奖名单公布，11 月 25 日上海颁奖" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "数字武当",
+        "team": "武当山文旅集团（联合李德仁院士团队）",
+        "what": "空地融合三维建模，毫米级数字化采集武当山古建筑群与文物",
+        "why": "湖北分赛文化旅游赛道一等奖，连续两届获该赛道一等奖",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "基于气象数据可信空间的农业气象指数保险创新服务范式",
+        "team": "上海市气候中心",
+        "what": "用气象数据可信空间支撑农业气象指数保险的产品设计",
+        "why": "上海分赛气象服务赛道二等奖",
+        "url": null
+      }
+    ],
+    "_confidence": "high"
+  },
+  {
+    "id": "waic-bpaa",
+    "name": "WAIC BPAA Applied Algorithm Model Contest",
+    "nameCn": "BPAA 应用算法模型实践典范大赛",
+    "org": "世界人工智能大会组委会办公室、上海市普陀区人民政府指导；普陀区科委、上海市人工智能行业协会、零点有数主办",
+    "region": "cn",
+    "category": "gov",
+    "theme": "AI+公共服务 / AI+金融 / AI+医疗 / AI+工业 / AI+商业营销 / AI+可持续发展",
+    "description": "WAIC 核心品牌赛事之一，聚焦垂类算法模型产业落地，每年 7 月在上海普陀收官。",
+    "requirements": "以项目和机构为主体参赛（企业、高校、科研机构团队）；TOP20 进决赛，需现场路演答辩，评委按技术实现、应用价值、商业评估三维十项指标打分。个人开发者需挂靠主体，隐性门槛较高。",
+    "format": "hybrid",
+    "location": "上海（普陀区）",
+    "prize": "设全场大奖 1 名、二等奖 2 名、三等奖 5 名；现金奖金额未公开披露，另享普陀区算法产业专项政策与落地扶持。",
+    "frequency": "annual",
+    "typicalMonths": [3, 4, 5, 6, 7],
+    "url": "https://www.worldaic.com.cn",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.worldaic.com.cn", "note": "第四届，具体赛程未逐一核实" },
+      { "year": 2025, "dates": "2025-07", "url": "https://www.worldaic.com.cn", "note": "第五届；7 月 24 日上海普陀总决赛，全球 15 国超千支团队参与" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "大型城市复杂环境低碳高可靠智能配电技术",
+        "team": "南方电网广东广州供电局",
+        "what": "基于“大瓦特”电力 AI 平台的配电设备数字孪生与电碳耦合建模",
+        "why": "第五届全场大奖（AI+可持续发展赛道）",
+        "url": "https://www.toutiao.com/article/7531595402785866250/"
+      },
+      {
+        "year": 2025,
+        "project": "动态因果 AI 驱动的社区精准治理引擎",
+        "team": "万达信息股份有限公司",
+        "what": "LLM+RAG+RPA 驱动的“数智社工”数字员工体系，基层文书自动化率超 90%",
+        "why": "第五届二等奖（AI+公共服务赛道）",
+        "url": null
+      },
+      {
+        "year": 2025,
+        "project": "古德库-数字内容供应链平台",
+        "team": null,
+        "what": "AI+数字化供应链+RPA 架构，重构潮玩制造的内容资产与柔性供应链",
+        "why": "第五届二等奖（AI+商业营销赛道）",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "waic-opc-challenge",
+    "name": "WAIC Future Tech OPC Challenge",
+    "nameCn": "WAIC Future Tech OPC 独立先锋挑战赛",
+    "org": "世界人工智能大会（WAIC）组委会 × OpenCSG",
+    "region": "cn",
+    "category": "startup",
+    "theme": "一人公司/超级个体：创业赛道（真实产品）与 创新赛道（提示词、技能、微调模型）",
+    "description": "WAIC 2026 面向“一人公司”的超级个体挑战赛，10 城决赛后 7 月在 WAIC 全球展示。",
+    "requirements": "面向个人创业者与开发者，无需公司主体；创新赛道面向学生、研究者与创意开发者；线上初赛截止 4 月 30 日，5 月 25 日 10 城决赛，6 月总决赛，7 月 WAIC 展示；提供 OpenCSG 20 万+ 模型资源与 VC 对接。",
+    "format": "hybrid",
+    "location": "线上 + 10 座城市决赛 + 上海 WAIC 主会场",
+    "prize": "现金奖金额未公开披露；核心权益为 WAIC 全球展示、OpenCSG 模型资源、顶级 VC 对接与全生命周期孵化支持。",
+    "frequency": "annual",
+    "typicalMonths": [3, 4, 5, 6, 7],
+    "url": "https://doc.weixin.qq.com/forms/AHIAwgf5AAoAHYARAaAAHkCNO9zyu7mNf",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2026, "dates": "2026-04至2026-07", "url": "https://doc.weixin.qq.com/forms/AHIAwgf5AAoAHYARAaAAHkCNO9zyu7mNf", "note": "线上初赛截止 4 月 30 日；5 月 25 日十城决赛；6 月总决赛；7 月 WAIC 展示" }
+    ],
+    "winners": [],
+    "_confidence": "medium"
+  },
+  {
+    "id": "world-ai4s",
+    "name": "World AI for Science Competition",
+    "nameCn": "世界科学智能大赛",
+    "org": "上海科学智能研究院 × 复旦大学（上海市科委、发改委、经信委、教委指导）",
+    "region": "cn",
+    "category": "gov",
+    "theme": "AI for Science：航空安全、材料设计、合成生物、创新药、新能源五大赛道",
+    "description": "上海办的 AI4S 顶级赛事，2023 年起每年在全球开发者先锋大会启动，百万奖金池面向全球。",
+    "requirements": "面向全社会开放，个人、高校、科研单位、企业、创客均可；须 1–3 人组队（1 人即可），每人限一队；需实名认证；禁止代码共享；决赛线下答辩。个人可参赛无需公司主体，但赛题偏科研需领域知识。",
+    "format": "hybrid",
+    "location": "线上 + 上海（决赛）",
+    "prize": "总奖金池 100 万元人民币，每赛道 20 万元：冠军 10 万元、亚军 2 名各 3 万元、季军 3 名各 1 万元、优胜奖 4 名各 2500 元。",
+    "frequency": "annual",
+    "typicalMonths": [2, 3, 4, 5, 6, 7],
+    "url": "http://competition.sais.com.cn/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024-07", "url": "http://competition.sais.com.cn/", "note": "第二届；24 个国家和地区 12687 名选手参赛" },
+      { "year": 2025, "dates": "2025-02至2025-07", "url": "http://competition.sais.com.cn/", "note": "第三届；2 月 23 日 GDC 启动，7 月决赛；近 30 个国家和地区约 1.6 万人报名，首次设中学组" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  },
+  {
+    "id": "gdps",
+    "name": "Global Developer Pioneers Summit (GDPS)",
+    "nameCn": "全球开发者先锋大会",
+    "org": "上海市人工智能行业协会（WAIC 组委会、上海市经信委、徐汇区政府指导）",
+    "region": "cn",
+    "category": "gov",
+    "theme": "SE 超级创业者、科学智能、Agent、智能终端；含 OpenClaw 黑客松与环球黑客松 OPC 极限挑战赛",
+    "description": "上海每年办的开发者大会加系列赛事矩阵，2026 年以“产业出题、科技答题”为主题，3 月底在西岸举行。",
+    "requirements": "面向全球开放招募：技术团队、科研机构、高校实验室、开发者社区、创业项目等；超级创业者挑战赛、Vibe Coding 锦标赛与黑客松个人可报名；线下活动需到上海。个人开发者友好。",
+    "format": "onsite",
+    "location": "上海徐汇西岸国际会展中心（2026）",
+    "prize": "各赛事奖金未统一公开披露；2026 年启动科学智能专项基金、国资场景开放与行业应用挑战赛，权益以产融对接、场景开放与落地支持为主。",
+    "frequency": "annual",
+    "typicalMonths": [2, 3],
+    "url": "http://gdps.org.cn/",
+    "soloAllowed": true,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2025, "dates": "2025-02", "url": "http://gdps.org.cn/", "note": "2025 全球开发者先锋大会（GDC）；2 月 23 日启动第三届世界科学智能大赛" },
+      { "year": 2026, "dates": "2026-03", "url": "http://gdps.org.cn/", "note": "3 月 27–29 日举办；含 SE 超级创业者创新大赛、OpenClaw 黑客松、环球黑客松 OPC 极限挑战赛、WAIC 全球创新项目路演" }
+    ],
+    "winners": [],
+    "_confidence": "medium"
+  },
+  {
+    "id": "xingzhi-cup",
+    "name": "Xingzhi Cup National AI Innovation Application Competition",
+    "nameCn": "“兴智杯”全国人工智能创新应用大赛",
+    "org": "中国信息通信研究院、深圳市人工智能产业办公室、前海管理局、宝安区人民政府",
+    "region": "cn",
+    "category": "gov",
+    "theme": "大模型创新、行业赋能、软硬件生态（含国产化算力×城市治理）",
+    "description": "信通院牵头的国家级 AI 创新应用赛，聚焦大模型与国产软硬件，2025 年总决赛在深圳前海。",
+    "requirements": "面向产学研各界团队，覆盖全国各省级行政区及海外多国；采用专题赛加总决赛两级赛制；总决赛需到现场答辩。偏团队/机构参赛，个人独立开发者门槛较高。",
+    "format": "hybrid",
+    "location": "线上 + 深圳前海宝安（2025 总决赛）",
+    "prize": "现金奖金额未公开披露；权益含投融资与人才对接、深圳落地转化支持（深圳每年约 30 亿元 AI 政策资金，含训力券、语料券、模型券）。",
+    "frequency": "annual",
+    "typicalMonths": [6, 7, 8, 9, 10, 11, 12],
+    "url": "https://www.sznews.com/news/content/2025-12/16/content_31813795.htm",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.sznews.com/news/content/2025-12/16/content_31813795.htm", "note": "首届，具体赛程未逐一核实" },
+      { "year": 2025, "dates": "2025-12", "url": "https://www.sznews.com/news/content/2025-12/16/content_31813795.htm", "note": "第二届；12 月 14–15 日深圳前海总决赛；6000 余支团队、1.8 万余人报名" }
+    ],
+    "winners": [
+      {
+        "year": 2025,
+        "project": "智慧思明·一网统管",
+        "team": null,
+        "what": "基于文心大模型与飞桨的城市治理一网统管方案",
+        "why": "第二届兴智杯赛道冠军之一（国产化算力×城市治理方向）",
+        "url": null
+      }
+    ],
+    "_confidence": "medium"
+  },
+  {
+    "id": "miracleplus",
+    "name": "MiraclePlus Accelerator",
+    "nameCn": "奇绩创坛创业营",
+    "org": "奇绩创坛（MiraclePlus，前 YC 中国）",
+    "region": "cn",
+    "category": "startup",
+    "theme": "早期科技创业加速：AI、机器人、大模型、量子计算等 38 个前沿领域",
+    "description": "陆奇创立的早期加速平台，每年两期投资 30 万美元换 7% 股权，3 个月加速后办路演日。",
+    "requirements": "所有创业者均可申请，不分行业、赛道、国家与规模；官网填表报名无需 BP，通过筛选面试入营；入营需为公司主体（投资换股权），纯个人需先注册公司；不需脱产，每两周到北京 2 天。",
+    "format": "hybrid",
+    "location": "北京（另设上海校友中心）",
+    "prize": "投资 30 万美元或等值人民币，换取 7% 公司股份；每期路演日 1000+ 投资人到场，另提供 Office Hour、大咖闭门分享与长期校友网络。",
+    "frequency": "biannual",
+    "typicalMonths": [5, 6, 11, 12],
+    "url": "https://www.miracleplus.com/",
+    "soloAllowed": false,
+    "cnFriendly": "yes",
+    "editions": [
+      { "year": 2024, "dates": "2024", "url": "https://www.miracleplus.com/", "note": "当年春季营与秋季营各一期，具体日期未逐一核实" },
+      { "year": 2025, "dates": "2025", "url": "https://www.miracleplus.com/", "note": "2025 春季营、秋季营各一期；截至 2025 年累计加速 500–612 家初创公司" }
+    ],
+    "winners": [],
+    "_confidence": "high"
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "la-hacks": [
+    {
+      "year": 2025,
+      "project": "Alto",
+      "team": "Neel Shettigar / Daniel Odicho",
+      "what": "面向移动应用的协作式多智能体调试系统，可在数分钟内自动定位、修复并部署 App 的 Bug 修复方案。",
+      "why": "LA Hacks 2025（4 月，UCLA Pauley Pavilion）全场总冠军（1st Place）。",
+      "url": "http://www.lahacks.com/"
+    },
+    {
+      "year": 2025,
+      "project": "Lumos",
+      "team": "Chayan Shah / Puneet Bajaj / Kalpesh Patil / Rutuja Nemane",
+      "what": "基于 AI 智能体与 AR 的助老眼镜，帮助阿尔茨海默症患者识别亲友、记住日常并保障安全，同时服务照护者。",
+      "why": "LA Hacks 2025 全场总亚军（2nd Place）。",
+      "url": "http://www.lahacks.com/"
+    },
+    {
+      "year": 2025,
+      "project": "OpenSesame.Work",
+      "team": "Proud Puangmaha / Rahut",
+      "what": "求职「智能体副驾」：自动化打理职位搜索、申请材料与投递流程，帮求职者高效完成申请。",
+      "why": "LA Hacks 2025 全场总季军（3rd Place）。",
+      "url": "http://www.lahacks.com/"
+    }
+  ],
+  "hackprinceton": [
+    {
+      "year": 2025,
+      "project": "MindPad",
+      "team": "Kavya Venkatesh / Krish Golcha / Vamsi Krishna Nk / Prithvi Seshadri",
+      "what": "结合手势识别、语音与智能画布的多模态个性化学习平台，让学生通过「动起来」的方式更直观地学习课堂内容。",
+      "why": "HackPrinceton Fall 2025 最佳总项目（Best Overall 第 1 名），另获 Best Use of Gemini API 与 Amazon AGI 最佳实用 AI 创新奖。",
+      "url": "https://www.cs.columbia.edu/2025/kavya-venkatesh-wins-best-overall-award-at-the-hackprinceton-fall-2025"
+    }
+  ],
+  "mhacks": [
+    {
+      "year": 2025,
+      "project": "Conductor",
+      "team": "Devansh Tayal / Xiang Lu / Wenbo Xu / Tanay Sharma",
+      "what": "把任意嵌入式系统变成即插即用设备的 MCP 服务器，让大模型安全地获得「手和眼」，直接与硬件交互。",
+      "why": "MHacks 2025「Best Hardware Hack」（Embedder 赞助）冠军，奖金 1000 美元。",
+      "url": "https://www.linkedin.com/posts/tsha256_thrilled-to-announce-that-my-team-devansh-activity-7390909137179742208-YgEU"
+    }
+  ],
+  "cal-hacks": [
+    {
+      "year": 2024,
+      "project": "Duet",
+      "team": "Jiahui Jin / Sophia Zhang / Daniel Wang / Justin Wu",
+      "what": "读取脑电（EEG）实时情绪并让 AI 即兴作曲与生成视觉反馈的音乐系统，帮助特需儿童用脑波表达与创作。",
+      "why": "Cal Hacks 11.0（2024 年 10 月，旧金山）全场一等奖（1st Place）。",
+      "url": "https://www.emotiv.com/nl/blog/duet-brainwaves-music-bci-wins-calhacks-2024"
+    }
+  ],
+  "treehacks": [
+    {
+      "year": 2024,
+      "project": "Baymax",
+      "team": "Aarav Wattal / Krish Parikh / James Chen / Jay Khemchandani",
+      "what": "基于计算机视觉的护理机械臂：识别并抓取物体、追踪人脸与口部辅助喂食，为视障、瘫痪与帕金森患者提供居家照护。",
+      "why": "TreeHacks 2024「Moonshot」大奖（10000 美元），另获 Reazon 长者关怀奖（东京往返机票）。",
+      "url": "https://stanforddaily.com/?p=1243630/"
+    }
+  ],
+  "hack-the-north": [
+    {
+      "year": 2024,
+      "project": "PathSense",
+      "team": null,
+      "what": "面向视障者的实时室内语音导航：多路摄像头与计算机视觉描述场景，结合地图数据与语义检索提供语音指引。",
+      "why": "Hack the North 2024（滑铁卢大学）总冠军（grand winner），兼获「Best Use of Cohere」第 1 名。",
+      "url": "https://devpost.com/software/pathsense-athy2r"
+    }
+  ],
+  "hackmit": [
+    {
+      "year": 2024,
+      "project": "a-phrase-ia",
+      "team": null,
+      "what": "基于开源生成式 AI 的自然语言沟通板，让言语障碍患者通过点选生成短语与外界交流。",
+      "why": "HackMIT 2024「Best Use of Open-Source GenAI」赛道冠军（非 Fetch.ai 赛道）。",
+      "url": "https://jieruei.github.io/projects"
+    }
+  ],
+  "hackupc": [
+    {
+      "year": 2024,
+      "project": "Klìnic",
+      "team": null,
+      "what": "输入疾病描述即可检索并分析临床试验趋势、挖掘相关洞察的医学信息工具。",
+      "why": "HackUPC 2024（巴塞罗那）全场第一名（总冠军）。",
+      "url": "https://www.fib.upc.edu/en/news/750-hackers-all-over-world-have-participated-hackupc2024"
+    },
+    {
+      "year": 2024,
+      "project": "TryOn",
+      "team": null,
+      "what": "让用户通过手机拍照/上传照片即可虚拟试穿衣物的移动应用，降低网购试衣成本。",
+      "why": "HackUPC 2024 全场第二名（总亚军）。",
+      "url": "https://www.fib.upc.edu/en/news/750-hackers-all-over-world-have-participated-hackupc2024"
+    },
+    {
+      "year": 2024,
+      "project": "Sensorize",
+      "team": null,
+      "what": "基于实时传感数据的物联网方案，自动监控并优化环境管理流程。",
+      "why": "HackUPC 2024 全场第三名（总季军）。",
+      "url": "https://www.fib.upc.edu/en/news/750-hackers-all-over-world-have-participated-hackupc2024"
+    }
+  ],
+  "ethdenver": [
+    {
+      "year": 2024,
+      "project": "HoneyPause",
+      "team": "Justin Schuldt / Lawrence Forman / Jordan Cason",
+      "what": "链上「漏洞赏金 + 熔断器」：白帽若能证明合约存在可利用漏洞，可触发暂停协议并领取赏金，激励白帽抢在黑帽前止损。",
+      "why": "ETHDenver 2024 #BUIDLathon 五位明星评委各自选出的全场五强获奖项目之一。",
+      "url": "https://unchainedcrypto.com/ethdenvers-2024-hackathon-onchain-security-ai-and-gaming-fun-dominate-the-winning-projects"
+    },
+    {
+      "year": 2024,
+      "project": "BeFit",
+      "team": "William Wang / Xavier D'Mello",
+      "what": "类 BeReal 的健身社交 App：随机提醒用户做 10 个俯卧撑，用 TensorFlow 视觉模型实时验证并发放 NFT 奖励。",
+      "why": "ETHDenver 2024 #BUIDLathon 全场五强获奖项目之一，两人合计获奖约 6500 美元。",
+      "url": "https://uwaterloo.ca/computer-science/news/push-65k-usd-william-wang-wins-big-ethdenvers-2024-hackathon"
+    }
+  ],
+  "ethglobal-nyc": [
+    {
+      "year": 2024,
+      "project": "Etherius",
+      "team": "Mikhail Vaysman",
+      "what": "AI 驱动的 NFT 情报智能体：用自然语言查询 OpenSea 实时行情（地板价、成交量），并可借助 x402 支付直接下单购买。",
+      "why": "ETHGlobal NYC 2024「Best Use of ASI Alliance」赛道第一名（ASI 联盟赛道冠军）。",
+      "url": "https://superintelligence.io/ethglobal-nyc-winners/"
+    }
+  ],
+  "mistral-worldwide-hackathon": [
+    {
+      "year": 2026,
+      "project": "Babel",
+      "team": "Shekhar Somani / Harsh Sharma / Shivansh Srivastava / Nisarg Bhatt",
+      "what": "可自我演进的智能体工具注册表：运行中遇到缺失工具时即时生成、注册并执行新工具，突破 Agent 需预定义工具的限制。",
+      "why": "Mistral AI Worldwide Hackathon 2026 新加坡分站冠军。",
+      "url": "https://www.linkedin.com/posts/shekharsomani_mistralai-hackathon-ai-activity-7434547204893323264-f7Un"
+    }
+  ],
+  "ccf-bdci": [
+    {
+      "year": 2024,
+      "project": "基于 FlashRAG 与 MindSpore 的智能 RAG 系统",
+      "team": "andy（黄昊 / 陈奕扬，华南理工大学软件学院）",
+      "what": "融合昇思 MindSpore 框架与 FlashRAG 的检索增强生成方案，提升智能问答检索精度与生成效果。",
+      "why": "第十二届 CCF BDCI（2024）该赛题一等奖。",
+      "url": "https://www2.scut.edu.cn/sse/2024/1231/c17232a574021/page.htm"
+    },
+    {
+      "year": 2024,
+      "project": "AI for TuGraph：小样本自然语言到图查询翻译方案",
+      "team": "学术咸鱼（谢俊锋 / 卢浩坚 / 张少聪 / 梁耀威，华南理工大学软件学院）",
+      "what": "在小样本条件下微调大模型，把自然语言查询翻译为图数据库查询语言，降低 TuGraph 使用门槛。",
+      "why": "第十二届 CCF BDCI（2024）该赛题一等奖，并获全场唯一「最佳商业价值奖」。",
+      "url": "https://www2.scut.edu.cn/sse/2024/1231/c17232a574021/page.htm"
+    }
+  ],
+  "tianchi": [
+    {
+      "year": 2024,
+      "project": "多模态主机观测指标生成方案（云原生赛道一）",
+      "team": "陈泓仰（中山大学）",
+      "what": "分析 ECS 性能数据与任务信息，利用深度学习与序列分析等生成特定主机/机器性能观测指标。",
+      "why": "2024 天池云原生编程挑战赛赛道一冠军。",
+      "url": "https://developer.aliyun.com/article/1611031"
+    },
+    {
+      "year": 2024,
+      "project": "Higress AI 网关向量缓存优化方案（云原生赛道二）",
+      "team": "昆仑数智（冉旭欣 / 沈鑫糠 / 武鹏鹏）",
+      "what": "为 Higress AI 网关设计插件，基于向量检索的缓存机制降低调用大模型厂商 API 的成本。",
+      "why": "2024 天池云原生编程挑战赛赛道二冠军。",
+      "url": "https://developer.aliyun.com/article/1611031"
+    }
+  ],
+  "huawei-ascend-aaic": [
+    {
+      "year": 2025,
+      "project": "智昇共腾——多机器人可信智能决策系统",
+      "team": "昇腾智脑研究组（北京理工大学；指导教师 陈晨 / 张乐乐 / 邓方）",
+      "what": "基于昇腾「云-边-端」三级协同架构的多机器人决策系统：动态群组敏捷决策 + 人在回路，破解协同与 AI 黑盒难题。",
+      "why": "昇腾AI创新大赛 2025 全国总决赛高校赛道银奖。",
+      "url": "https://ai.bit.edu.cn/xwdt/bdfc416a4bd542528ec4a1ed3bf72c47.htm"
+    },
+    {
+      "year": 2025,
+      "project": "城市·智能中枢全栈引擎",
+      "team": "深智城集团（深智城软件公司）",
+      "what": "面向智慧城市 AI 落地的全栈中枢平台，覆盖语料数据治理、智能体开发等七大能力，全栈适配国产算力。",
+      "why": "昇腾AI创新大赛 2025 全国总决赛企业赛道银奖。",
+      "url": "https://news.dayoo.com/gzrbrmt/202601/20/170629_54919026.htm"
+    }
+  ]
+}
