@@ -114,7 +114,7 @@ export default function App() {
                 点圆点查看该地赛事；多城巡回赛（如 Mistral Worldwide 七城）会拆成多个分站点。
               </p>
             </div>
-            <WorldMap />
+            <WorldMap onOpen={openDetail} />
           </section>
         )}
 

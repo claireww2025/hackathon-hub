@@ -128,10 +128,18 @@ const tabByName = (name) => [...doc.querySelectorAll('.tab')].find((t) => t.text
   else ok(`map filtered dots ${dots} -> ${dotsAfter}`);
   const selDot = doc.querySelector('.wmdot');
   await click(selDot);
+  const cityEvents = doc.querySelectorAll('.wm-panel article.row').length;
   const cityWins = doc.querySelectorAll('.wm-panel .wxp').length;
-  if (cityWins >= 1) ok(`city panel winners rows=${cityWins}`);
-  else fail('city panel should list winners');
-  await click([...doc.querySelectorAll('.mchip')].find((c) => c.textContent.trim().startsWith('全部')));
+  if (cityEvents >= 1) ok(`city panel events=${cityEvents}, winners rows=${cityWins}`);
+  else fail('city panel should list events');
+  // click an event inside the city panel -> jumps to that hackathon's archive detail
+  const cityEventBtn = doc.querySelector('.wm-panel article.row .row__btn');
+  await click(cityEventBtn);
+  for (let i = 0; i < 15 && !doc.querySelector('.row[data-open="true"]'); i++) await wait(100);
+  const act = (doc.querySelector('.tab[aria-selected="true"]') || {}).textContent || '';
+  if (act.includes('全年档案') && doc.querySelectorAll('.row[data-open="true"]').length === 1) {
+    ok('city event navigates to archive detail');
+  } else fail('city event did not open archive detail');
 
   // ---- year map chip -> archive detail ----
   await click(tabByName('参与地图'));

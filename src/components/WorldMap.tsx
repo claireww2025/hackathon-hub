@@ -55,7 +55,7 @@ function buildSpots(): Spot[] {
 const SPOTS = buildSpots();
 const byId = new Map(hackathons.map((h) => [h.id, h]));
 
-export default function WorldMap() {
+export default function WorldMap({ onOpen }: { onOpen: (id: string) => void }) {
   const [sel, setSel] = useState<Spot | null>(null);
   const [tip, setTip] = useState<{ s: Spot; x: number; y: number } | null>(null);
   const [cat, setCat] = useState<Category | 'all'>('all');
@@ -291,7 +291,13 @@ export default function WorldMap() {
           <div className="list">
             {selEvents.map((h, i) => (
               <article className="row" key={h.id}>
-                <div className="row__btn" style={{ gridTemplateColumns: '26px minmax(0,1fr) 140px 120px 64px' }}>
+                <button
+                  className="row__btn"
+                  style={{ gridTemplateColumns: '26px minmax(0,1fr) 150px 96px' }}
+                  onClick={() => onOpen(h.id)}
+                  title={`查看 ${h.nameCn !== h.name ? h.nameCn : h.name} 详情`}
+                  aria-label={`查看 ${h.nameCn !== h.name ? h.nameCn : h.name} 详情`}
+                >
                   <span className="row__idx num">{String(i + 1).padStart(2, '0')}</span>
                   <span className="row__main">
                     <span className="row__name">{h.nameCn !== h.name ? h.nameCn : h.name}</span>
@@ -303,23 +309,20 @@ export default function WorldMap() {
                         {CATEGORY[h.category].label}
                       </span>
                       <span className="tag">{FORMAT[h.format].label}</span>
-                      <span className="tag num">
-                        {h.winners.length} 条获奖
-                      </span>
+                      <span className="tag num">{h.winners.length} 条获奖</span>
                     </span>
                   </span>
                   <span className="row__col row__c-prize">
                     <b>奖金</b>
                     {h.prize.length > 46 ? h.prize.slice(0, 44) + '…' : h.prize}
                   </span>
-                  <span className="row__col">
-                    <b>近年</b>
-                    <span className="num">{h.years.length ? h.years.join(' · ') : '—'}</span>
+                  <span className="row__col wm-go">
+                    <b>详情</b>
+                    <span className="wm-go-link">
+                      查看 <ArrowUpRight size={12} />
+                    </span>
                   </span>
-                  <a className="linkout" style={{ alignSelf: 'center' }} href={h.url} target="_blank" rel="noreferrer noopener">
-                    官网 <ArrowUpRight />
-                  </a>
-                </div>
+                </button>
               </article>
             ))}
           </div>
