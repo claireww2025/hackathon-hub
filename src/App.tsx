@@ -23,6 +23,14 @@ const TABS: { id: Tab; label: string; n: number }[] = [
 export default function App() {
   const [tab, setTab] = useState<Tab>('upcoming');
   const [f, setF] = useState<Filters>(EMPTY);
+  // 跨视图直达：从参与地图/日历点某个赛事 → 切到全年档案并展开、滚动到该行
+  const [focus, setFocus] = useState<{ id: string; nonce: number } | null>(null);
+
+  const openDetail = (id: string) => {
+    setF(EMPTY);
+    setTab('archive');
+    setFocus({ id, nonce: Date.now() });
+  };
 
   useEffect(() => {
     const t = (window.location.hash.replace('#', '') || 'upcoming') as Tab;
@@ -91,7 +99,7 @@ export default function App() {
             </div>
             <div className="layout">
               <Rail f={f} set={set} reset={() => setF(EMPTY)} />
-              <HackList items={items} />
+              <HackList items={items} focusId={focus?.id ?? null} onFocusConsumed={() => setFocus(null)} />
             </div>
           </section>
         )}
@@ -120,7 +128,7 @@ export default function App() {
                 颜色是主办方类型，实色代表线上可参加、淡化代表需到场。
               </p>
             </div>
-            <YearMap />
+            <YearMap onOpen={openDetail} />
           </section>
         )}
 
@@ -134,7 +142,7 @@ export default function App() {
                 那部分是按其惯常月份落在 15 号的<b>预估</b>，用来规划时间，不作为报名依据。
               </p>
             </div>
-            <Calendar />
+            <Calendar onOpen={openDetail} />
           </section>
         )}
 

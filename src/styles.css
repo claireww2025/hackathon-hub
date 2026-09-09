@@ -306,9 +306,26 @@ button { font: inherit; color: inherit; background: none; border: none; padding:
 .list { border-top: 2px solid var(--ink); }
 
 .row { border-bottom: 1px solid var(--rule); position: relative; }
+.rowline { display: flex; align-items: stretch; }
+.rowline .row__btn { flex: 1; min-width: 0; width: auto; }
+.row__ext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 96px;
+  flex: none;
+  border-left: 1px solid var(--rule);
+  color: var(--ink-2);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.row__ext:hover { background: var(--paper-3); color: var(--accent); }
+.row__ext-txt { border-bottom: 1px solid var(--rule-3); line-height: 1.6; }
 .row__btn {
   display: grid;
-  grid-template-columns: 26px minmax(0, 1fr) 130px 104px 92px;
+  grid-template-columns: 26px minmax(0, 1fr) 130px 104px;
   gap: var(--s3);
   align-items: baseline;
   width: 100%;
@@ -370,6 +387,11 @@ button { font: inherit; color: inherit; background: none; border: none; padding:
 }
 
 .row__chev { display: none; }
+
+@media (max-width: 860px) {
+  .row__ext { width: 62px; font-size: 11.5px; }
+  .row__ext-txt { border-bottom: none; }
+}
 
 /* ── expanded detail ─────────────────────────────────── */
 .detail { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 320ms var(--ease); }
@@ -508,6 +530,8 @@ button { font: inherit; color: inherit; background: none; border: none; padding:
   color: var(--ink); background: var(--paper-3); cursor: pointer;
   transition: background var(--dur) var(--ease);
 }
+.cal__ev > svg { position: absolute; top: 3px; right: 4px; opacity: 0.65; }
+.cal__ev:hover > svg { opacity: 1; }
 .cal__ev:hover { background: var(--ink); color: var(--paper); }
 .cal__ev::before { content: ''; position: absolute; left: 0; top: 2px; bottom: 2px; width: 3px; background: var(--accent); }
 .cal__ev[data-k='open']::before { background: var(--c-vendor); }

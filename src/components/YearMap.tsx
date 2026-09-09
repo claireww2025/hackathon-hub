@@ -1,20 +1,16 @@
-import { useEffect, useRef, useState } from 'react';
-import { CATEGORY, FORMAT, MONTHS, hackathons, FRIENDLY, REGION } from '../data';
-import type { Hackathon } from '../types';
-import { ArrowUpRight } from './Icons';
+import { useEffect, useRef } from 'react';
+import { CATEGORY, MONTHS, hackathons, REGION } from '../data';
 
 const mapped = hackathons
   .filter((h) => h.typicalMonths.length > 0 && h.typicalMonths.length < 12)
   .slice()
   .sort((a, b) => a.name.localeCompare(b.name));
 
-export default function YearMap() {
-  const [sel, setSel] = useState<Hackathon | null>(null);
+export default function YearMap({ onOpen }: { onOpen: (id: string) => void }) {
   const gridRef = useRef<HTMLDivElement>(null);
   const perMonth = MONTHS.map((_, i) => mapped.filter((h) => h.typicalMonths.includes(i + 1)));
   const max = Math.max(...perMonth.map((m) => m.length));
 
-  // reveal month columns as they scroll into view
   useEffect(() => {
     const host = gridRef.current;
     if (!host || typeof IntersectionObserver === 'undefined') {
@@ -46,7 +42,7 @@ export default function YearMap() {
           </span>
         ))}
         <span style={{ marginLeft: 'auto', color: 'var(--ink-3)' }}>
-          实色 = 线上可参加 ｜ 淡化 = 需到场
+          实色 = 线上可参加 ｜ 淡化 = 需到场 ｜ 悬停看全名，点击直达赛事详情
         </span>
       </div>
 
@@ -67,8 +63,9 @@ export default function YearMap() {
                   className="ymi"
                   data-f={h.format}
                   style={{ ['--dot' as string]: CATEGORY[h.category].color }}
-                  onClick={() => setSel(h.id === sel?.id ? null : h)}
-                  title={`${h.nameCn} · ${h.org}`}
+                  onClick={() => onOpen(h.id)}
+                  title={`${h.nameCn !== h.name ? h.nameCn : h.name}（${h.org}）· ${REGION[h.region]} · 点击查看详情`}
+                  aria-label={`查看 ${h.nameCn !== h.name ? h.nameCn : h.name} 详情`}
                 >
                   <span className="ymi__t">{h.nameCn !== h.name ? h.nameCn : h.name}</span>
                   <span className="ymi__o">{h.org}</span>
@@ -79,61 +76,9 @@ export default function YearMap() {
         ))}
       </div>
 
-      {sel && (
-        <div
-          style={{
-            marginTop: 24,
-            borderTop: '2px solid var(--ink)',
-            paddingTop: 16,
-            display: 'grid',
-            gridTemplateColumns: 'minmax(0,1.4fr) minmax(0,1fr)',
-            gap: 32,
-          }}
-        >
-          <div>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: 10, flexWrap: 'wrap' }}>
-              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 22, margin: 0, fontWeight: 500 }}>
-                {sel.nameCn !== sel.name ? sel.nameCn : sel.name}
-              </h3>
-              <span style={{ fontSize: 13, color: 'var(--ink-3)' }}>{sel.name}</span>
-            </div>
-            <div style={{ fontSize: 13.5, color: 'var(--ink-2)', marginTop: 6 }}>
-              <b style={{ color: 'var(--ink)' }}>{sel.org}</b> · {REGION[sel.region]} ·{' '}
-              {CATEGORY[sel.category].label} · {FORMAT[sel.format].label}
-            </div>
-            <p style={{ fontSize: 14, color: 'var(--ink-2)', marginTop: 10 }}>{sel.description}</p>
-            <div className="row__meta" style={{ marginTop: 10 }}>
-              <span className="tag">{sel.prize.length > 48 ? sel.prize.slice(0, 46) + '…' : sel.prize}</span>
-              <span className="tag">{sel.soloAllowed ? '可 solo' : '须组队'}</span>
-              <span className="tag">对华：{FRIENDLY[sel.cnFriendly].label}</span>
-              <span className="tag">档期：{sel.typicalMonths.map((m) => MONTHS[m - 1]).join('、')}</span>
-            </div>
-            <a className="linkout" style={{ marginTop: 14 }} href={sel.url} target="_blank" rel="noreferrer noopener">
-              官方网站 <ArrowUpRight />
-            </a>
-          </div>
-          <div>
-            <div className="winners__h">
-              <span>获奖项目</span>
-              <span className="num">{sel.winners.length}</span>
-            </div>
-            {sel.winners.length === 0 ? (
-              <p style={{ fontSize: 13, color: 'var(--ink-3)', margin: 0 }}>未检索到公开获奖公示。</p>
-            ) : (
-              sel.winners.slice(0, 4).map((w, i) => (
-                <div className="win" key={i}>
-                  <div className="win__top">
-                    <span className="win__y num">{w.year}</span>
-                    <span className="win__p">{w.project}</span>
-                  </div>
-                  <div className="win__what">{w.what}</div>
-                  <div className="win__why">{w.why}</div>
-                </div>
-              ))
-            )}
-          </div>
-        </div>
-      )}
+      <p className="note" style={{ marginTop: 16, maxWidth: '70ch' }}>
+        提示：地图里点击任意赛事会跳到「全年档案」并展开该赛事的详情（含奖金、要求、获奖项目与官网链接）；想快速回地图，点顶栏 tab 即可。
+      </p>
     </div>
   );
 }

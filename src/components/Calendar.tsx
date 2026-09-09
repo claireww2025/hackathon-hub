@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { calEvents, today, MONTHS_FULL, deadlineLabel, daysUntil, urgency } from '../data';
-import { ChevronLeft, ChevronRight } from './Icons';
+import type { CalEvent } from '../data';
+import { ChevronLeft, ChevronRight, ArrowUpRight } from './Icons';
 
 const DOW = ['一', '二', '三', '四', '五', '六', '日'];
 
@@ -8,7 +9,50 @@ function monthKey(d: Date) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
 }
 
-export default function Calendar() {
+function EventChip({ e, onOpen, dl }: { e: CalEvent; onOpen: (id: string) => void; dl: number | null }) {
+  const inner = (
+    <>
+      <span className="cal__ev-title">
+        {e.kind === 'deadline' ? '截止 ' : e.kind === 'open' ? '开赛 ' : ''}
+        {e.title}
+      </span>
+      {e.kind === 'deadline' && (
+        <span className="urg num" data-l={urgency(dl)}>
+          {deadlineLabel(dl)}
+        </span>
+      )}
+    </>
+  );
+  const title = `${e.title} · ${e.sub}`;
+  if (e.hackathonId) {
+    return (
+      <button
+        className="cal__ev"
+        data-k={e.kind}
+        onClick={() => onOpen(e.hackathonId as string)}
+        title={`${title}（点击查看赛事详情）`}
+        aria-label={`查看 ${e.title} 详情`}
+      >
+        {inner}
+      </button>
+    );
+  }
+  return (
+    <a
+      className="cal__ev"
+      data-k={e.kind}
+      href={e.url}
+      target="_blank"
+      rel="noreferrer noopener"
+      title={`${title}（打开报名页）`}
+    >
+      {inner}
+      <ArrowUpRight size={10} />
+    </a>
+  );
+}
+
+export default function Calendar({ onOpen }: { onOpen: (id: string) => void }) {
   const [cur, setCur] = useState(() => new Date(today.getFullYear(), today.getMonth(), 1));
   const [showEst, setShowEst] = useState(false);
 
@@ -97,27 +141,7 @@ export default function Calendar() {
               <div className="cal__dn num">{d.getDate()}</div>
               {evs.slice(0, 3).map((e, j) => {
                 const dl = e.kind === 'deadline' ? daysUntil(k) : null;
-                return (
-                  <a
-                    className="cal__ev"
-                    key={j}
-                    data-k={e.kind}
-                    href={e.url}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    title={`${e.title} · ${e.sub}`}
-                  >
-                    <span>
-                      {e.kind === 'deadline' ? '截止 ' : e.kind === 'open' ? '开赛 ' : ''}
-                      {e.title}
-                    </span>
-                    {e.kind === 'deadline' && (
-                      <span className="urg num" data-l={urgency(dl)}>
-                        {deadlineLabel(dl)}
-                      </span>
-                    )}
-                  </a>
-                );
+                return <EventChip key={j} e={e} onOpen={onOpen} dl={dl} />;
               })}
               {evs.length > 3 && (
                 <div style={{ fontSize: 10.5, color: 'var(--ink-4)', marginTop: 3 }}>+{evs.length - 3}</div>

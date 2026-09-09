@@ -99,6 +99,18 @@ const tabByName = (name) => [...doc.querySelectorAll('.tab')].find((t) => t.text
   if (cells !== 42) fail('calendar should render 42 cells');
   if (dl0 < 5) fail('expected >=5 confirmed deadlines in range');
 
+  // calendar est chip -> opens that hackathon's archive detail
+  const estChip = [...doc.querySelectorAll('.cal__ev')].find((e) => e.dataset.k === 'est');
+  if (estChip) {
+    await click(estChip);
+    for (let i = 0; i < 15 && !doc.querySelector('.row[data-open="true"]'); i++) await wait(100);
+    const activeNow = (doc.querySelector('.tab[aria-selected="true"]') || {}).textContent || '';
+    if (activeNow.includes('全年档案') && doc.querySelectorAll('.row[data-open="true"]').length === 1) {
+      ok('calendar est chip navigates to archive detail');
+    } else fail('calendar est chip did not open archive detail');
+    await click(tabByName('日历视图')); // back
+  } else fail('no est calendar chip to test');
+
   // ---- world map: type filter chips + city winners ----
   await click(tabByName('世界地图'));
   // poll until the world view actually renders (jsdom scheduling can lag on busy DOM)
@@ -121,14 +133,21 @@ const tabByName = (name) => [...doc.querySelectorAll('.tab')].find((t) => t.text
   else fail('city panel should list winners');
   await click([...doc.querySelectorAll('.mchip')].find((c) => c.textContent.trim().startsWith('全部')));
 
-  // ---- year map ----
+  // ---- year map chip -> archive detail ----
   await click(tabByName('参与地图'));
   const ym = doc.querySelectorAll('.ym').length;
   const chips = doc.querySelectorAll('.ymi').length;
-  ok(`yearmap months=${ym}, chips=${chips}`);
+  const ymTitles = doc.querySelectorAll('.ymi[title]').length;
+  ok(`yearmap months=${ym}, chips=${chips}, hover titles=${ymTitles}`);
   const c0 = doc.querySelector('.ymi');
   await click(c0);
-  if (!doc.querySelector('.row__meta') && doc.querySelector('.ymap + div')) ok('map detail panel appears');
+  for (let i = 0; i < 15 && !doc.querySelector('.row[data-open="true"]'); i++) await wait(100);
+  const activeNow2 = (doc.querySelector('.tab[aria-selected="true"]') || {}).textContent || '';
+  const openRows = doc.querySelectorAll('.row[data-open="true"]').length;
+  const extLinks = [...doc.querySelectorAll('.row__ext')].filter((a) => /^https?:/.test(a.getAttribute('href') || '')).length;
+  if (activeNow2.includes('全年档案') && openRows === 1 && extLinks >= 60) {
+    ok(`yearmap chip opens archive detail (open rows=${openRows}, official links=${extLinks})`);
+  } else fail('yearmap chip did not open archive detail');
 
   if (errors.length) console.log('js errors:', errors.slice(0, 4));
   console.log(failed || errors.length ? '\nSMOKE: FAILED' : '\nSMOKE: PASSED');

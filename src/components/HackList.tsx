@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { CATEGORY, FORMAT, FRIENDLY, MONTHS, REGION } from '../data';
 import type { Hackathon } from '../types';
 import { ArrowUpRight, Globe, Pin, Users } from './Icons';
@@ -110,8 +110,31 @@ function Detail({ h }: { h: Hackathon }) {
   );
 }
 
-export default function HackList({ items }: { items: Hackathon[] }) {
+export default function HackList({
+  items,
+  focusId,
+  onFocusConsumed,
+}: {
+  items: Hackathon[];
+  focusId?: string | null;
+  onFocusConsumed?: () => void;
+}) {
   const [open, setOpen] = useState<string | null>(null);
+  const listRef = useRef<HTMLDivElement>(null);
+
+  // external navigation: expand + scroll to the requested hackathon row
+  useEffect(() => {
+    if (!focusId) return;
+    setOpen(focusId);
+    const t = window.setTimeout(() => {
+      const el = listRef.current?.querySelector<HTMLElement>(`.row[data-id="${focusId}"]`);
+      if (el && typeof el.scrollIntoView === 'function') {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 60);
+    onFocusConsumed?.();
+    return () => window.clearTimeout(t);
+  }, [focusId, onFocusConsumed]);
 
   if (items.length === 0) {
     return (
@@ -123,53 +146,66 @@ export default function HackList({ items }: { items: Hackathon[] }) {
   }
 
   return (
-    <div className="list">
+    <div className="list" ref={listRef}>
       {items.map((h, i) => {
         const isOpen = open === h.id;
         return (
-          <article className="row" key={h.id} data-open={isOpen}>
-            <button
-              className="row__btn"
-              aria-expanded={isOpen}
-              onClick={() => setOpen(isOpen ? null : h.id)}
-            >
-              <span className="row__idx num">{String(i + 1).padStart(2, '0')}</span>
+          <article className="row" key={h.id} data-open={isOpen} data-id={h.id}>
+            <div className="rowline">
+              <button
+                className="row__btn"
+                aria-expanded={isOpen}
+                onClick={() => setOpen(isOpen ? null : h.id)}
+              >
+                <span className="row__idx num">{String(i + 1).padStart(2, '0')}</span>
 
-              <span className="row__main">
-                <span className="row__name">
-                  {h.nameCn !== h.name ? h.nameCn : h.name}
-                  {h.nameCn !== h.name && <span className="row__cn">{h.name}</span>}
-                </span>
-                <span className="row__org">
-                  <b>{h.org}</b> · {REGION[h.region]}
-                </span>
-                <span className="row__desc">{h.description}</span>
-                <span className="row__meta">
-                  <span className="tag tag--cat" style={{ ['--dot' as string]: CATEGORY[h.category].color }}>
-                    {CATEGORY[h.category].label}
+                <span className="row__main">
+                  <span className="row__name" title={h.nameCn !== h.name ? `${h.nameCn} · ${h.name}` : h.nameCn}>
+                    {h.nameCn !== h.name ? h.nameCn : h.name}
+                    {h.nameCn !== h.name && <span className="row__cn">{h.name}</span>}
                   </span>
-                  <span className="tag">{FORMAT[h.format].short}</span>
-                  {h.soloAllowed && <span className="tag">可 solo</span>}
-                  {h.cnFriendly === 'yes' && <span className="tag tag--accent">对华开放</span>}
-                  {h.cnFriendly === 'no' && <span className="tag">对华受限</span>}
+                  <span className="row__org">
+                    <b>{h.org}</b> · {REGION[h.region]}
+                  </span>
+                  <span className="row__desc">{h.description}</span>
+                  <span className="row__meta">
+                    <span className="tag tag--cat" style={{ ['--dot' as string]: CATEGORY[h.category].color }}>
+                      {CATEGORY[h.category].label}
+                    </span>
+                    <span className="tag">{FORMAT[h.format].short}</span>
+                    {h.soloAllowed && <span className="tag">可 solo</span>}
+                    {h.cnFriendly === 'yes' && <span className="tag tag--accent">对华开放</span>}
+                    {h.cnFriendly === 'no' && <span className="tag">对华受限</span>}
+                    {h.years.length > 0 && (
+                      <span className="tag">
+                        近年 <span className="num">{h.years.join(' · ')}</span>
+                      </span>
+                    )}
+                  </span>
                 </span>
-              </span>
 
-              <span className="row__col row__c-prize">
-                <b>奖金</b>
-                {h.prize.length > 60 ? h.prize.slice(0, 58) + '…' : h.prize}
-              </span>
+                <span className="row__col row__c-prize">
+                  <b>奖金</b>
+                  {h.prize.length > 60 ? h.prize.slice(0, 58) + '…' : h.prize}
+                </span>
 
-              <span className="row__col row__c-months">
-                <b>档期</b>
-                <MonthStrip months={h.typicalMonths} />
-              </span>
+                <span className="row__col row__c-months">
+                  <b>档期</b>
+                  <MonthStrip months={h.typicalMonths} />
+                </span>
+              </button>
 
-              <span className="row__col">
-                <b>近年</b>
-                <span className="num">{h.years.length ? h.years.join(' · ') : '—'}</span>
-              </span>
-            </button>
+              <a
+                className="row__ext"
+                href={h.url}
+                target="_blank"
+                rel="noreferrer noopener"
+                title={`${h.nameCn !== h.name ? h.nameCn : h.name} · 官方网站`}
+              >
+                <span className="row__ext-txt">官网</span>
+                <ArrowUpRight size={13} />
+              </a>
+            </div>
 
             <div className="detail">
               <div className="detail__in">

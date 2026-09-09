@@ -126,10 +126,15 @@ export interface CalEvent {
   sub: string;
   url: string;
   color: string;
+  /** 能对应到档案中某一赛事时给出其 id（点击跳转到该赛事详情） */
+  hackathonId?: string;
 }
 function d(y: number, m: number, day: number) {
   return new Date(y, m - 1, day);
 }
+
+const hackathonUrlById = new Map(hackathons.map((h) => [h.url.replace(/\/$/, ''), h.id]));
+const byUrlId = (u: string) => hackathonUrlById.get(u.replace(/\/$/, ''));
 
 export const calEvents: CalEvent[] = [
   ...upcoming.items.flatMap((u: UpcomingItem) => {
@@ -143,6 +148,7 @@ export const calEvents: CalEvent[] = [
         sub: '截止 · ' + u.prize,
         url: u.url,
         color: 'var(--accent)',
+        hackathonId: byUrlId(u.url),
       });
     }
     const st = u.window.match(/(\d{4})-(\d{2})-(\d{2})/);
@@ -154,6 +160,7 @@ export const calEvents: CalEvent[] = [
         sub: '开赛 · ' + u.theme,
         url: u.url,
         color: 'var(--c-vendor)',
+        hackathonId: byUrlId(u.url),
       });
     }
     return out;
@@ -169,6 +176,7 @@ export const calEvents: CalEvent[] = [
           sub: '往年档期（预估）· ' + h.org,
           url: h.url,
           color: 'var(--rule-3)',
+          hackathonId: h.id,
         })),
       ),
     ),
