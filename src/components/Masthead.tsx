@@ -62,8 +62,9 @@ export default function Masthead() {
 
       <div className="masthead__deck">
         <p className="masthead__lede">
-          国内外近三年 <b>{hackathons.length} 场</b>黑客松的分类档案：它们分别是什么、要什么人、
-          以及<b>什么样的项目真的拿奖</b>。全部条目保留原站链接，可自行核对。
+          近三年、国内外 <b>{hackathons.length} 场</b>黑客松一次归档：谁在办、它要谁、
+          <b>什么样的项目真的拿奖</b>。每一条都附官网原链，从参赛规则到获奖公示，
+          点开就能自己核对。
         </p>
         <div className="masthead__stats">
           {STATS.map((s, i) => (
