@@ -237,7 +237,7 @@
     "soloAllowed": true,
     "cnFriendly": "no",
     "editions": [
-      { "year": 2026, "dates": "2026-07", "url": null, "note": "2026-07-27 开放，2026-09-07/09 截止；评审 2026-09-23 至 10-07，获奖尚未公布" }
+      { "year": 2026, "dates": "2026-07-27 ~ 2026-09-07", "url": null, "note": "2026-07-27 开放，2026-09-07 截止（部分渠道 09-09）；1,400+ 队报名；评审 2026-09-23 至 10-07，获奖尚未公布" }
     ],
     "winners": [],
     "_confidence": "medium"
@@ -261,7 +261,7 @@
     "soloAllowed": true,
     "cnFriendly": "unknown",
     "editions": [
-      { "year": 2026, "dates": "2026-05", "url": "https://xprize.org/buildwithgemini", "note": "2026-05-19 Google I/O 发布，构建期至 2026-08-17；2026-09-25 洛杉矶直播决赛" }
+      { "year": 2026, "dates": "2026-05-19 ~ 2026-08-17", "url": "https://xprize.org/buildwithgemini", "note": "2026-05-19 Google I/O 发布，构建期 05-19 至 08-17（1,400+ 项目）；Top 100 已公布，25 个获奖者于 2026-09-25 洛杉矶 Moonshot Summit 揭晓" }
     ],
     "winners": [],
     "_confidence": "high"
@@ -677,10 +677,10 @@
     "soloAllowed": true,
     "cnFriendly": "unknown",
     "editions": [
-      { "year": 2026, "dates": "2026-08", "url": "https://agentsforhumans.devpost.com/", "note": "六周线上赛，2026 年下半年开赛；具体起止月份未能从公开来源完全核实，获奖尚未公布" }
+      { "year": 2026, "dates": "2026-08-10 ~ 2026-09-14", "url": "https://agentsforhumans.devpost.com/", "note": "官方 rules：提交期 2026-08-10 至 09-14，评审 09-15 至 10-08，获奖约 2026-10-14 公布；7,000+ 人报名" }
     ],
     "winners": [],
-    "_confidence": "medium"
+    "_confidence": "high"
   },
   {
     "id": "aws-global-vibe-coding-hackathon",
@@ -1191,7 +1191,7 @@
     "cnFriendly": "yes",
     "editions": [
       { "year": 2025, "dates": "2025-08", "url": "https://www.revenuecat.com/blog/company/shipaton-2025-winners/", "note": "2025-08-01 至 09-30；812 个项目提交，近千款新 App 上架" },
-      { "year": 2026, "dates": "2026-08", "url": "https://www.revenuecat.com/blog/company/announcing-shipaton-2026", "note": "2026-08-01 至 09-30，获奖于 10-22 公布；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯" }
+      { "year": 2026, "dates": "2026-08-01 ~ 2026-09-30", "url": "https://www.revenuecat.com/blog/company/announcing-shipaton-2026", "note": "2026-08-01 至 09-30，获奖于 10-22 公布（纽约 The Shippies 颁奖礼）；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯" }
     ],
     "winners": [
       {

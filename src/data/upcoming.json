@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09",
-  "nextUpdate": "2026-09-15",
+  "updatedAt": "2026-09-15",
+  "nextUpdate": "2026-10-01",
   "sources": [
     "https://devpost.com/hackathons?status=open&challenge_type=online",
     "https://lablab.ai/",
@@ -21,7 +21,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://agentsforhumans.devpost.com/",
-      "note": "已核对 rules：排除名单含香港但不含中国大陆；8676 人已报名"
+      "note": "已核对 rules：排除名单含香港但不含中国大陆；8676 人已报名",
+      "expired": false
     },
     {
       "id": "up-ai-builders",
@@ -36,7 +37,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
-      "note": "⚠️ rules 页奖金栏写 TBD，报名前先向主办方确认"
+      "note": "⚠️ rules 页奖金栏写 TBD，报名前先向主办方确认",
+      "expired": false
     },
     {
       "id": "up-ibm-bob",
@@ -51,7 +53,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/ibm-bob-2-hackathon",
-      "note": "需在 Kick-Off Stream 前注册；可 solo 或组队"
+      "note": "需在 Kick-Off Stream 前注册；可 solo 或组队",
+      "expired": false
     },
     {
       "id": "up-assemblyai-voice",
@@ -66,7 +69,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon",
-      "note": "注册全程开放，中途加入也能提交"
+      "note": "注册全程开放，中途加入也能提交",
+      "expired": false
     },
     {
       "id": "up-shipaton",
@@ -81,7 +85,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "note": "⚠️ 必须上架 App Store / Play / Galaxy Store 且美国区可下载；项目可早已存在但首次公开发布须在赛期内"
+      "note": "⚠️ 必须上架 App Store / Play / Galaxy Store 且美国区可下载；项目可早已存在但首次公开发布须在赛期内",
+      "expired": false
     },
     {
       "id": "up-amazon-build-ship-shape",
@@ -96,7 +101,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://amazonappdev2026.devpost.com/",
-      "note": "已核对 rules：排除名单不含中国大陆；无队伍人数上限"
+      "note": "已核对 rules：排除名单不含中国大陆；无队伍人数上限",
+      "expired": false
     },
     {
       "id": "up-opencv-2026",
@@ -111,7 +117,8 @@
       "solo": false,
       "cnFriendly": "unknown",
       "url": "https://opencv26.devpost.com/",
-      "note": "中国资格与单人规则需查 rules 页确认"
+      "note": "中国资格与单人规则需查 rules 页确认",
+      "expired": false
     },
     {
       "id": "up-nebius-nvidia",
@@ -126,7 +133,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://nebiusglobalaihackathon.devpost.com/",
-      "note": "已核对 rules：排除名单为巴西/魁北克/俄/克里米亚/古/伊/朝 + OFAC，不含中国"
+      "note": "已核对 rules：排除名单为巴西/魁北克/俄/克里米亚/古/伊/朝 + OFAC，不含中国",
+      "expired": false
     },
     {
       "id": "up-amd-ai-academy",
@@ -141,7 +149,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge",
-      "note": "仅限个人参赛；三个月长周期，无需本地 AMD 硬件"
+      "note": "仅限个人参赛；三个月长周期，无需本地 AMD 硬件",
+      "expired": false
     },
     {
       "id": "up-ai-infra-summit",
@@ -156,7 +165,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/ai-infra-summit-hackathon",
-      "note": "线下 9/15-17 Santa Clara Convention Center，邀请制、差旅自理"
+      "note": "线下 9/15-17 Santa Clara Convention Center，邀请制、差旅自理",
+      "expired": false
     },
     {
       "id": "up-wearedevelopers",
@@ -171,7 +181,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/wearedevelopers-hackathon",
-      "note": "线下 9/23-25 San José，需审核通过，通过有额外奖与大会门票"
+      "note": "线下 9/23-25 San José，需审核通过，通过有额外奖与大会门票",
+      "expired": false
     },
     {
       "id": "up-amd-act3",
@@ -186,7 +197,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii",
-      "note": "线下 10/17-18 需审核；差旅自理"
+      "note": "线下 10/17-18 需审核；差旅自理",
+      "expired": false
     },
     {
       "id": "up-techex-amsterdam",
@@ -201,7 +213,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/techex-amsterdam-hackathon",
-      "note": "线下 10/19-20 RAI Amsterdam"
+      "note": "线下 10/19-20 RAI Amsterdam",
+      "expired": false
     },
     {
       "id": "up-rise-of-ai-agents",
@@ -216,7 +229,8 @@
       "solo": true,
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/ai-agents-ai-week-hackathon",
-      "note": "日期待公布；线下在迪拜 Deriv Offices，邀请制"
+      "note": "日期待公布；线下在迪拜 Deriv Offices，邀请制",
+      "expired": false
     },
     {
       "id": "up-ascend-s9",
@@ -231,7 +245,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://www.hiascend.com/zh/developer/AAIC2026",
-      "note": "1–3 人可单人；⚠️ 获奖须在 Gitcode 指定仓库开源并合入 PR"
+      "note": "1–3 人可单人；⚠️ 获奖须在 Gitcode 指定仓库开源并合入 PR",
+      "expired": false
     },
     {
       "id": "up-nvidia-dgx-spark",
@@ -246,7 +261,8 @@
       "solo": false,
       "cnFriendly": "yes",
       "url": "https://www.hiascend.com/zh/developer/AAIC2026",
-      "note": "⚠️ 强制 2–5 人组队，限 100 席需审核"
+      "note": "⚠️ 强制 2–5 人组队，限 100 席需审核",
+      "expired": false
     },
     {
       "id": "up-tianchi-embodied",
@@ -261,7 +277,8 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://tianchi.aliyun.com/competition/activeList",
-      "note": "天池线上提交 + 排行榜"
+      "note": "天池线上提交 + 排行榜",
+      "expired": false
     },
     {
       "id": "up-tianchi-smp",
@@ -276,7 +293,24 @@
       "solo": true,
       "cnFriendly": "yes",
       "url": "https://tianchi.aliyun.com/competition/entrance/532511",
-      "note": "线上提交"
+      "note": "线上提交",
+      "expired": false
+    },
+    {
+      "id": "ll-ai-genesis-2026",
+      "name": "ai-genesis-2026",
+      "org": "自动抓取",
+      "region": "intl",
+      "deadline": "2026-11-08",
+      "window": "NOV 3 - 8",
+      "format": "hybrid",
+      "prize": "见官网",
+      "theme": "见官网",
+      "solo": false,
+      "cnFriendly": "unknown",
+      "url": "https://lablab.ai/ai-hackathons/ai-genesis-2026",
+      "note": "自动抓取，报名前请核对 rules 页的排除国家与资格条款",
+      "expired": false
     }
   ]
 }
