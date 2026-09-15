@@ -15,3 +15,6 @@ Thumbs.db
 
 # workflow 待 token 获得 workflow 权限后经 GitHub 网页补传，勿随本地提交重复推送
 /.github/
+
+# 本地 Agent 工作目录（记忆 / 自动化执行日志），不入公开仓库
+/.workbuddy/
