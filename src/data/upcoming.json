@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-15",
-  "nextUpdate": "2026-10-01",
+  "updatedAt": "2026-10-01",
+  "nextUpdate": "2026-10-15",
   "sources": [
     "https://devpost.com/hackathons?status=open&challenge_type=online",
     "https://lablab.ai/",
@@ -22,7 +22,7 @@
       "cnFriendly": "yes",
       "url": "https://agentsforhumans.devpost.com/",
       "note": "已核对 rules：排除名单含香港但不含中国大陆；8676 人已报名",
-      "expired": false
+      "expired": true
     },
     {
       "id": "up-ai-builders",
@@ -38,7 +38,7 @@
       "cnFriendly": "yes",
       "url": "https://ai-builders-hackathon-2026.devpost.com/",
       "note": "⚠️ rules 页奖金栏写 TBD，报名前先向主办方确认",
-      "expired": false
+      "expired": true
     },
     {
       "id": "up-ibm-bob",
@@ -166,7 +166,7 @@
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/ai-infra-summit-hackathon",
       "note": "线下 9/15-17 Santa Clara Convention Center，邀请制、差旅自理",
-      "expired": false
+      "expired": true
     },
     {
       "id": "up-wearedevelopers",
@@ -182,7 +182,7 @@
       "cnFriendly": "unknown",
       "url": "https://lablab.ai/ai-hackathons/wearedevelopers-hackathon",
       "note": "线下 9/23-25 San José，需审核通过，通过有额外奖与大会门票",
-      "expired": false
+      "expired": true
     },
     {
       "id": "up-amd-act3",
@@ -246,7 +246,7 @@
       "cnFriendly": "yes",
       "url": "https://www.hiascend.com/zh/developer/AAIC2026",
       "note": "1–3 人可单人；⚠️ 获奖须在 Gitcode 指定仓库开源并合入 PR",
-      "expired": false
+      "expired": true
     },
     {
       "id": "up-nvidia-dgx-spark",
@@ -262,7 +262,7 @@
       "cnFriendly": "yes",
       "url": "https://www.hiascend.com/zh/developer/AAIC2026",
       "note": "⚠️ 强制 2–5 人组队，限 100 席需审核",
-      "expired": false
+      "expired": true
     },
     {
       "id": "up-tianchi-embodied",

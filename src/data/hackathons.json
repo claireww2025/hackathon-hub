@@ -2572,7 +2572,7 @@
     "year": 2026,
     "dates": "2026-07-27 ~ 2026-09-07",
     "url": "—",
-    "note": "2026-07-27 开放，2026-09-07 截止（部分渠道 09-09）；1,400+ 队报名；评审 2026-09-23 至 10-07，获奖尚未公布"
+    "note": "2026-07-27 开放，2026-09-07 截止（部分渠道 09-09）；1,400+ 队报名；评审 09-10 起，获奖于 2026-10-13 公布（截至 2026-10-01 尚未公布）"
    }
   ],
   "winners": [],
@@ -2609,7 +2609,7 @@
     "year": 2026,
     "dates": "2026-08-10 ~ 2026-09-14",
     "url": "https://agentsforhumans.devpost.com/",
-    "note": "官方 rules：提交期 2026-08-10 至 09-14，评审 09-15 至 10-08，获奖约 2026-10-14 公布；7,000+ 人报名"
+    "note": "官方 rules：提交期 2026-08-10 至 09-14，评审 09-15 至 10-08，获奖于 2026-10-14 公布；7,000+ 人报名（截至 2026-10-01 获奖尚未公布）"
    }
   ],
   "winners": [],
@@ -2786,10 +2786,219 @@
     "year": 2026,
     "dates": "2026-05-19 ~ 2026-08-17",
     "url": "https://xprize.org/buildwithgemini",
-    "note": "2026-05-19 Google I/O 发布，构建期 05-19 至 08-17（1,400+ 项目）；Top 100 已公布，25 个获奖者于 2026-09-25 洛杉矶 Moonshot Summit 揭晓"
+    "note": "2026-05-19 Google I/O 发布，构建期 05-19 至 08-17（1,400+ 项目）；25 个获奖项目于 2026-09-25 洛杉矶 Moonshots LIVE 现场揭晓，Polyfork（Lucas Martinic）夺得 50 万美元头奖"
    }
   ],
-  "winners": [],
+  "winners": [
+   {
+    "year": 2026,
+    "project": "Polyfork",
+    "team": "Lucas Martinic（德国）",
+    "what": "把 3D 模型做成可参数化重混的「小程序」而非固定网格文件，用户可在下载前调整尺寸、配色与结构；AI 智能体工厂每周自动发布 175+ 个模型，583 个模型的首月目录带来 54 名付费用户、4,428 美元收入。",
+    "why": "Build with Gemini XPRIZE 全场总冠军（第 1 名，奖金 50 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Tician Cierre",
+    "team": "José Edgar Peña Ramírez（墨西哥）",
+    "what": "用内置 AI 审计员帮墨西哥中小企业追回增值税（VAT）抵扣，自动应对 SAT 的八段式申报要求与 CFDI 发票核验流程。",
+    "why": "Build with Gemini XPRIZE 第 2 名（奖金 20 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "MyFixAm",
+    "team": "Jane Chukwuyem Odum（尼日利亚 / 美国）",
+    "what": "面向尼日利亚非正规手艺人经济的服务平台，用 AI 智能体补上身份核验、支付保护与工作派单三块缺失的基础设施。",
+    "why": "Build with Gemini XPRIZE 第 3 名（奖金 10 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "LaunchBridge",
+    "team": "Chase Rosen（美国）",
+    "what": "AI 驱动的公司注册平台，350 美元一口价（含 100 美元弗吉尼亚州备案费），宣称 72 小时内完成 LLC、EIN、网站与收款搭建，无订阅与隐藏费用。",
+    "why": "Build with Gemini XPRIZE 第 4 名（奖金 10 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "DodoPrep",
+    "team": "Naveed Ahmed（印度）",
+    "what": "Gemini 驱动的 AI 原生育学习平台，可吞下 PDF、课堂录音、YouTube 视频、幻灯片与手写笔记，针对学生的具体卡点而非泛泛地总结内容。",
+    "why": "Build with Gemini XPRIZE 第 5 名（奖金 10 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Kosmo",
+    "team": "Harshal Dorlikar（印度）",
+    "what": "面向教育与人类潜能赛道的 AI 原生产品，据营收表现拿下该赛道最高收入。",
+    "why": "Build with Gemini XPRIZE 分类奖「教育与人类潜能」最高收入项目（奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "NoBanks Nearby",
+    "team": "（美国）",
+    "what": "「人类负责艺术、AI 负责生意」的创业与就业赛道产品，据营收表现拿下该赛道最高收入。",
+    "why": "Build with Gemini XPRIZE 分类奖「创业与就业创造」最高收入项目（奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Trama AI Corp",
+    "team": "Luis Carlos Reyes Vanegas、Gianfranco、Najem、Johan Sebastian（哥伦比亚）",
+    "what": "面向小企业服务的 AI 原生方案，据营收表现拿下该赛道最高收入。",
+    "why": "Build with Gemini XPRIZE 分类奖「小企业服务」最高收入项目（奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Mimi Money",
+    "team": "Ns Mike（乌干达）",
+    "what": "面向资金与金融普惠赛道的 AI 原生产品，据营收表现拿下该赛道最高收入。",
+    "why": "Build with Gemini XPRIZE 分类奖「资金与金融普惠」最高收入项目（奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "C2X",
+    "team": "Esteban Londoño（哥伦比亚）",
+    "what": "面向专业服务普惠赛道的 AI 原生产品，据营收表现拿下该赛道最高收入。",
+    "why": "Build with Gemini XPRIZE 分类奖「专业服务普惠」最高收入项目（奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "MergeGate",
+    "team": "Heartlin Machado（美国）",
+    "what": "面向「资金以智能体速度流动」的智能体经济场景，让自主智能体能直接与金融系统交互完成交易。",
+    "why": "Build with Gemini XPRIZE · Circle 赞助的 Agentic Economy Prize 单设大奖（奖金 5 万美元），由 Circle 的 Nikhil Chandhok 现场颁发。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "OpportunityOS",
+    "team": "Artas Yaskar（巴基斯坦）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Olva",
+    "team": "Zelong Wang（美国）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Ten Minutes Wiser",
+    "team": "Sunny Sonnendeck（德国）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "ActinGym",
+    "team": "Daniel Alloun（法国）",
+    "what": "面向表演者的 AI 自录试镜教练。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Spoken Letter",
+    "team": "Juan González Ponce（西班牙）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Esencia",
+    "team": "Ivonne、Karen（墨西哥）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Ability Bazaar",
+    "team": "Ram Raju（印度 / 美国）",
+    "what": "面向残障人才的求职平台，把无障碍网页技能与用工需求对接。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Barber Copilot",
+    "team": "Francs Silva（菲律宾）",
+    "what": "面向理发行业的 AI 助理项目。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Sembramos",
+    "team": "Gabriel Sanchez、Angeles Mattey（委内瑞拉）",
+    "what": "AI 原生的农产品批发流通方案。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Pleno App",
+    "team": "Gabriel Villegas（阿根廷）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Teluma",
+    "team": "Ifeoma Ugwonna（尼日利亚）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Pantry Insight",
+    "team": "Rim Chebbaki（美国）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "GrowthSphere AI",
+    "team": "Hina Hanif（巴基斯坦）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Enamel",
+    "team": "Yatin Shinde（印度）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   },
+   {
+    "year": 2026,
+    "project": "Seedubator",
+    "team": "Nikhil Mankani（阿联酋）",
+    "what": "AI 原生项目，入围 25 个获奖项目之一。",
+    "why": "Build with Gemini XPRIZE 亚军奖（Runner Up，奖金 5 万美元）。",
+    "url": "https://annualreport.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize"
+   }
+  ],
   "_confidence": "high",
   "source_file": "raw-intl-vendor.json",
   "years": [
@@ -3790,7 +3999,7 @@
     "year": 2026,
     "dates": "2026-08-01 ~ 2026-09-30",
     "url": "https://www.revenuecat.com/blog/company/announcing-shipaton-2026",
-    "note": "2026-08-01 至 09-30，获奖于 10-22 公布（纽约 The Shippies 颁奖礼）；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯"
+    "note": "2026-08-01 至 09-30（Devpost 显示提交截止 10-01 20:00 GMT+1）；评审 10-01 至 10-13，获奖于 2026-10-21 经由 The Shippies 颁奖礼公布（10-22 为纽约时代广场 Demo Day）；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯"
    }
   ],
   "winners": [
