@@ -1864,8 +1864,8 @@
    {
     "year": 2026,
     "dates": "2026-09-19 ~ 2026-09-20",
-    "url": "https://hackmit.org/",
-    "note": "官网公布 HACKMIT2026 为 9.19-9.20"
+    "url": "https://www.thetech.com/2026/10/01/hackmit-2026",
+    "note": "1000+ 名本科生、200+ 所高校，24 小时近 300 个项目；四条赛道为娱乐/教育/可持续/医疗；总冠军 Peel（8,000 美元）"
    }
   ],
   "winners": [
@@ -1908,6 +1908,38 @@
     "what": "基于开源生成式 AI 的自然语言沟通板，让言语障碍患者通过点选生成短语与外界交流。",
     "why": "HackMIT 2024「Best Use of Open-Source GenAI」赛道冠军（非 Fetch.ai 赛道）。",
     "url": "https://jieruei.github.io/projects"
+   },
+   {
+    "year": 2026,
+    "project": "Peel",
+    "team": "Leo Pozhenko（RIT）/ Alan Tai（西北大学）/ Viktor Minchev（UCSB）/ Nikhil Ramlukan（约翰霍普金斯大学）",
+    "what": "低成本光学溶出度测试仪 + AI 证据引擎：通过手机外接的 LED/光敏硬件测量药片在水中的溶解曲线，再把结果与药品监管数据库交叉比对，判断药物是否可信、是否需要送检。整机内部元件成本不到 30 美元。",
+    "why": "HackMIT 2026（2026-09-19 至 09-20，MIT）全场总冠军 Grand Prize，奖金 8,000 美元；同时拿下 Elastic「Find The Signal」赞助赛道冠军（Healthcare 赛道）。",
+    "url": "https://www.rit.edu/pht180/news/rit-student-wins-hackmit-low-cost-medicine-testing-device"
+   },
+   {
+    "year": 2026,
+    "project": "Burrow",
+    "team": null,
+    "what": "集成在浏览器里的 AI 学习伙伴：动画小兔子「Bunny」陪在学生身边，用苏格拉底式提问给提示而非直接给答案，引导自主学习而不是当聊天机器人。",
+    "why": "HackMIT 2026 Education 赛道冠军（track prize）。",
+    "url": "https://www.thetech.com/2026/10/01/hackmit-2026"
+   },
+   {
+    "year": 2026,
+    "project": "Scutaris",
+    "team": "Ashraful Islam Tutul / Md. Tanvir Ibn Alam（Truman State University）",
+    "what": "空间态势感知平台：整合 CelesTrak 的 9,000+ 条真实卫星与碎片轨道数据，用自然语言检索 + 风险排序 + 五阶段 Grok 智能体流水线，在 3D 地球上可视化碰撞威胁并给出规避机动建议。",
+    "why": "HackMIT 2026 SpaceXAI「Make it Legendary」赞助赛道冠军（两个获奖项目之一）。",
+    "url": "https://online92.thedailystar.net/news/technology/news/two-bangladeshi-students-win-spacexai-challenge-mit-4291041"
+   },
+   {
+    "year": 2026,
+    "project": "Klick",
+    "team": null,
+    "what": "给参与者一个 AI「数字分身」，自动完成活动与职场社交中的匹配与破冰，降低 networking 的心理门槛。",
+    "why": "HackMIT 2026 Meta 与 Espressif 两项赞助赛道冠军。",
+    "url": "https://www.thetech.com/2026/10/01/hackmit-2026"
    }
   ],
   "_confidence": "high",
@@ -2572,10 +2604,131 @@
     "year": 2026,
     "dates": "2026-07-27 ~ 2026-09-07",
     "url": "—",
-    "note": "2026-07-27 开放，2026-09-07 截止（部分渠道 09-09）；1,400+ 队报名；评审 09-10 起，获奖于 2026-10-13 公布（截至 2026-10-01 尚未公布）"
+    "note": "2026-07-27 开放，2026-09-07 截止（部分渠道 09-09）；10,000+ 人报名，最终 893 个项目提交；评审 09-10 起；获奖名单已于 2026-10-16 在 Devpost 公布，5 条赛道（IBM / Parallel / Clickhouse / Grafana Labs / Replit）各 3 名，共 15 个奖项，已全部收录"
    }
   ],
-  "winners": [],
+  "winners": [
+   {
+    "year": 2026,
+    "project": "THE GATE",
+    "team": "mohsen shoraki",
+    "what": "把一天的素材丢进去：它找出你还缺哪些机位、判断今天是否来得及补拍，并告诉你每种补救方案各要花多少。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Clickhouse 赛道冠军。",
+    "url": "https://devpost.com/software/the-gate-yx5z2b"
+   },
+   {
+    "year": 2026,
+    "project": "Retention Room",
+    "team": "Manas Nikam",
+    "what": "到底哪一场戏把观众弄丢了？把播放埋点与剧本放进同一个房间，由 Gemini 智能体查 ClickHouse、先排除 CDN 问题，再告诉剪辑师该剪哪里。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Clickhouse 赛道亚军。",
+    "url": "https://devpost.com/software/retention-room"
+   },
+   {
+    "year": 2026,
+    "project": "Locaish",
+    "team": "GremzGit Dhillon / Joshua Philip",
+    "what": "一个能替你跑出去勘景的地勘。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Clickhouse 赛道季军。",
+    "url": "https://devpost.com/software/locaish"
+   },
+   {
+    "year": 2026,
+    "project": "The Media Customs",
+    "team": "Tim Dries",
+    "what": "让广告在各市场播出前先「过海关」：Google 智能体陪你一起看片，逐条比对该国法规、引用具体条文，并把不合规的版本重新渲染好。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Grafana Labs 赛道冠军。",
+    "url": "https://devpost.com/software/the-media-customs"
+   },
+   {
+    "year": 2026,
+    "project": "Raccord - Accessible Experience Reliability for live media.",
+    "team": "Marc Donovici",
+    "what": "为直播类内容做无障碍可靠性保障：认证、监控、诊断、修复，并为每一个无障碍承诺留下可验证的证据。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Grafana Labs 赛道亚军。",
+    "url": "https://devpost.com/software/raccord-accessible-experience-reliability-for-live-media"
+   },
+   {
+    "year": 2026,
+    "project": "Shot Clock",
+    "team": "Biyon Jose",
+    "what": "一队 Gemini 智能体盯着 Grafana 里的特效渲染农场：算出哪些镜头赶不上交付、给出证明、看一眼画面，再把代价算出来。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Grafana Labs 赛道季军。",
+    "url": "https://devpost.com/software/shot-clock"
+   },
+   {
+    "year": 2026,
+    "project": "Eyeline — Autonomous On-Set Continuity Copilot",
+    "team": "Helen Kwok",
+    "what": "给场记的自主连续性副驾：在片场 2 分钟的窗口内抓出道具、服化与走位穿帮，由 Gemini 3.8 Flash 做裁决。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）IBM 赛道冠军。",
+    "url": "https://devpost.com/software/eyeline-autonomous-on-set-continuity-copilot"
+   },
+   {
+    "year": 2026,
+    "project": "Shadow Cut",
+    "team": "Patrice Deloffre-Zachelin",
+    "what": "片场实时看住连贯性：用 Gemini 与 IBM 在拍摄当下盯住画面，杀青前就提醒导演，省下动辄 5 万美元的重拍。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）IBM 赛道亚军。",
+    "url": "https://devpost.com/software/shadow-cut"
+   },
+   {
+    "year": 2026,
+    "project": "HOLD",
+    "team": "Khadim Drame / Stephen Sookra",
+    "what": "把拍摄计划里「付钱等场」的浪费压下去：查看带引证的童演工时上限建模结果，并把确认后的变更重新求解排期。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）IBM 赛道季军。",
+    "url": "https://devpost.com/software/hold-wrp4nq"
+   },
+   {
+    "year": 2026,
+    "project": "CurrentCut",
+    "team": "Masakazu Tanaka",
+    "what": "给纪实类电视节目的通宵 AI 剪辑台：晚上把素材丢进去，早上拿到初剪，每一句涉及事实的台词，都会标明它是跟哪个信源核对过的，或者说清为什么没能核对。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Parallel 赛道冠军。",
+    "url": "https://devpost.com/software/currentcut"
+   },
+   {
+    "year": 2026,
+    "project": "Consentinel",
+    "team": "Prachit Tupe / Swara Vedak / Vedant Devkar",
+    "what": "一份登记库、两个方向的巡查：用五种语言在全球追查未经授权使用演员形象训练的 AI 克隆，在片场交付前完成清检。AI 负责找证据，人做决定。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Parallel 赛道亚军。",
+    "url": "https://devpost.com/software/consentinel"
+   },
+   {
+    "year": 2026,
+    "project": "The Boxes",
+    "team": "Rairo Mukamuri",
+    "what": "把库布里克式的画面边框装进口袋。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Parallel 赛道季军。",
+    "url": "https://devpost.com/software/the-boxes"
+   },
+   {
+    "year": 2026,
+    "project": "wevr",
+    "team": "Aryan Sherigar / Parth Dambhare",
+    "what": "一个让创作者直接「导演」可玩式电影、活动影像的 AI 制作棚。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Replit 赛道冠军。",
+    "url": "https://devpost.com/software/wevr-01crv6"
+   },
+   {
+    "year": 2026,
+    "project": "FrameKind",
+    "team": "Kumar Abhinav",
+    "what": "面向剪辑师的无障碍审查智能体：找出缺失的声音字幕、过快对白和时间轴错误，逐条对照画面复核修复方案，最后导出一版更好的成片。",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Replit 赛道亚军。",
+    "url": "https://devpost.com/software/framekind-tz85od"
+   },
+   {
+    "year": 2026,
+    "project": "Project Greenlight",
+    "team": "Orlando Soto",
+    "what": "给电影放行风险太大，如果有工具能读完那些还没拍的剧本，算出它有多独特、票房大概能到什么水平呢？",
+    "why": "Agentic Cinema: The Blockbuster Hackathon（Google Cloud，10,000+ 报名、893 个提交）Replit 赛道季军。",
+    "url": "https://devpost.com/software/uniq-jn5e4r"
+   }
+  ],
   "_confidence": "medium",
   "source_file": "raw-intl-vendor.json",
   "years": [
@@ -2609,10 +2762,91 @@
     "year": 2026,
     "dates": "2026-08-10 ~ 2026-09-14",
     "url": "https://agentsforhumans.devpost.com/",
-    "note": "官方 rules：提交期 2026-08-10 至 09-14，评审 09-15 至 10-08，获奖于 2026-10-14 公布；7,000+ 人报名（截至 2026-10-01 获奖尚未公布）"
+    "note": "官方 rules：提交期 2026-08-10 至 09-14，评审 09-15 至 10-08；获奖于 2026-10-14 公布，Devpost 获奖名单已上线（9,900+ 人报名），10 个奖项各归其主，获奖项目已收录"
    }
   ],
-  "winners": [],
+  "winners": [
+   {
+    "year": 2026,
+    "project": "Tally",
+    "team": "Ujwal Suresh Vanjare / Arpita Madhukar Kalburgi",
+    "what": "面向幼托机构的膳食报销智能体：一张餐盘照片即可识别食物、逐一核对每位孩子的过敏原后才落笔记录，并按官方补贴费率自动填报当月报销申报。",
+    "why": "AWS Agents for Humans Hackathon 2026 全场大奖（Grand Prize，10,000 美元）；全球 9,900+ 名参赛者。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "Shoulder",
+    "team": "Nourin Richi / Ahammad Shawki / Mohammad Ashfaqul Hasan",
+    "what": "隐私优先的照护协作智能体：把照顾年迈家人的责任在家庭内部公平拆分与可见化，避免落到某一个人身上独自承担。",
+    "why": "AWS Agents for Humans Hackathon 2026「Everyday Agents」赛道金奖（Golden Agent，5,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "Cahoots",
+    "team": "Jashan Gill / Nhat Nam Tran",
+    "what": "让「你的智能体」与别人的智能体互相串通：自动发现你想认识的人、以及你需要的人，把社交匹配交给智能体之间协商。",
+    "why": "AWS Agents for Humans Hackathon 2026「Everyday Agents」赛道银奖（Silver Agent，3,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "StepSpotter",
+    "team": "Mikhail Oskola",
+    "what": "居家维修安全引导智能体：用照片逐步指导操作，上一步未拍到「已安全完成」的证据前，下一步会被锁住。",
+    "why": "AWS Agents for Humans Hackathon 2026「Everyday Agents」赛道铜奖（Bronze Agent，2,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "Shopbell",
+    "team": "MIN JEA SEO",
+    "what": "独立小店的合规雷达：智能体每天读取召回公告、听证议程与许可证信息，只在与本店相关时出声，并留痕记录它逐条过滤掉了哪些内容。",
+    "why": "AWS Agents for Humans Hackathon 2026「Professional Agents」赛道金奖（Golden Agent，5,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "Instanter",
+    "team": "Stephen Sookra",
+    "what": "驱逐抗辩时限智能体：为法律援助队列中每一起案件按佐治亚州法条计算答辩截止日期，随即停下来交给执业律师确认——46 起中有 4 起裸手计算会算错。",
+    "why": "AWS Agents for Humans Hackathon 2026「Professional Agents」赛道银奖（Silver Agent，3,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "OneDecision",
+    "team": "Matt Graves / Jeff Lynch",
+    "what": "教会智能体一次、安全代劳之后一百次决策：从一次已批准的判断中学会规则，在历史案例上自证，遇到陌生情形自动交还人工。",
+    "why": "AWS Agents for Humans Hackathon 2026「Professional Agents」赛道铜奖（Bronze Agent，2,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "Doorstep",
+    "team": "Ansh Sahny",
+    "what": "高温预警邻里关怀智能体：热浪来袭时自动逐户排查高风险邻居，只在真正需要时请人来处理。",
+    "why": "AWS Agents for Humans Hackathon 2026「Good Neighbor Agents」赛道金奖（Golden Agent，5,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "On The Line",
+    "team": "Marc Donovici",
+    "what": "会「先打电话」的社区资源目录：不只是列出救助资源，还主动替当事人提前联系确认是否可用。",
+    "why": "AWS Agents for Humans Hackathon 2026「Good Neighbor Agents」赛道银奖（Silver Agent，3,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   },
+   {
+    "year": 2026,
+    "project": "Plainletter",
+    "team": "Taranity K",
+    "what": "图书馆问询台背后的智能体：把读不懂的官方公文（补贴、罚单、通知）翻成白话，逐个核对信中日期与金额，遇到照片褶皱看不清的字段就如实列出缺失的 7 项而非猜测。",
+    "why": "AWS Agents for Humans Hackathon 2026「Good Neighbor Agents」赛道铜奖（Bronze Agent，2,000 美元）。",
+    "url": "https://agentsforhumans.devpost.com/project-gallery"
+   }
+  ],
   "_confidence": "high",
   "source_file": "raw-intl-vendor.json",
   "years": [
@@ -3999,7 +4233,7 @@
     "year": 2026,
     "dates": "2026-08-01 ~ 2026-09-30",
     "url": "https://www.revenuecat.com/blog/company/announcing-shipaton-2026",
-    "note": "2026-08-01 至 09-30（Devpost 显示提交截止 10-01 20:00 GMT+1）；评审 10-01 至 10-13，获奖于 2026-10-21 经由 The Shippies 颁奖礼公布（10-22 为纽约时代广场 Demo Day）；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯"
+    "note": "2026-08-01 至 09-30（Devpost 显示提交截止 10-01 20:00 GMT+1）；评审 10-01 至 10-13，获奖于 2026-10-21 经由 The Shippies 颁奖礼公布（10-22 为纽约时代广场 Demo Day）；3,985 个项目提交、近 3,000 个 App 上架，21 个类别共 58 个获奖应用，已全部收录；新增学生 Next Gen 奖；排除古巴、伊朗、朝鲜、克里米亚、俄罗斯"
    }
   ],
   "winners": [
@@ -4042,6 +4276,470 @@
     "what": "面向 AI 应用向量数据的安全与防护工具",
     "why": "HAMM（帮 App 赚钱）奖第一名",
     "url": null
+   },
+   {
+    "year": 2026,
+    "project": "Boop: Catch Every Dog & Cat",
+    "team": "Taiwo Omisore",
+    "what": "现实版「宠物图鉴」：手机对准任何猫狗，本机识别品种，裁成模切贴纸，并钉在你遇见它的地图位置上。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：#BuildInPublic 奖·冠军。",
+    "url": "https://devpost.com/software/boop-catch-every-dog-cat"
+   },
+   {
+    "year": 2026,
+    "project": "Grandfolio - OPTCG Scanner",
+    "team": "Aris Guimerá Orozco",
+    "what": "《海贼王》卡牌收藏者的全能伴侣：几秒扫出具体卡面版本，盯价格、凑套、管重复卡，还能和其他收藏者交换。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Samsung Galaxy 最佳应用 冠军。",
+    "url": "https://devpost.com/software/grandfolio-optcg-scanner"
+   },
+   {
+    "year": 2026,
+    "project": "Nitelore",
+    "team": "Neil H",
+    "what": "手机上的超高速反重力竞速（可以想成 F-Zero 或 Wipeout）：15 条霓虹赛道、4 种模式外加在线对战，iPhone、iPad、Mac、Apple TV、Watch 与安卓全覆盖。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：最佳游戏 冠军。",
+    "url": "https://devpost.com/software/nitelore"
+   },
+   {
+    "year": 2026,
+    "project": "Adversary. Memory game with a twist",
+    "team": "Niv Ben-porath",
+    "what": "在经典记忆配对游戏里藏一张「危险牌」：翻开它，广告就长在你自己的记忆棋盘上，把「躲广告」变成游戏规则本身。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Catvertising 广告创意奖·冠军。",
+    "url": "https://devpost.com/software/adversary-memory-game-with-a-twist"
+   },
+   {
+    "year": 2026,
+    "project": "In Your Own Words",
+    "team": "Natasha Wilson",
+    "what": "把难开口的话先在 App 里说一遍：看自己的语速、口头语和犹豫位置，在推门进去前听回最好的一版。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Funnel Vision 转化漏斗奖（Stripe） 冠军。",
+    "url": "https://devpost.com/software/rehearsal-speech-practice"
+   },
+   {
+    "year": 2026,
+    "project": "Mio - Self Care Habit Tracker",
+    "team": "Angelo Ramos / Avi Khemani / Dawg Labs",
+    "what": "把自我关怀做成游戏：养成健康习惯、完成挑战、赚金币、解锁可爱伙伴，一边升级自己的健康世界。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：总冠军（Grand Prize） 冠军。",
+    "url": "https://devpost.com/software/mio-0v2shm"
+   },
+   {
+    "year": 2026,
+    "project": "GRIDLOCK: ULTIMATE TIC TAC TOE",
+    "team": "个人开发者（Devpost 未公开姓名）",
+    "what": "把井字棋改造成最多四人实时对战的策略游戏：特殊走法可以扭动棋盘、打断对手，重写这个最熟悉的规则。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：HAMM 变现奖·冠军。",
+    "url": "https://devpost.com/software/gridlock-the-ultimate-tic-tac-toe"
+   },
+   {
+    "year": 2026,
+    "project": "Let's Get Support by 3Dadz",
+    "team": "Aaryn B. / Joshua Burgess",
+    "what": "给正在陪伴成瘾康复家人的家庭用的私密工具：日常问候、设定边界、找到本地支持。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Replit Idea to Income 奖·冠军。",
+    "url": "https://devpost.com/software/let-s-get-support-by-3dadz"
+   },
+   {
+    "year": 2026,
+    "project": "Rehearse - Hard Conversations",
+    "team": "Akil Saji",
+    "what": "先对着一个会顶回来的 AI 面孔大声说一遍，看到自己在哪一句失了对方，带着一张准备卡进门，事后还能回来复盘真实那场谈得怎样。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · Career Coaching（Leadership Heather） 冠军。",
+    "url": "https://devpost.com/software/rehearse-hard-conversations"
+   },
+   {
+    "year": 2026,
+    "project": "Game Magnet",
+    "team": "Kundan Sai Pannuru",
+    "what": "在 TikTok、Shorts 或 Reel 里看到一款游戏？把视频分享过来，Game Magnet 会把里面出现的游戏全找出来，存进一个你真会通关、评分、分享的清单。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · Gaming（Lewis Blogs Gaming） 冠军。",
+    "url": "https://devpost.com/software/xyz-2e3uvn"
+   },
+   {
+    "year": 2026,
+    "project": "Just Add",
+    "team": "Cerasela Mardare / Razvan Statescu",
+    "what": "给厌倦了记录饮食的人用的配餐工具：说出家里有什么，从三个真实晚餐里挑一个，再跟着食谱、购物清单和分步烹饪模式做出来。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Influencer Award - Nutrition &amp; Healthy Eating: Abbey&#39;s Kitchen 冠军。",
+    "url": "https://devpost.com/software/just-add"
+   },
+   {
+    "year": 2026,
+    "project": "SnipStash",
+    "team": "Hassan Nawaz Khan / bilal walker",
+    "what": "任何文字、图片或文件存一次就能到处贴：iPhone、iPad、Mac 上手键盘、分享面板、Option-Space、Siri 都能调出来。19.99 美元买断、不订阅、走私人 iCloud 同步。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · 生产力（Christopher Lawley） 冠军。",
+    "url": "https://devpost.com/software/snipstash"
+   },
+   {
+    "year": 2026,
+    "project": "FeelGood: Movement Menu",
+    "team": "Ameena Malik / Yusra Salam",
+    "what": "先报告今天的精力状态，再拿到一份按时间和日程定制的运动菜单：各种流派、工位拉伸与呼吸复位。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Influencer Award - Yoga &amp; Fitness: Simone Sharice 冠军。",
+    "url": "https://devpost.com/software/feelgood-mood-aware-movement-companion"
+   },
+   {
+    "year": 2026,
+    "project": "Parky! - Theme Park Tracker",
+    "team": "Chase Van Derrick",
+    "what": "乐园日不该耗在排长队和抢不到的餐位上：Parky 显示迪士尼与环球的实时排队，餐位一放出来就提醒，每坐一个项目还能盖章收藏。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Keep Them Coming Back 留存奖（OneSignal） 冠军。",
+    "url": "https://devpost.com/software/parky-ahpcjr"
+   },
+   {
+    "year": 2026,
+    "project": "Trazo: Golf Ball Tracer",
+    "team": "Julian Praest",
+    "what": "任何一段挥杆视频都能变成转播级的弹道轨迹：点两下球，本机 AI 追踪飞行并画出弧线。不需要雷达、不需要三脚架、不上传。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Most Viral App 病毒传播奖（Noise） 冠军。",
+    "url": "https://devpost.com/software/trazo-golf-ball-tracer"
+   },
+   {
+    "year": 2026,
+    "project": "Bubble Games",
+    "team": "Charles R-D / David Mosquera / Lamine Gueye / Sébastien Dubé",
+    "what": "沙发派对游戏天花板：手机连上同一个 Wi-Fi 把屏幕拼成一块，一起玩快节奏小游戏，手机越多越好玩。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Next Gen 学生奖·冠军。",
+    "url": "https://devpost.com/software/bubble-games"
+   },
+   {
+    "year": 2026,
+    "project": "Clucky - Loud Alarm Clock",
+    "team": "Adrian Angelo Abelarde / Satya Dwivedi",
+    "what": "一只嘴很碎的公鸡闹钟：想关掉它，得先付出点代价。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：RevenueCat 设计奖·冠军。",
+    "url": "https://devpost.com/software/clucky-loud-alarm-clock"
+   },
+   {
+    "year": 2026,
+    "project": "See as Me: Colorblind",
+    "team": "Javier Jiménez",
+    "what": "总有人问我「你到底怎么看到的」，现在我直接给他们看——任何色盲者都能做到。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：RevenueCat 和平奖·冠军。",
+    "url": "https://devpost.com/software/see-as-me"
+   },
+   {
+    "year": 2026,
+    "project": "BoatBrawl",
+    "team": "Ashwin K M / Rehaan Cubes",
+    "what": "和朋友开船互轰的街机对战：8 人在线混战，支持本地分屏，手柄或手机都能当控制器，一份 Kotlin Multiplatform 代码同时跑 iPhone、安卓、Mac 和 Windows。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Ship Kotlin Everywhere（JetBrains） 冠军。",
+    "url": "https://devpost.com/software/boatbrawl"
+   },
+   {
+    "year": 2026,
+    "project": "PoquitoTalk: Bocas del Toro",
+    "team": "Dorien Van den Abbeele",
+    "what": "用英文打字，在 WhatsApp 上发出一条体面的当地西班牙语语音；Bocas del Toro 的船长、水管工和诊所照样回语音，你听到的是英文——对方不需要装任何 App。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Growth Loop 增长闭环奖（Layers） 冠军。",
+    "url": "https://devpost.com/software/poquitotalk"
+   },
+   {
+    "year": 2026,
+    "project": "Scroll Survival",
+    "team": "Eric Vargas",
+    "what": "伪装成游戏的 App 拦截器：锁住一个 App 就长出一栋 3D 村庄，想提前解锁得先完成一个现实世界挑战；中途退出，辛苦建的村庄可能就没了。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：#BuildInPublic 奖·亚军。",
+    "url": "https://devpost.com/software/scroll-survival"
+   },
+   {
+    "year": 2026,
+    "project": "Rainroam",
+    "team": "Hanna Shcharbakova / Yauheni Draitsau",
+    "what": "可切换 3D 与像素画风的「类魂」冒险：一根手指就能走完剧情模式，也能下潜进硬核 Roguelike「许愿井」。买一次，两种都解锁。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Samsung Galaxy 最佳应用 亚军。",
+    "url": "https://devpost.com/software/rainroam"
+   },
+   {
+    "year": 2026,
+    "project": "Keepsweeper",
+    "team": "Michael Flarup",
+    "what": "扫雷加实时策略：读懂线索、挖出宝藏，把熟悉的灰色方格变成一座会生长的像素王国。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：最佳游戏 亚军。",
+    "url": "https://devpost.com/software/keepsweeper"
+   },
+   {
+    "year": 2026,
+    "project": "WALLO - Live Sticker Guestbook",
+    "team": "Nurazim Roizan",
+    "what": "一块有触感的实时数字留言簿与协作贴纸画布，把咖啡馆、婚礼、社区空间这些真实「第三空间」和线上的协作玩法连起来。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Catvertising 广告创意奖·亚军。",
+    "url": "https://devpost.com/software/wallo-live-sticker-guestbook"
+   },
+   {
+    "year": 2026,
+    "project": "Kettlebell Body",
+    "team": "jjjeeerrr222 S",
+    "what": "各水平的完整壶铃训练方案，在家或在健身房都能练。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Funnel Vision 转化漏斗奖（Stripe） 亚军。",
+    "url": "https://devpost.com/software/kettlebell-body"
+   },
+   {
+    "year": 2026,
+    "project": "DramaSip",
+    "team": "Vadim Savin",
+    "what": "每天一小口狗血：2 分钟竖屏短剧，爱情、复仇与秘密，每划一次都留个新悬念。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：HAMM 变现奖·亚军。",
+    "url": "https://devpost.com/software/dramasip"
+   },
+   {
+    "year": 2026,
+    "project": "Quarterday",
+    "team": "Adrian Ferguson",
+    "what": "房屋维护按月来：这个月真正需要做的活儿，以及现在还做不了的部分都不会塞给你。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Replit Idea to Income 奖·亚军。",
+    "url": "https://devpost.com/software/quarterday"
+   },
+   {
+    "year": 2026,
+    "project": "GameNight: What Should We Play",
+    "team": "Matthew Walmsley",
+    "what": "把游戏 backlog 变成左右滑动：看到就存、盯住打折，再和朋友「Party Up」决定今晚玩什么。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · Gaming（Lewis Blogs Gaming） 亚军。",
+    "url": "https://devpost.com/software/gamenight-what-should-we-play"
+   },
+   {
+    "year": 2026,
+    "project": "satisfed: More Satisfying, Less Restrictive Meals",
+    "team": "BURAK EREN DEMIR / IREM DURAN",
+    "what": "给不再想数卡路里的年轻女性的无评判营养 App：从「吃到了什么」出发，把每一餐搭得更有满足感、更少限制。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Influencer Award - Nutrition &amp; Healthy Eating: Abbey&#39;s Kitchen 亚军。",
+    "url": "https://devpost.com/software/satisfed-more-satisfying-less-restrictive-meals"
+   },
+   {
+    "year": 2026,
+    "project": "Ribbons",
+    "team": "Paul Waweru",
+    "what": "所有你还会再用一次的东西，都放在同一个地方。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · 生产力（Christopher Lawley） 亚军。",
+    "url": "https://devpost.com/software/ribbons-sb4qju"
+   },
+   {
+    "year": 2026,
+    "project": "GO: Chair Yoga For Seniors",
+    "team": "Subham Bhalawat",
+    "what": "给长辈的坐姿训练 App：每天明确告诉今天该做什么，不随机排课，只给一份为你定制的计划。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Influencer Award - Yoga &amp; Fitness: Simone Sharice 亚军。",
+    "url": "https://devpost.com/software/go-chair-yoga-for-seniors"
+   },
+   {
+    "year": 2026,
+    "project": "Inference",
+    "team": "Samuel Anozie",
+    "what": "帮你看住精力的智能体。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Keep Them Coming Back 留存奖（OneSignal） 亚军。",
+    "url": "https://devpost.com/software/inference"
+   },
+   {
+    "year": 2026,
+    "project": "PlateDiary - Food Journaling",
+    "team": "John Michael Degojas",
+    "what": "一张餐桌照就是一篇饮食日记：存下每道菜、在哪吃、什么时候吃、和谁一起吃。一张照片，每道菜都被记住。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Most Viral App 病毒传播奖（Noise） 亚军。",
+    "url": "https://devpost.com/software/platediary-food-journaling"
+   },
+   {
+    "year": 2026,
+    "project": "1% Lock",
+    "team": "RYUNOSUKE ISHIGAMI",
+    "what": "反向设计的自律锁：别的 App 拉黑软件是让解锁变难，1% Lock 在你最想放弃的那一刻，把别人正在坚持的进度摆到你面前，让「继续做下去」比「退出」更省力。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Next Gen 学生奖·亚军。",
+    "url": "https://devpost.com/software/1-lock"
+   },
+   {
+    "year": 2026,
+    "project": "Aweigh",
+    "team": "Zach Coleman",
+    "what": "美国最大渡轮系统 Washington State Ferries 的乘船助手：实时班次、船只位置与自驾车位，原班人马从零重做。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：RevenueCat 设计奖·亚军。",
+    "url": "https://devpost.com/software/aweigh"
+   },
+   {
+    "year": 2026,
+    "project": "Josie Care",
+    "team": "Laure Santolini",
+    "what": "每 8 位女性就有 1 位受多囊卵巢综合征困扰，却几乎得不到像样的支持。Josie 把激素化验数据与日常习惯变成清晰、不带评判的解读。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：RevenueCat 和平奖·亚军。",
+    "url": "https://devpost.com/software/josie-care"
+   },
+   {
+    "year": 2026,
+    "project": "Afterfade",
+    "team": "Kanon Fujita",
+    "what": "对着镜头拍 5 秒，当天的颜色与声音就在本机生成一首 lo-fi 曲子，素材全是自己真实录到的，不经云端。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Ship Kotlin Everywhere（JetBrains） 亚军。",
+    "url": "https://devpost.com/software/afterfade"
+   },
+   {
+    "year": 2026,
+    "project": "Better Yoga",
+    "team": "Fakher Hakim",
+    "what": "每天早上三下：精力、酸痛、时间，普拉提计划自己排好；休息日也算数，没有连续打卡、没有内疚、没有两百节课的课表。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Growth Loop 增长闭环奖（Layers） 亚军。",
+    "url": "https://devpost.com/software/shipaton-zcr4po"
+   },
+   {
+    "year": 2026,
+    "project": "FeedbackThread: Triage Board",
+    "team": "Aivars Meijers",
+    "what": "在 iPhone 上分诊 App 反馈，再把整个队列交给自己的智能体：所有评价、需求与 Bug 放在同一块板上，一路追踪到它随哪个版本上线。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：#BuildInPublic 奖·季军。",
+    "url": "https://devpost.com/software/feedbackthread-triage-board"
+   },
+   {
+    "year": 2026,
+    "project": "SugarCurve: Gestational Diabetes Coach",
+    "team": "Dalo Labs",
+    "what": "每 6 次怀孕就有 1 次突然遭遇妊娠糖尿病，怀孕本就不容易，有了它更难。SugarCurve 陪你把趋势和馋嘴转成当下能执行的建议。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Samsung Galaxy 最佳应用 季军。",
+    "url": "https://devpost.com/software/sugarcurve-gestational-diabetes-coach"
+   },
+   {
+    "year": 2026,
+    "project": "Hearsay: Family Party Game",
+    "team": "Brianna Ferraro / Weston Bell-Geddes",
+    "what": "最了解你的人才会编不出假答案：你先回答一个关于自己的问题，家人写假答案，大家一起猜哪个是真的。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：最佳游戏 季军。",
+    "url": "https://devpost.com/software/hearsay-family-party-game"
+   },
+   {
+    "year": 2026,
+    "project": "ate",
+    "team": "Egor Kabantsov",
+    "what": "每拍一张餐盘就变成一枚贴纸，做成只属于自己的私密食物图鉴：没有信息流、没有连续打卡，只有真吃过的菜。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Catvertising 广告创意奖·季军。",
+    "url": "https://devpost.com/software/ate-1mfvqk"
+   },
+   {
+    "year": 2026,
+    "project": "Bravy — The work journal that teaches real conversations",
+    "team": "Leon Kraus",
+    "what": "职场对话训练工作日志：给新晋管理者和所有要处理难谈话的人，提供基于证据的复盘反馈与个性化对话模拟。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Funnel Vision 转化漏斗奖（Stripe） 季军；网红挑战奖 · Career Coaching（Leadership Heather） 亚军。",
+    "url": "https://devpost.com/software/across-the-desk"
+   },
+   {
+    "year": 2026,
+    "project": "Ritmo - Dating & Sport",
+    "team": "Adel Benzehda",
+    "what": "如果 Strava 和 Tinder 生了个孩子：一个用运动把人连起来的社交 App。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：HAMM 变现奖·季军。",
+    "url": "https://devpost.com/software/ritmo-wcj210"
+   },
+   {
+    "year": 2026,
+    "project": "Family Prayer",
+    "team": "Sarra Sarra / Wassim Zoghlami",
+    "what": "帮孩子养成每日祷告习惯的 App：用故事和真实奖励把祷告时间变成孩子会期待的事。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Replit Idea to Income 奖·季军。",
+    "url": "https://devpost.com/software/family-prayer"
+   },
+   {
+    "year": 2026,
+    "project": "Firmly",
+    "team": "Martin Haindl",
+    "what": "把一直拖着不敢开的谈话先在 App 里练一遍：开口说，对面的 AI 角色会顶回来。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · Career Coaching（Leadership Heather） 季军。",
+    "url": "https://devpost.com/software/firmly"
+   },
+   {
+    "year": 2026,
+    "project": "Slyko",
+    "team": "Enzo De la pena",
+    "what": "一个会自己填满的游戏心愿单：分享 TikTok、YouTube、Instagram 或 X 的帖子，AI 自动把其中的游戏加进来；也能同步 Steam、PlayStation、Xbox 和 Epic 库，然后评分、收藏、分享。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · Gaming（Lewis Blogs Gaming） 季军。",
+    "url": "https://devpost.com/software/slyko"
+   },
+   {
+    "year": 2026,
+    "project": "The Plate",
+    "team": "Ramy Magdy",
+    "what": "在原本就吃的东西上，只加一小件。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Influencer Award - Nutrition &amp; Healthy Eating: Abbey&#39;s Kitchen 季军。",
+    "url": "https://devpost.com/software/the-plate"
+   },
+   {
+    "year": 2026,
+    "project": "Ledge: Clipboard & Snippets for Mac and iPhone",
+    "team": "Gaurav Kukreja",
+    "what": "永不遗忘的剪贴板：Mac 与 iPhone 上复制的一切都被存下，按 Option-Space 几秒调回，文字、截图、文件与可填表片段都在。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：网红挑战奖 · 生产力（Christopher Lawley） 季军。",
+    "url": "https://devpost.com/software/ledge-clipboard-snippets-for-mac-and-iphone"
+   },
+   {
+    "year": 2026,
+    "project": "Sadhana - Yoga & Meditation",
+    "team": "Daniel Fritsch",
+    "what": "一个手绘风的数字瑜伽老师，每天替你挑一个安静的练习：动、呼吸或静坐。没有信息流、没有连续打卡、也没有 AI；离线可用、私密，一次买断不订阅。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Influencer Award - Yoga &amp; Fitness: Simone Sharice 季军。",
+    "url": "https://devpost.com/software/sadhana-yoga-meditation"
+   },
+   {
+    "year": 2026,
+    "project": "Tikku",
+    "team": "Ahmed Ben Gayess / Skander M",
+    "what": "计划表与 App 拦截器合体：你给一个任务排好时间，到点它就把让你分心的 App 锁上，省得跟手机较劲。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Keep Them Coming Back 留存奖（OneSignal） 季军。",
+    "url": "https://devpost.com/software/tikku"
+   },
+   {
+    "year": 2026,
+    "project": "Quenched - Water Tracker",
+    "team": "Jason Clardy",
+    "what": "一池会随着你喝水量变化的水面：智能提醒、自定义饮品、健康数据打通、快捷记录，还能追踪咖啡因。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Most Viral App 病毒传播奖（Noise） 季军。",
+    "url": "https://devpost.com/software/quenched-water-tracker"
+   },
+   {
+    "year": 2026,
+    "project": "After You",
+    "team": "Aamir Abdul Azeez",
+    "what": "异步合作的安卓解谜游戏：你今天能接住朋友昨天扔过来的东西。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Next Gen 学生奖·季军。",
+    "url": "https://devpost.com/software/after-you"
+   },
+   {
+    "year": 2026,
+    "project": "Buck",
+    "team": "Emanuele Totaro / ⚡️ Jurre de Ruiter",
+    "what": "扫一扫任何硬币或纸币，识别它的价值与来历，顺手建起自己的收藏册——零钱里也许藏着宝贝。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：RevenueCat 设计奖·季军。",
+    "url": "https://devpost.com/software/buck"
+   },
+   {
+    "year": 2026,
+    "project": "Loomi",
+    "team": "Nik Shevchenko",
+    "what": "感情里的「多邻国」：把真实科学研究，配上获奖写作者与心理学专家，做成每天几分钟、帮伴侣互相理解的练习。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：RevenueCat 和平奖·季军。",
+    "url": "https://devpost.com/software/loomi-onsbzd"
+   },
+   {
+    "year": 2026,
+    "project": "Lumeo. Your Second Brain",
+    "team": "Piotr Prus",
+    "what": "想进来的都放进来，照出去的是光：语音优先的「第二大脑」，把散落的想法连成点子。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Ship Kotlin Everywhere（JetBrains） 季军。",
+    "url": "https://devpost.com/software/lumeo-7ipqya"
+   },
+   {
+    "year": 2026,
+    "project": "Green Hour: Time Outside",
+    "team": "Natasha Wilson",
+    "what": "以「出门」为对象的情绪记录：出门前报一次感受，回来再报一次，Green Hour 用你自己的话把这段变化呈现出来。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Growth Loop 增长闭环奖（Layers） 季军。",
+    "url": "https://devpost.com/software/green-hour-time-outside"
+   },
+   {
+    "year": 2026,
+    "project": "Friendpire",
+    "team": "Erik MacInnis",
+    "what": "让朋友们替你干活：把「凑不齐人」的聚会组织问题，交给一套共享世界里的分工与协作玩法。",
+    "why": "Shipaton 2026（全球移动应用黑客松，3,985 个项目、58 个获奖应用）：Conflict of Interest 特别奖。",
+    "url": "https://devpost.com/software/friendpire-e69uht"
    }
   ],
   "_confidence": "high",

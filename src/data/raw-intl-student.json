@@ -20,7 +20,7 @@
     "editions": [
       { "year": 2024, "dates": "2024-09-13 ~ 2024-09-15", "url": "https://innovationlab.fetch.ai/events/hackathons/hack-mit-2024-2/hackpack", "note": "约 1000 名本科生；赛道为可持续/教育/互动媒体/医疗" },
       { "year": 2025, "dates": "2025-09-13 ~ 2025-09-14", "url": "https://hackmit.org/", "note": "1000+ 名本科生、200+ 所高校，24 小时" },
-      { "year": 2026, "dates": "2026-09-19 ~ 2026-09-20", "url": "https://hackmit.org/", "note": "官网公布 HACKMIT2026 为 9.19-9.20" }
+      { "year": 2026, "dates": "2026-09-19 ~ 2026-09-20", "url": "https://www.thetech.com/2026/10/01/hackmit-2026", "note": "1000+ 名本科生、200+ 所高校，24 小时近 300 个项目；四条赛道为娱乐/教育/可持续/医疗；总冠军 Peel（8,000 美元）" }
     ],
     "winners": [
       { "year": 2025, "project": "EyeCraft", "team": "Tomas D'Avola / Xiaole Su / Troy Gunawardene / Qihong Wu（东北大学）", "what": "用张嘴、转眼、眨眼等面部动作操控 Minecraft 的无障碍模组", "why": "HackMIT 2025 娱乐赛道冠军，demo 端到端可用", "url": "https://staging.khoury.northeastern.edu?p=58214/" },
