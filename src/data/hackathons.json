@@ -1940,6 +1940,14 @@
     "what": "给参与者一个 AI「数字分身」，自动完成活动与职场社交中的匹配与破冰，降低 networking 的心理门槛。",
     "why": "HackMIT 2026 Meta 与 Espressif 两项赞助赛道冠军。",
     "url": "https://www.thetech.com/2026/10/01/hackmit-2026"
+   },
+   {
+    "year": 2026,
+    "project": "Erbgut",
+    "team": "Tim Arnold / Luis Liebenstein / Olivia Mahon / Sophie Selinger",
+    "what": "让 DNA 数据存储自适应实际使用的测序技术：不再对所有通道套用同一套固定编码规则，而是实测哪些规则对该特定测序通道真正提升可靠性，只保留有净收益的部分。把 DNA 存储编码、纠错与机器学习合成一个系统。",
+    "why": "HackMIT 2026 Sustainability 主赛道（Main Track）第 1 名。来源为获奖成员 Tim Arnold 本人赛后公开声明（未见于 MIT 校报 The Tech 的报道）。",
+    "url": "https://de.linkedin.com/posts/timarnold-_hackmit-sustainability-machinelearning-activity-7507772407718453249-fAX4"
    }
   ],
   "_confidence": "high",
