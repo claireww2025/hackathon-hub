@@ -1,8 +1,14 @@
 # 黑客松档案 · Hackathon Hub
 
+## [▶ 在线查看最新版本 →](https://claireww2025.github.io/hackathon-hub/)
+
+> 链接固定不变，每次 `push` 到 main 后由 GitHub Actions 自动重新构建发布，打开永远是最新数据。**不用克隆，点开就能用。**
+
+<https://claireww2025.github.io/hackathon-hub/>
+
 一个**自包含、离线可开箱即用**的国内外黑客松档案站点：分类、获奖项目详情、全年参与地图、日历、可交互世界地图与「当前仍可报名」清单。
 
-**开箱即用**：克隆后直接双击 `dist/index.html`（单文件，无服务器、无依赖、纯 `file://` 可用）。也可部署到 GitHub Pages（见下）。
+**开箱即用**：克隆后直接双击 `dist/index.html`（单文件，无服务器、无依赖、纯 `file://` 可用）。不想装任何东西就直接用上面的在线版。
 
 ## 快速开始
 
@@ -28,9 +34,9 @@ NODE_PATH=<你机器上装过 jsdom 的 node_modules 路径> node scripts/smoke.
 | 世界地图 | 自绘无国界示意图 + 主办城市点；按类型筛选、缩放平移、点城市看赛事与获奖项目 |
 | 参与地图 | 12 个月 × 赛事密度，规划全年节奏 |
 | 日历视图 | 42 格月历；实线=已核实截止，虚线=往年档期预估 |
-| 获奖档案 | 按年份分组展示 200+ 条获奖项目，每条可展开详情与原链接 |
+| 获奖档案 | 按年份分组展示 315 条获奖项目，每条可展开详情与原链接 |
 
-数据规模（随每月自动更新变化）：**78 场赛事 / 200+ 条获奖记录 / 61+ 场已完结赛事有结果 / 18 场当前仍可报名**。
+数据规模（随每月自动更新变化）：**78 场赛事 / 315 条获奖记录 / 64 场已完结赛事有结果 / 54 场当前仍可报名**。
 
 ## 每半月自动更新（两套机制）
 
@@ -43,8 +49,8 @@ NODE_PATH=<你机器上装过 jsdom 的 node_modules 路径> node scripts/smoke.
 
 > 手动跑一次：`node scripts/refresh-upcoming.mjs`（仅第一步）。
 
-### 2) GitHub Actions（云端兜底）
-`.github/workflows/build-pages.yml` 每月 1/15 日 02:30 UTC 自动 `npm ci && npm run build` 并把 `dist/` 发布到 GitHub Pages（也支持 push / 手动触发）。在仓库 Settings → Pages → Source 选 **GitHub Actions** 即可启用。
+### 2) GitHub Actions（云端自动发布）
+`.github/workflows/build-pages.yml` 已启用：**每次 push 到 main** 自动 `npm ci && npm run build` 并发布到 GitHub Pages，另外每月 1/15 日 02:30 UTC 也会定时重建。所以 [在线版](https://claireww2025.github.io/hackathon-hub/) 随 push 自动刷新，无需手动操作。
 
 ## 数据文件与格式
 
